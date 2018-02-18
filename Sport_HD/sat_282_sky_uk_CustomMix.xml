@@ -67,7 +67,7 @@
 		<insert target="339" source="311" provider="sat_282_sky_uk" ></insert> <!-- sky syfyhorror sd -->
 		<insert target="340" source="312" provider="sat_282_sky_uk" ></insert> <!-- sky select sd -->
 		<insert target="358" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
-    <insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
+		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
 		<insert target="410" source="521" provider="cable_uk_virgin" ></insert> <!-- british eurosport hd -->
 		<insert target="411" source="522" provider="cable_uk_virgin" ></insert> <!-- british eurosport 2 hd -->
 		<insert target="413" source="527" provider="cable_uk_virgin" ></insert> <!-- bt sports 1 hd -->
@@ -119,7 +119,7 @@
 		<insert target="403" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
 		<insert target="404" source="514" provider="cable_uk_virgin" ></insert> <!-- sky sports Cricket sd -->
 		<insert target="405" source="515" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf sd -->
-    <insert target="406" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
+		<insert target="406" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
 		<insert target="407" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
 		<insert target="408" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
 		<insert target="470" source="290" provider="cable_uk_virgin" ></insert> <!-- Ginx tv-->
@@ -161,7 +161,7 @@
 		<delete target="866"></delete>
 		<delete target="867"></delete>
 		<delete target="868"></delete>
-		</deletes>
+	</deletes>
 	<hacks>
 <![CDATA[
 
