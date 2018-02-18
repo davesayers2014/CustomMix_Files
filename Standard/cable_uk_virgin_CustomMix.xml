@@ -122,20 +122,20 @@
 		<insert target="757" source="652" provider="sat_282_sky_uk"></insert> <!-- TJC -->
 		<insert target="802" source="792" provider="sat_282_sky_uk"></insert> <!-- PTV Prime -->
 		<insert target="808" source="803" provider="sat_282_sky_uk"></insert> <!-- PTV Global -->
-    <insert target="814" source="800" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
-    <insert target="817" source="802" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
-    <insert target="818" source="807" provider="sat_282_sky_uk"></insert> <!-- GEO TV -->
-    <insert target="819" source="817" provider="sat_282_sky_uk"></insert> <!-- GEO Kahani -->
-    <insert target="820" source="812" provider="sat_282_sky_uk"></insert> <!-- Noor TV -->
-    <insert target="821" source="813" provider="sat_282_sky_uk"></insert> <!-- Peace TV -->
-    <insert target="822" source="830" provider="sat_282_sky_uk"></insert> <!-- Peace TV Urdu -->
-    <insert target="823" source="828" provider="sat_282_sky_uk"></insert> <!-- Madani Chnl -->
-    <insert target="824" source="832" provider="sat_282_sky_uk"></insert> <!-- Samaa -->
-    <insert target="834" source="799" provider="sat_282_sky_uk"></insert> <!-- Hum Masala -->
-    <insert target="841" source="850" provider="sat_282_sky_uk"></insert> <!-- Dunya News -->
-    <insert target="842" source="834" provider="sat_282_sky_uk"></insert> <!-- Takbeer TV -->
-    <insert target="843" source="819" provider="sat_282_sky_uk"></insert> <!-- IQRA TV -->
-    <insert target="844" source="818" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
+		<insert target="814" source="800" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
+		<insert target="817" source="802" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
+		<insert target="818" source="807" provider="sat_282_sky_uk"></insert> <!-- GEO TV -->
+		<insert target="819" source="817" provider="sat_282_sky_uk"></insert> <!-- GEO Kahani -->
+		<insert target="820" source="812" provider="sat_282_sky_uk"></insert> <!-- Noor TV -->
+		<insert target="821" source="813" provider="sat_282_sky_uk"></insert> <!-- Peace TV -->
+		<insert target="822" source="830" provider="sat_282_sky_uk"></insert> <!-- Peace TV Urdu -->
+		<insert target="823" source="828" provider="sat_282_sky_uk"></insert> <!-- Madani Chnl -->
+		<insert target="824" source="832" provider="sat_282_sky_uk"></insert> <!-- Samaa -->
+		<insert target="834" source="799" provider="sat_282_sky_uk"></insert> <!-- Hum Masala -->
+		<insert target="841" source="850" provider="sat_282_sky_uk"></insert> <!-- Dunya News -->
+		<insert target="842" source="834" provider="sat_282_sky_uk"></insert> <!-- Takbeer TV -->
+		<insert target="843" source="819" provider="sat_282_sky_uk"></insert> <!-- IQRA TV -->
+		<insert target="844" source="818" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
 		<insert target="845" source="845" provider="sat_282_sky_uk"></insert> <!-- British Muslim -->
 		<insert target="862" source="977" provider="sat_282_sky_uk"></insert> <!-- BBC One ScotHD -->
 		<insert target="863" source="953" provider="sat_282_sky_uk"></insert> <!-- BBC One NI -->
