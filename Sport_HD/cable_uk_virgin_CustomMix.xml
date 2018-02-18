@@ -122,36 +122,36 @@
 		<insert target="757" source="652" provider="sat_282_sky_uk"></insert> <!-- TJC -->
 		<insert target="802" source="792" provider="sat_282_sky_uk"></insert> <!-- PTV Prime -->
 		<insert target="808" source="803" provider="sat_282_sky_uk"></insert> <!-- PTV Global -->
-    <insert target="814" source="800" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
-    <insert target="817" source="802" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
-    <insert target="818" source="807" provider="sat_282_sky_uk"></insert> <!-- GEO TV -->
-    <insert target="819" source="817" provider="sat_282_sky_uk"></insert> <!-- GEO Kahani -->
-    <insert target="820" source="812" provider="sat_282_sky_uk"></insert> <!-- Noor TV -->
-    <insert target="821" source="813" provider="sat_282_sky_uk"></insert> <!-- Peace TV -->
-    <insert target="822" source="830" provider="sat_282_sky_uk"></insert> <!-- Peace TV Urdu -->
-    <insert target="823" source="828" provider="sat_282_sky_uk"></insert> <!-- Madani Chnl -->
-    <insert target="824" source="832" provider="sat_282_sky_uk"></insert> <!-- Samaa -->
-    <insert target="834" source="799" provider="sat_282_sky_uk"></insert> <!-- Hum Masala -->
-    <insert target="841" source="850" provider="sat_282_sky_uk"></insert> <!-- Dunya News -->
-    <insert target="842" source="834" provider="sat_282_sky_uk"></insert> <!-- Takbeer TV -->
-    <insert target="843" source="819" provider="sat_282_sky_uk"></insert> <!-- IQRA TV -->
-    <insert target="844" source="818" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
+    		<insert target="814" source="800" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
+    		<insert target="817" source="802" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
+    		<insert target="818" source="807" provider="sat_282_sky_uk"></insert> <!-- GEO TV -->
+    		<insert target="819" source="817" provider="sat_282_sky_uk"></insert> <!-- GEO Kahani -->
+    		<insert target="820" source="812" provider="sat_282_sky_uk"></insert> <!-- Noor TV -->
+    		<insert target="821" source="813" provider="sat_282_sky_uk"></insert> <!-- Peace TV -->
+    		<insert target="822" source="830" provider="sat_282_sky_uk"></insert> <!-- Peace TV Urdu -->
+    		<insert target="823" source="828" provider="sat_282_sky_uk"></insert> <!-- Madani Chnl -->
+    		<insert target="824" source="832" provider="sat_282_sky_uk"></insert> <!-- Samaa -->
+    		<insert target="834" source="799" provider="sat_282_sky_uk"></insert> <!-- Hum Masala -->
+    		<insert target="841" source="850" provider="sat_282_sky_uk"></insert> <!-- Dunya News -->
+    		<insert target="842" source="834" provider="sat_282_sky_uk"></insert> <!-- Takbeer TV -->
+    		<insert target="843" source="819" provider="sat_282_sky_uk"></insert> <!-- IQRA TV -->
+    		<insert target="844" source="818" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
 		<insert target="845" source="845" provider="sat_282_sky_uk"></insert> <!-- British Muslim -->
 		<insert target="862" source="977" provider="sat_282_sky_uk"></insert> <!-- BBC One ScotHD -->
 		<insert target="863" source="953" provider="sat_282_sky_uk"></insert> <!-- BBC One NI -->
 		<insert target="864" source="978" provider="sat_282_sky_uk"></insert> <!-- BBC One Wal HD -->
 		<insert target="981" source="906" provider="sat_282_sky_uk"></insert> <!-- Babenation -->
-    <!-- replace sky sport HD channels with SD -->
-    <insert target="501" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
-    <insert target="502" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
-    <insert target="503" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
-    <insert target="504" source="514" provider="cable_uk_virgin" ></insert> <!-- sky sports Cricket sd -->
-    <insert target="505" source="515" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf sd -->
-    <insert target="506" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
-    <insert target="507" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
-    <insert target="508" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
+    		<!-- replace sky sport HD channels with SD -->
+    		<insert target="501" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
+    		<insert target="502" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
+    		<insert target="503" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
+    		<insert target="504" source="514" provider="cable_uk_virgin" ></insert> <!-- sky sports Cricket sd -->
+    		<insert target="505" source="515" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf sd -->
+    		<insert target="506" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
+    		<insert target="507" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
+    		<insert target="508" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
 	</inserts>
-  <deletes>
+  	<deletes>
 		<!-- Delete channels that have been swapped, to remove duplication -->
 		<delete target="511"></delete>
 		<delete target="512"></delete>
