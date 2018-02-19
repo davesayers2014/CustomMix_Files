@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20181802 -->
+<!-- DATE 20180219 -->
 <custommix>
 	<inserts>
 		<insert target="101" source="101" provider="sat_282_sky_uk"></insert> <!-- BBC One -->
