@@ -1,5 +1,5 @@
 <!-- DSayers Cable HD channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180218 -->
+<!-- DATE 20180220 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -89,9 +89,8 @@
 		<insert target="443" source="554" provider="cable_uk_virgin" ></insert> <!-- bt Eurosport 5 sd -->
 		<insert target="457" source="417" provider="sat_282_sky_uk" ></insert> <!-- bt sports 3 sd -->
 		<insert target="458" source="426" provider="sat_282_sky_uk" ></insert> <!-- bt sports/espn sd -->
+		<insert target="491" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="492" source="1002" provider="cable_uk_virgin" ></insert> <!-- Virgin Prime Events -->
-		<insert target="493" source="1001" provider="cable_uk_virgin" ></insert> <!-- Itv ppv HD -->
-		<insert target="494" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="520" source="251" provider="cable_uk_virgin" ></insert> <!-- discovery hd -->
 		<insert target="523" source="257" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
@@ -149,6 +148,7 @@
 	<deletes>
 		<!-- Delete channels that have been swapped, to remove duplication -->
 		<delete target="422"></delete>
+		<delete target="493"></delete> <!-- ITV Box Office -->
 		<delete target="555"></delete>
 		<delete target="622"></delete>
 		<delete target="631"></delete>
