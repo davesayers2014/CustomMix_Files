@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file-->
-<!-- DATE 20180220 -->
+<!-- DATE 20180329 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -121,8 +121,8 @@
 		<insert target="406" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
 		<insert target="407" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
 		<insert target="408" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
+		<insert target="409" source="519" provider="cable_uk_virgin" ></insert> <!-- sky sports News sd -->
 		<insert target="470" source="290" provider="cable_uk_virgin" ></insert> <!-- Ginx tv-->
-		<insert target="475" source="519" provider="cable_uk_virgin" ></insert> <!-- sky sports News sd -->
 		<insert target="553" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
 		<insert target="529" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
 		<insert target="530" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
