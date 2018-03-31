@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file-->
-<!-- DATE 20180330 -->
+<!-- DATE 20180331 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -108,6 +108,7 @@
 		<insert target="129" source="140" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
 		<insert target="163" source="121" provider="cable_uk_virgin" ></insert> <!-- Sky 2 sd -->
 		<insert target="165" source="158" provider="cable_uk_virgin" ></insert> <!-- Fox +1 sd -->
+		<insert target="166" source="190" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
 		<insert target="172" source="160" provider="cable_uk_virgin" ></insert> <!-- Real Lives sd -->
 		<insert target="173" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
 		<insert target="287" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
