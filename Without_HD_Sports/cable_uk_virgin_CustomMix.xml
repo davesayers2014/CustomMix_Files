@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180218 -->
+<!-- DATE 20180409 -->
 <custommix>
 	<inserts>
 		<insert target="101" source="101" provider="sat_282_sky_uk"></insert> <!-- BBC One -->
@@ -17,7 +17,7 @@
 		<insert target="117" source="208" provider="sat_282_sky_uk"></insert> <!-- ITV3 -->
 		<insert target="118" source="225" provider="sat_282_sky_uk"></insert> <!-- ITV4 -->
 		<insert target="119" source="149" provider="sat_282_sky_uk"></insert> <!-- ITVBe -->
-		<insert target="120" source="207" provider="sat_282_sky_uk"></insert> <!-- ITVBe+1 -->
+		<insert target="120" source="206" provider="sat_282_sky_uk"></insert> <!-- ITVBe+1 -->
 		<insert target="123" source="152" provider="sat_282_sky_uk"></insert> <!-- Pick -->
 		<insert target="127" source="246" provider="sat_282_sky_uk"></insert> <!-- Dave -->
 		<insert target="128" source="158" provider="sat_282_sky_uk"></insert> <!-- Drama -->
