@@ -36,7 +36,6 @@
 		<insert target="153" source="174" provider="sat_282_sky_uk"></insert> <!-- 5 USA -->
 		<insert target="154" source="160" provider="sat_282_sky_uk"></insert> <!-- 5Spike -->
 		<insert target="155" source="177" provider="sat_282_sky_uk"></insert> <!-- Channel 5+1 -->
-		<insert target="159" source="117" provider="sat_282_sky_uk"></insert> <!-- LOCAL TV Channel -->
 		<insert target="161" source="142" provider="sat_282_sky_uk"></insert> <!-- BBC ALBA -->
 		<insert target="162" source="141" provider="sat_282_sky_uk"></insert> <!-- BBC Two HD -->
 		<insert target="163" source="116" provider="sat_282_sky_uk"></insert> <!-- BBC Four HD -->
