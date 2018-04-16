@@ -1,5 +1,5 @@
-<!-- DSayers Cable HD channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180331 -->
+<!-- DSayers Cable channels into Sky UK Custom mix xml file-->
+<!-- DATE 20180416 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -67,15 +67,7 @@
 		<insert target="339" source="311" provider="sat_282_sky_uk" ></insert> <!-- sky syfyhorror sd -->
 		<insert target="340" source="312" provider="sat_282_sky_uk" ></insert> <!-- sky select sd -->
 		<insert target="358" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
-		<insert target="401" source="501" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event hd -->
-		<insert target="402" source="502" provider="cable_uk_virgin" ></insert> <!-- sky sports Premier League hd -->
-		<insert target="403" source="503" provider="cable_uk_virgin" ></insert> <!-- sky sports Football hd -->
-		<insert target="404" source="504" provider="cable_uk_virgin" ></insert> <!-- sky sports cricket hd -->
-		<insert target="405" source="505" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf hd -->
-		<insert target="406" source="506" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 hd -->
-		<insert target="407" source="507" provider="cable_uk_virgin" ></insert> <!-- sky sports Action hd -->
-		<insert target="408" source="508" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena hd -->
-		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena hd -->
+		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
 		<insert target="410" source="521" provider="cable_uk_virgin" ></insert> <!-- british eurosport hd -->
 		<insert target="411" source="522" provider="cable_uk_virgin" ></insert> <!-- british eurosport 2 hd -->
 		<insert target="413" source="527" provider="cable_uk_virgin" ></insert> <!-- bt sports 1 hd -->
@@ -122,16 +114,15 @@
 		<insert target="287" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
 		<insert target="302" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
 		<insert target="429" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
-		<insert target="435" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
-		<insert target="436" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
-		<insert target="439" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
-		<insert target="440" source="514" provider="cable_uk_virgin" ></insert> <!-- sky sports Cricket sd -->
-		<insert target="451" source="515" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf sd -->
+		<insert target="401" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
+		<insert target="402" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
+		<insert target="403" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
+		<insert target="404" source="514" provider="cable_uk_virgin" ></insert> <!-- sky sports Cricket sd -->
+		<insert target="405" source="515" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf sd -->
+		<insert target="406" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
+		<insert target="407" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
+		<insert target="408" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
 		<insert target="470" source="290" provider="cable_uk_virgin" ></insert> <!-- Ginx tv-->
-		<insert target="472" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
-		<insert target="473" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
-		<insert target="474" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
-		<insert target="475" source="519" provider="cable_uk_virgin" ></insert> <!-- sky sports News sd -->
 		<insert target="553" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
 		<insert target="529" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
 		<insert target="530" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
