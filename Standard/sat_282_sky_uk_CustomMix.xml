@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180416 -->
+<!-- DATE 20180425 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -32,16 +32,23 @@
 		<insert target="121" source="510" provider="cable_uk_virgin" ></insert> <!-- sky sports mix HD -->
 		<insert target="122" source="206" provider="cable_uk_virgin" ></insert> <!-- sky arts 1 hd -->
 		<insert target="124" source="199" provider="cable_uk_virgin" ></insert> <!-- fox hd -->
-		<insert target="125" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
+		<insert target="125" source="251" provider="cable_uk_virgin" ></insert> <!-- discovery hd -->
 		<insert target="126" source="183" provider="cable_uk_virgin" ></insert> <!-- mtv hd -->
+		<insert target="129" source="268" provider="cable_uk_virgin" ></insert> <!-- nat geographic hd -->
+		<insert target="131" source="179" provider="cable_uk_virgin" ></insert> <!-- itvbe hd -->
 		<insert target="132" source="200" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
 		<insert target="133" source="280" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
-		<insert target="136" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
-		<insert target="138" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
-		<insert target="140" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven HD hd -->
-		<insert target="156" source="209" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
-		<insert target="168" source="179" provider="cable_uk_virgin" ></insert> <!-- itvbe hd -->
-		<insert target="281" source="140" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
+		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
+		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
+		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven HD hd --> 
+		<insert target="140" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
+		<insert target="162" source="257" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
+		<insert target="163" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
+		<insert target="164" source="209" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
+		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
+		<insert target="166" source="249" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
+		<insert target="215" source="140" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
+		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
 		<insert target="303" source="410" provider="cable_uk_virgin" ></insert> <!-- sky drama  hd -->
 		<insert target="304" source="404" provider="cable_uk_virgin" ></insert> <!-- sky greats hd -->
@@ -53,20 +60,9 @@
 		<insert target="310" source="403" provider="cable_uk_virgin" ></insert> <!-- sky hits hd -->
 		<insert target="311" source="411" provider="cable_uk_virgin" ></insert> <!-- sky scifi hd -->
 		<insert target="312" source="412" provider="cable_uk_virgin" ></insert> <!-- sky select hd -->
-		<insert target="314" source="301" provider="sat_282_sky_uk" ></insert> <!-- sky premier sd -->
-		<insert target="315" source="429" provider="cable_uk_virgin" ></insert> <!-- film4 hd -->
+		<insert target="313" source="429" provider="cable_uk_virgin" ></insert> <!-- film4 hd -->
 		<insert target="317" source="416" provider="cable_uk_virgin" ></insert> <!-- tcm hd -->
-		<insert target="330" source="303" provider="sat_282_sky_uk" ></insert> <!-- sky showcase sd -->
-		<insert target="331" source="304" provider="sat_282_sky_uk" ></insert> <!-- sky superheros sd -->
-		<insert target="332" source="305" provider="sat_282_sky_uk" ></insert> <!-- sky disney sd -->
-		<insert target="333" source="306" provider="sat_282_sky_uk" ></insert> <!-- sky family sd -->
-		<insert target="334" source="307" provider="sat_282_sky_uk" ></insert> <!-- sky action sd -->
-		<insert target="335" source="308" provider="sat_282_sky_uk" ></insert> <!-- sky comedy sd -->
-		<insert target="336" source="309" provider="sat_282_sky_uk" ></insert> <!-- sky thriller sd -->
-		<insert target="337" source="310" provider="sat_282_sky_uk" ></insert> <!-- sky dramrom sd -->
-		<insert target="339" source="311" provider="sat_282_sky_uk" ></insert> <!-- sky syfyhorror sd -->
-		<insert target="340" source="312" provider="sat_282_sky_uk" ></insert> <!-- sky select sd -->
-		<insert target="358" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
+		<insert target="377" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
 		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
 		<insert target="410" source="521" provider="cable_uk_virgin" ></insert> <!-- british eurosport hd -->
 		<insert target="411" source="522" provider="cable_uk_virgin" ></insert> <!-- british eurosport 2 hd -->
@@ -74,23 +70,12 @@
 		<insert target="414" source="528" provider="cable_uk_virgin" ></insert> <!-- bt sports 2 hd -->
 		<insert target="417" source="529" provider="cable_uk_virgin" ></insert> <!-- bt sports 3 hd -->
 		<insert target="426" source="530" provider="cable_uk_virgin" ></insert> <!-- bt sports/espn hd -->
-		<insert target="427" source="413" provider="sat_282_sky_uk" ></insert> <!-- bt sports 1 sd -->
-		<insert target="433" source="414" provider="sat_282_sky_uk" ></insert> <!-- bt sports 2 sd -->
 		<insert target="441" source="552" provider="cable_uk_virgin" ></insert> <!-- Eurosport 3 sd -->
 		<insert target="442" source="553" provider="cable_uk_virgin" ></insert> <!-- bt Eurosport 4 sd -->
 		<insert target="443" source="554" provider="cable_uk_virgin" ></insert> <!-- bt Eurosport 5 sd -->
-		<insert target="457" source="417" provider="sat_282_sky_uk" ></insert> <!-- bt sports 3 sd -->
-		<insert target="458" source="426" provider="sat_282_sky_uk" ></insert> <!-- bt sports/espn sd -->
 		<insert target="491" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="492" source="1002" provider="cable_uk_virgin" ></insert> <!-- Virgin Prime Events -->
 		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
-		<insert target="520" source="251" provider="cable_uk_virgin" ></insert> <!-- discovery hd -->
-		<insert target="523" source="257" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
-		<insert target="526" source="268" provider="cable_uk_virgin" ></insert> <!-- nat geographic hd -->
-		<insert target="527" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
-		<insert target="528" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
-		<insert target="531" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
-		<insert target="532" source="249" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
 		<insert target="603" source="636" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
@@ -105,15 +90,16 @@
 		<insert target="1018" source="1011" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 9 -->
 
 		<!-- replace dead sky sd channels with working ones from cable -->
-		<insert target="129" source="140" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
-		<insert target="163" source="121" provider="cable_uk_virgin" ></insert> <!-- Sky 2 sd -->
-		<insert target="165" source="158" provider="cable_uk_virgin" ></insert> <!-- Fox +1 sd -->
-		<insert target="166" source="190" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
-		<insert target="172" source="160" provider="cable_uk_virgin" ></insert> <!-- Real Lives sd -->
-		<insert target="173" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
-		<insert target="287" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
-		<insert target="302" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
-		<insert target="429" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
+		<insert target="123" source="121" provider="cable_uk_virgin" ></insert> <!-- Sky 2 sd -->
+		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
+		<insert target="156" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
+		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
+		<insert target="210" source="190" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
+		<insert target="224" source="158" provider="cable_uk_virgin" ></insert> <!-- Fox +1 sd -->
+		<insert target="207" source="140" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
+		<insert target="230" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
+		<insert target="270" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
+		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
 		<insert target="401" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
 		<insert target="402" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
 		<insert target="403" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
@@ -122,20 +108,19 @@
 		<insert target="406" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
 		<insert target="407" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
 		<insert target="408" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
+		<insert target="425" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
 		<insert target="470" source="290" provider="cable_uk_virgin" ></insert> <!-- Ginx tv-->
-		<insert target="553" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
-		<insert target="529" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
-		<insert target="530" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
 		<insert target="605" source="713" provider="cable_uk_virgin" ></insert> <!-- Nickelodeon +1 -->
-		<insert target="607" source="707" provider="cable_uk_virgin" ></insert> <!-- disny xd -->
-		<insert target="608" source="708" provider="cable_uk_virgin" ></insert> <!-- disny xd +1 -->
+		<insert target="607" source="727" provider="cable_uk_virgin" ></insert> <!-- disny Jnr -->
 		<insert target="609" source="724" provider="cable_uk_virgin" ></insert> <!-- disny channel -->
 		<insert target="610" source="725" provider="cable_uk_virgin" ></insert> <!-- disny channel +1 -->
+		<insert target="611" source="707" provider="cable_uk_virgin" ></insert> <!-- disny xd -->
+		<insert target="612" source="708" provider="cable_uk_virgin" ></insert> <!-- disny xd +1 -->
 		<insert target="619" source="706" provider="cable_uk_virgin" ></insert> <!-- cartoonito -->
-		<insert target="611" source="727" provider="cable_uk_virgin" ></insert> <!-- disny Jnr -->
-		<insert target="623" source="703" provider="cable_uk_virgin" ></insert> <!-- BabyTV -->
-		<insert target="789" source="813" provider="cable_uk_virgin" ></insert> <!-- zing -->
-		<insert target="790" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
+		<insert target="622" source="703" provider="cable_uk_virgin" ></insert> <!-- BabyTV -->
+		<insert target="710" source="813" provider="cable_uk_virgin" ></insert> <!-- zing -->
+		<insert target="711" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
+		<insert target="819" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
 	</inserts>
 	<deletes>
 		<!-- Delete channels that have been swapped, to remove duplication -->
