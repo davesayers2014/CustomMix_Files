@@ -2,11 +2,6 @@
 <!-- DATE 20180416 -->
 <custommix>
 	<inserts>
-		<insert target="101" source="101" provider="sat_282_sky_uk"></insert> <!-- BBC One -->
-		<insert target="102" source="102" provider="sat_282_sky_uk"></insert> <!-- BBC Two -->
-		<insert target="103" source="103" provider="sat_282_sky_uk"></insert> <!-- ITV -->
-		<insert target="104" source="104" provider="sat_282_sky_uk"></insert> <!-- Channel 4 -->
-		<insert target="105" source="105" provider="sat_282_sky_uk"></insert> <!-- Channel 5 -->
 		<insert target="106" source="202" provider="sat_282_sky_uk"></insert> <!-- E4 -->
 		<insert target="107" source="116" provider="sat_282_sky_uk"></insert> <!-- BBC Four -->
 		<insert target="108" source="115" provider="sat_282_sky_uk"></insert> <!-- BBC One HD -->
