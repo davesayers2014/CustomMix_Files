@@ -1,26 +1,17 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180425 -->
+<!-- DATE 20180426 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
-		<insert target="108" source="222" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
-		<insert target="110" source="289" provider="sat_282_sky_uk" ></insert> <!-- Gold HD -->
-		<insert target="123" source="269" provider="sat_282_sky_uk" ></insert> <!-- ITV Encore HD -->
-		<insert target="151" source="239" provider="sat_282_sky_uk" ></insert> <!-- E! HD -->
-		<insert target="153" source="284" provider="sat_282_sky_uk" ></insert> <!-- Viceland HD -->
-		<insert target="421" source="422" provider="sat_282_sky_uk" ></insert> <!-- Chelsea Tv HD -->
-		<insert target="429" source="455" provider="sat_282_sky_uk" ></insert> <!-- LFCTV HD -->
-		<insert target="529" source="545" provider="sat_282_sky_uk" ></insert> <!-- History HD -->
-		<insert target="553" source="555" provider="sat_282_sky_uk" ></insert> <!-- CI HD -->
-		<insert target="607" source="622" provider="sat_282_sky_uk" ></insert> <!-- Disney XD HD -->
-		<insert target="609" source="631" provider="sat_282_sky_uk" ></insert> <!-- Disney Channel HD -->
-		<insert target="611" source="628" provider="sat_282_sky_uk" ></insert> <!-- Disney Jnr HD -->
-		<insert target="615" source="637" provider="sat_282_sky_uk" ></insert> <!-- Nick Jnr HD -->
-		<insert target="782" source="866" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
-		<insert target="784" source="808" provider="sat_282_sky_uk" ></insert> <!-- Star Plus HD -->
-		<insert target="786" source="860" provider="sat_282_sky_uk" ></insert> <!-- Colors HD -->
-		<insert target="798" source="867" provider="sat_282_sky_uk" ></insert> <!-- SONY MAX HD -->
-		<insert target="809" source="839" provider="sat_282_sky_uk" ></insert> <!-- Star GOLD HD -->
+		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
+		<insert target="110" source="810" provider="sat_282_sky_uk" ></insert> <!-- Gold HD -->
+		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD --> 
+		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
+		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
+		<insert target="705" source="883" provider="sat_282_sky_uk" ></insert> <!-- Star Plus HD -->
+		<insert target="707" source="884" provider="sat_282_sky_uk" ></insert> <!-- Colors HD -->
+		<insert target="719" source="886" provider="sat_282_sky_uk" ></insert> <!-- SONY MAX HD -->
+		<insert target="729" source="887" provider="sat_282_sky_uk" ></insert> <!-- Star GOLD HD -->
 		<!-- replace sky hd channels with working ones from cable -->
 		<insert target="106" source="109" provider="cable_uk_virgin" ></insert> <!-- sky one hd -->
 		<insert target="107" source="111" provider="cable_uk_virgin" ></insert> <!-- sky living hd -->
@@ -77,7 +68,6 @@
 		<insert target="492" source="1002" provider="cable_uk_virgin" ></insert> <!-- Virgin Prime Events -->
 		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
-		<insert target="603" source="636" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
 		<insert target="1010" source="1003" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 1 -->
 		<insert target="1011" source="1004" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 2 -->
@@ -124,28 +114,24 @@
 	</inserts>
 	<deletes>
 		<!-- Delete channels that have been swapped, to remove duplication -->
-		<delete target="422"></delete>
 		<delete target="493"></delete> <!-- ITV Box Office -->
-		<delete target="555"></delete>
-		<delete target="622"></delete>
-		<delete target="631"></delete>
-		<delete target="628"></delete>
-		<delete target="839"></delete>
-		<delete target="222"></delete>
-		<delete target="239"></delete>
-		<delete target="455"></delete>
-		<delete target="545"></delete>
-		<delete target="637"></delete>
-		<delete target="636"></delete>
-		<delete target="284"></delete>
-		<delete target="269"></delete>
-		<delete target="276"></delete>
-		<delete target="289"></delete>
-		<delete target="808"></delete> <!-- Star Plus -->
-		<delete target="860"></delete>
-		<delete target="866"></delete>
-		<delete target="867"></delete>
-		<delete target="868"></delete>
+		<delete target="835"></delete> <!-- Crime & Investigation -->
+		<delete target="641"></delete> <!-- boomerang sd -->
+		<delete target="643"></delete> <!-- Disney Jnr -->
+		<delete target="644"></delete> <!-- Disney Channel -->
+		<delete target="645"></delete> <!-- Disney XD -->
+		<delete target="648"></delete> <!-- Nick Jnr -->
+		<delete target="777"></delete> <!-- VTV -->
+		<delete target="808"></delete> <!-- Star Atlantic -->
+		<delete target="810"></delete> <!-- Gold -->
+		<delete target="825"></delete> <!-- History -->
+		<delete target="834"></delete> <!-- E! -->
+		<delete target="873"></delete> <!-- LFCTV -->
+		<delete target="882"></delete> <!-- SONY TV -->
+		<delete target="883"></delete> <!-- Star Plus -->
+		<delete target="884"></delete> <!-- Colors HD -->
+		<delete target="886"></delete> <!-- SONY MAX HD -->
+		<delete target="887"></delete> <!-- Star GOLD HD -->
 	</deletes>
 	<hacks>
 <![CDATA[
@@ -159,9 +145,7 @@ rename = {
 }
 
 channels_to_add_by_id = {
-	1025: 291, # TV3+1
-	3615: 293, # 3e
-	5122: 423, # eir Sport 1 (also 3601)
+	5122: 421, # eir Sport 1 (also 3601)
 	5152: 425, # eir Sport 2 HD (also 5154)
 	5123: 460, # eir Sport 2 (also 4551)
 	1078: 988, # "Made In Birmingham"
@@ -180,7 +164,7 @@ channels_to_add_by_id = {
 	1355: 415, # At the races
 	5527: 606, # Nicktoons
 	3356: 615, # Nick Jr
-	2517: 632, # Nicelodeon
+	2517: 642, # Nicelodeon
 }
 
 broken_TSIDS = [
