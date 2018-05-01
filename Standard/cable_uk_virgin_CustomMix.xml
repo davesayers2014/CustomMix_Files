@@ -1,205 +1,205 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180416 -->
+<!-- DATE 20180426 -->
 <custommix>
 	<inserts>
-		<insert target="106" source="202" provider="sat_282_sky_uk"></insert> <!-- E4 -->
+		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
 		<insert target="107" source="116" provider="sat_282_sky_uk"></insert> <!-- BBC Four -->
-		<insert target="108" source="115" provider="sat_282_sky_uk"></insert> <!-- BBC One HD -->
-		<insert target="113" source="178" provider="sat_282_sky_uk"></insert> <!-- ITV HD -->
-		<insert target="114" source="131" provider="sat_282_sky_uk"></insert> <!-- ITV +1 -->
-		<insert target="115" source="207" provider="sat_282_sky_uk"></insert> <!-- ITV2 -->
-		<insert target="116" source="179" provider="sat_282_sky_uk"></insert> <!-- ITV2+1 -->
-		<insert target="117" source="208" provider="sat_282_sky_uk"></insert> <!-- ITV3 -->
-		<insert target="118" source="225" provider="sat_282_sky_uk"></insert> <!-- ITV4 -->
-		<insert target="119" source="149" provider="sat_282_sky_uk"></insert> <!-- ITVBe -->
-		<insert target="120" source="206" provider="sat_282_sky_uk"></insert> <!-- ITVBe+1 -->
+		<insert target="108" source="801" provider="sat_282_sky_uk"></insert> <!-- BBC One HD -->
+		<insert target="113" source="816" provider="sat_282_sky_uk"></insert> <!-- ITV HD -->
+		<insert target="114" source="203" provider="sat_282_sky_uk"></insert> <!-- ITV +1 -->
+		<insert target="115" source="816" provider="sat_282_sky_uk"></insert> <!-- ITV2 -->
+		<insert target="116" source="218" provider="sat_282_sky_uk"></insert> <!-- ITV2+1 -->
+		<insert target="117" source="817" provider="sat_282_sky_uk"></insert> <!-- ITV3 -->
+		<insert target="118" source="818" provider="sat_282_sky_uk"></insert> <!-- ITV4 -->
+		<insert target="119" source="131" provider="sat_282_sky_uk"></insert> <!-- ITVBe -->
+		<insert target="120" source="231" provider="sat_282_sky_uk"></insert> <!-- ITVBe+1 -->
 		<insert target="123" source="152" provider="sat_282_sky_uk"></insert> <!-- Pick -->
-		<insert target="127" source="246" provider="sat_282_sky_uk"></insert> <!-- Dave -->
-		<insert target="128" source="158" provider="sat_282_sky_uk"></insert> <!-- Drama -->
-		<insert target="129" source="155" provider="sat_282_sky_uk"></insert> <!-- Really -->
+		<insert target="127" source="811" provider="sat_282_sky_uk"></insert> <!-- Dave -->
+		<insert target="128" source="143" provider="sat_282_sky_uk"></insert> <!-- Drama -->
+		<insert target="129" source="142" provider="sat_282_sky_uk"></insert> <!-- Really -->
 		<insert target="139" source="145" provider="sat_282_sky_uk"></insert> <!-- Challange -->
-		<insert target="141" source="227" provider="sat_282_sky_uk"></insert> <!-- Channel 4 HD -->
-		<insert target="142" source="135" provider="sat_282_sky_uk"></insert> <!-- Channel4 +1 -->
-		<insert target="143" source="140" provider="sat_282_sky_uk"></insert> <!-- 4seven -->
-		<insert target="146" source="137" provider="sat_282_sky_uk"></insert> <!-- E4+1 -->
-		<insert target="147" source="231" provider="sat_282_sky_uk"></insert> <!-- More4 -->
+		<insert target="141" source="804" provider="sat_282_sky_uk"></insert> <!-- Channel 4 HD -->
+		<insert target="142" source="204" provider="sat_282_sky_uk"></insert> <!-- Channel4 +1 -->
+		<insert target="143" source="137" provider="sat_282_sky_uk"></insert> <!-- 4seven -->
+		<insert target="146" source="135" provider="sat_282_sky_uk"></insert> <!-- E4+1 -->
+		<insert target="147" source="830" provider="sat_282_sky_uk"></insert> <!-- More4 -->
 		<insert target="148" source="146" provider="sat_282_sky_uk"></insert> <!-- CBS Reality -->
 		<insert target="149" source="319" provider="sat_282_sky_uk"></insert> <!-- Horror Channel -->
-		<insert target="150" source="171" provider="sat_282_sky_uk"></insert> <!-- Channel 5 HD -->
-		<insert target="151" source="176" provider="sat_282_sky_uk"></insert> <!-- 5 Star -->
-		<insert target="152" source="175" provider="sat_282_sky_uk"></insert> <!-- 5SELECT -->
-		<insert target="153" source="174" provider="sat_282_sky_uk"></insert> <!-- 5 USA -->
-		<insert target="154" source="160" provider="sat_282_sky_uk"></insert> <!-- 5Spike -->
-		<insert target="155" source="177" provider="sat_282_sky_uk"></insert> <!-- Channel 5+1 -->
-		<insert target="161" source="142" provider="sat_282_sky_uk"></insert> <!-- BBC ALBA -->
-		<insert target="162" source="141" provider="sat_282_sky_uk"></insert> <!-- BBC Two HD -->
-		<insert target="163" source="116" provider="sat_282_sky_uk"></insert> <!-- BBC Four HD -->
+		<insert target="150" source="805" provider="sat_282_sky_uk"></insert> <!-- Channel 5 HD -->
+		<insert target="151" source="128" provider="sat_282_sky_uk"></insert> <!-- 5 Star -->
+		<insert target="152" source="153" provider="sat_282_sky_uk"></insert> <!-- 5SELECT -->
+		<insert target="153" source="141" provider="sat_282_sky_uk"></insert> <!-- 5 USA -->
+		<insert target="154" source="150" provider="sat_282_sky_uk"></insert> <!-- 5Spike -->
+		<insert target="155" source="205" provider="sat_282_sky_uk"></insert> <!-- Channel 5+1 -->
+		<insert target="161" source="169" provider="sat_282_sky_uk"></insert> <!-- BBC ALBA -->
+		<insert target="162" source="802" provider="sat_282_sky_uk"></insert> <!-- BBC Two HD -->
+		<insert target="163" source="815" provider="sat_282_sky_uk"></insert> <!-- BBC Four HD -->
 		<insert target="166" source="134" provider="sat_282_sky_uk"></insert> <!-- S4C -->
 		<insert target="172" source="144" provider="sat_282_sky_uk"></insert> <!-- Quest -->
-		<insert target="173" source="195" provider="sat_282_sky_uk"></insert> <!-- Quest +1 -->
-		<insert target="174" source="180" provider="sat_282_sky_uk"></insert> <!-- ITV3+1 -->
-		<insert target="175" source="193" provider="sat_282_sky_uk"></insert> <!-- ITV4+1 -->
-		<insert target="180" source="170" provider="sat_282_sky_uk"></insert> <!-- Challenge+1 -->
-		<insert target="184" source="187" provider="sat_282_sky_uk"></insert> <!-- BET:BlackEntTv -->
-		<insert target="185" source="191" provider="sat_282_sky_uk"></insert> <!-- 5 USA +1 -->
-		<insert target="186" source="190" provider="sat_282_sky_uk"></insert> <!-- 5STAR +1 -->
-		<insert target="189" source="182" provider="sat_282_sky_uk"></insert> <!-- True Ent -->
+		<insert target="173" source="295" provider="sat_282_sky_uk"></insert> <!-- Quest +1 -->
+		<insert target="174" source="219" provider="sat_282_sky_uk"></insert> <!-- ITV3+1 -->
+		<insert target="175" source="220" provider="sat_282_sky_uk"></insert> <!-- ITV4+1 -->
+		<insert target="180" source="245" provider="sat_282_sky_uk"></insert> <!-- Challenge+1 -->
+		<insert target="184" source="173" provider="sat_282_sky_uk"></insert> <!-- BET:BlackEntTv -->
+		<insert target="185" source="241" provider="sat_282_sky_uk"></insert> <!-- 5 USA +1 -->
+		<insert target="186" source="228" provider="sat_282_sky_uk"></insert> <!-- 5STAR +1 -->
+		<insert target="189" source="179" provider="sat_282_sky_uk"></insert> <!-- True Ent -->
 		<insert target="192" source="148" provider="sat_282_sky_uk"></insert> <!-- CBS Action -->
-		<insert target="196" source="139" provider="sat_282_sky_uk"></insert> <!-- More4 +1 -->
+		<insert target="196" source="236" provider="sat_282_sky_uk"></insert> <!-- More4 +1 -->
 		<insert target="197" source="147" provider="sat_282_sky_uk"></insert> <!-- CBS Drama -->
-		<insert target="201" source="269" provider="sat_282_sky_uk"></insert> <!-- CBS Reality+1 -->
-		<insert target="202" source="320" provider="sat_282_sky_uk"></insert> <!-- horror ch+1 -->
-		<insert target="212" source="185" provider="sat_282_sky_uk"></insert> <!-- TruTV -->
-		<insert target="215" source="162" provider="sat_282_sky_uk"></insert> <!-- Quest Red -->
-		<insert target="216" source="565" provider="sat_282_sky_uk"></insert> <!-- Blaze -->
-		<insert target="217" source="233" provider="sat_282_sky_uk"></insert> <!-- Quest Red +1 -->
-		<insert target="218" source="164" provider="sat_282_sky_uk"></insert> <!-- Pick +1 -->
-		<insert target="219" source="219" provider="sat_282_sky_uk"></insert> <!-- 5Spike +1 -->
-		<insert target="220" source="212" provider="sat_282_sky_uk"></insert> <!-- Showcase -->
-		<insert target="221" source="290" provider="sat_282_sky_uk"></insert> <!-- Showcase +1 -->
-		<insert target="222" source="181" provider="sat_282_sky_uk"></insert> <!-- Sony Crime +1 -->
-		<insert target="223" source="184" provider="sat_282_sky_uk"></insert> <!-- Sony Crime 2 -->
-		<insert target="224" source="183" provider="sat_282_sky_uk"></insert> <!-- True Ent +1 -->
-		<insert target="225" source="186" provider="sat_282_sky_uk"></insert> <!-- TruTV +1 -->
-		<insert target="226" source="280" provider="sat_282_sky_uk"></insert> <!-- S4C HD -->
-		<insert target="227" source="238" provider="sat_282_sky_uk"></insert> <!-- BEN -->
-		<insert target="228" source="292" provider="sat_282_sky_uk"></insert> <!-- Fame TV -->
-		<insert target="229" source="291" provider="sat_282_sky_uk"></insert> <!-- GN TV -->
-		<insert target="230" source="203" provider="sat_282_sky_uk"></insert> <!-- mytv -->
-		<insert target="231" source="189" provider="sat_282_sky_uk"></insert> <!-- Propeller TV -->
-		<insert target="232" source="198" provider="sat_282_sky_uk"></insert> <!-- Property Show -->
-		<insert target="233" source="293" provider="sat_282_sky_uk"></insert> <!-- Yanga! -->
-		<insert target="234" source="199" provider="sat_282_sky_uk"></insert> <!-- Your TV -->
-		<insert target="245" source="537" provider="sat_282_sky_uk"></insert> <!-- YESTERDAY -->
-		<insert target="269" source="539" provider="sat_282_sky_uk"></insert> <!-- Together -->
-		<insert target="276" source="534" provider="sat_282_sky_uk"></insert> <!-- PBS America -->
-		<insert target="277" source="264" provider="sat_282_sky_uk"></insert> <!-- Forces TV -->
-		<insert target="281" source="196" provider="sat_282_sky_uk"></insert> <!-- Home -->
-		<insert target="283" source="253" provider="sat_282_sky_uk"></insert> <!-- Horse & Country -->
+		<insert target="201" source="246" provider="sat_282_sky_uk"></insert> <!-- CBS Reality+1 -->
+		<insert target="202" source="318" provider="sat_282_sky_uk"></insert> <!-- horror ch+1 -->
+		<insert target="212" source="180" provider="sat_282_sky_uk"></insert> <!-- TruTV -->
+		<insert target="215" source="149" provider="sat_282_sky_uk"></insert> <!-- Quest Red -->
+		<insert target="216" source="187" provider="sat_282_sky_uk"></insert> <!-- Blaze -->
+		<insert target="217" source="249" provider="sat_282_sky_uk"></insert> <!-- Quest Red +1 -->
+		<insert target="218" source="252" provider="sat_282_sky_uk"></insert> <!-- Pick +1 -->
+		<insert target="219" source="250" provider="sat_282_sky_uk"></insert> <!-- 5Spike +1 -->
+		<insert target="220" source="192" provider="sat_282_sky_uk"></insert> <!-- Showcase -->
+		<insert target="221" source="292" provider="sat_282_sky_uk"></insert> <!-- Showcase +1 -->
+		<insert target="222" source="257" provider="sat_282_sky_uk"></insert> <!-- Sony Crime +1 -->
+		<insert target="223" source="181" provider="sat_282_sky_uk"></insert> <!-- Sony Crime 2 -->
+		<insert target="224" source="179" provider="sat_282_sky_uk"></insert> <!-- True Ent +1 -->
+		<insert target="225" source="180" provider="sat_282_sky_uk"></insert> <!-- TruTV +1 -->
+		<insert target="226" source="828" provider="sat_282_sky_uk"></insert> <!-- S4C HD -->
+		<insert target="227" source="175" provider="sat_282_sky_uk"></insert> <!-- BEN -->
+		<insert target="228" source="452" provider="sat_282_sky_uk"></insert> <!-- Fame TV -->
+		<insert target="229" source="182" provider="sat_282_sky_uk"></insert> <!-- GN TV -->
+		<insert target="230" source="191" provider="sat_282_sky_uk"></insert> <!-- mytv -->
+		<insert target="231" source="185" provider="sat_282_sky_uk"></insert> <!-- Propeller TV -->
+		<insert target="232" source="189" provider="sat_282_sky_uk"></insert> <!-- Property Show -->
+		<insert target="233" source="453" provider="sat_282_sky_uk"></insert> <!-- Yanga! -->
+		<insert target="234" source="168" provider="sat_282_sky_uk"></insert> <!-- Your TV -->
+		<insert target="245" source="155" provider="sat_282_sky_uk"></insert> <!-- YESTERDAY -->
+		<insert target="269" source="159" provider="sat_282_sky_uk"></insert> <!-- Together -->
+		<insert target="276" source="160" provider="sat_282_sky_uk"></insert> <!-- PBS America -->
+		<insert target="277" source="450" provider="sat_282_sky_uk"></insert> <!-- Forces TV -->
+		<insert target="281" source="158" provider="sat_282_sky_uk"></insert> <!-- Home -->
+		<insert target="283" source="184" provider="sat_282_sky_uk"></insert> <!-- Horse & Country -->
 		<insert target="287" source="580" provider="sat_282_sky_uk"></insert> <!-- GOD Channel -->
-		<insert target="288" source="886" provider="sat_282_sky_uk"></insert> <!-- Psychic Today -->
-		<insert target="289" source="256" provider="sat_282_sky_uk"></insert> <!-- Holiday & Cruise -->
-		<insert target="291" source="248" provider="sat_282_sky_uk"></insert> <!-- Food Network -->
-		<insert target="292" source="249" provider="sat_282_sky_uk"></insert> <!-- Travel Channel -->
-		<insert target="293" source="250" provider="sat_282_sky_uk"></insert> <!-- Food Network +1 -->
-		<insert target="294" source="251" provider="sat_282_sky_uk"></insert> <!-- Travel Channel +1 -->
-		<insert target="330" source="359" provider="sat_282_sky_uk"></insert> <!-- Box Upfront -->
-		<insert target="335" source="360" provider="sat_282_sky_uk"></insert> <!-- The Box -->
-		<insert target="336" source="361" provider="sat_282_sky_uk"></insert> <!-- Box Hits -->
-		<insert target="337" source="362" provider="sat_282_sky_uk"></insert> <!-- 4Music -->
-		<insert target="338" source="363" provider="sat_282_sky_uk"></insert> <!-- KISS -->
-		<insert target="340" source="364" provider="sat_282_sky_uk"></insert> <!-- Magic -->
-		<insert target="342" source="368" provider="sat_282_sky_uk"></insert> <!-- Kerrang! -->
-		<insert target="343" source="369" provider="sat_282_sky_uk"></insert> <!-- Vintage TV -->
-		<insert target="345" source="383" provider="sat_282_sky_uk"></insert> <!-- Clubland TV -->
-		<insert target="346" source="366" provider="sat_282_sky_uk"></insert> <!-- The Vault -->
-		<insert target="347" source="367" provider="sat_282_sky_uk"></insert> <!-- Scuzz -->
-		<insert target="348" source="370" provider="sat_282_sky_uk"></insert> <!-- Chilled 90s -->
-		<insert target="349" source="371" provider="sat_282_sky_uk"></insert> <!-- Starz TV -->
-		<insert target="350" source="372" provider="sat_282_sky_uk"></insert> <!-- Chartshow Hits -->
-		<insert target="352" source="378" provider="sat_282_sky_uk"></insert> <!-- NOW 80s -->
-		<insert target="353" source="385" provider="sat_282_sky_uk"></insert> <!-- Channel AKA -->
-		<insert target="358" source="387" provider="sat_282_sky_uk"></insert> <!-- Heart TV -->
-		<insert target="359" source="388" provider="sat_282_sky_uk"></insert> <!-- Capital TV -->
-		<insert target="360" source="389" provider="sat_282_sky_uk"></insert> <!-- Keep It Country -->
-		<insert target="361" source="365" provider="sat_282_sky_uk"></insert> <!-- Chart Show TV -->
-		<insert target="424" source="321" provider="sat_282_sky_uk"></insert> <!-- True Movies -->
-		<insert target="426" source="325" provider="sat_282_sky_uk"></insert> <!-- movies4men -->
-		<insert target="427" source="326" provider="sat_282_sky_uk"></insert> <!-- movies4men +1 -->
-		<insert target="428" source="342" provider="sat_282_sky_uk"></insert> <!-- Film4 -->
-		<insert target="430" source="316" provider="sat_282_sky_uk"></insert> <!-- Film4 +1 -->
-		<insert target="445" source="343" provider="sat_282_sky_uk"></insert> <!-- Talking Pictures TV -->
-		<insert target="446" source="329" provider="sat_282_sky_uk"></insert> <!-- Nollywood Movies -->
-		<insert target="447" source="344" provider="sat_282_sky_uk"></insert> <!-- ROK TV -->
-		<insert target="448" source="322" provider="sat_282_sky_uk"></insert> <!-- True Movies +1 -->
-		<insert target="545" source="447" provider="sat_282_sky_uk"></insert> <!-- Motorstport.tv -->
-		<insert target="525" source="424" provider="sat_282_sky_uk"></insert> <!-- FreeSports -->
-		<insert target="552" source="468" provider="sat_282_sky_uk"></insert> <!-- Front Runner TV -->
+		<insert target="288" source="560" provider="sat_282_sky_uk"></insert> <!-- Psychic Today -->
+		<insert target="289" source="199" provider="sat_282_sky_uk"></insert> <!-- Holiday & Cruise -->
+		<insert target="291" source="197" provider="sat_282_sky_uk"></insert> <!-- Food Network -->
+		<insert target="292" source="198" provider="sat_282_sky_uk"></insert> <!-- Travel Channel -->
+		<insert target="293" source="297" provider="sat_282_sky_uk"></insert> <!-- Food Network +1 -->
+		<insert target="294" source="298" provider="sat_282_sky_uk"></insert> <!-- Travel Channel +1 -->
+		<insert target="330" source="358" provider="sat_282_sky_uk"></insert> <!-- Box Upfront -->
+		<insert target="335" source="359" provider="sat_282_sky_uk"></insert> <!-- The Box -->
+		<insert target="336" source="360" provider="sat_282_sky_uk"></insert> <!-- Box Hits -->
+		<insert target="337" source="139" provider="sat_282_sky_uk"></insert> <!-- 4Music -->
+		<insert target="338" source="361" provider="sat_282_sky_uk"></insert> <!-- KISS -->
+		<insert target="340" source="362" provider="sat_282_sky_uk"></insert> <!-- Magic -->
+		<insert target="342" source="363" provider="sat_282_sky_uk"></insert> <!-- Kerrang! -->
+		<insert target="343" source="367" provider="sat_282_sky_uk"></insert> <!-- Vintage TV -->
+		<insert target="345" source="372" provider="sat_282_sky_uk"></insert> <!-- Clubland TV -->
+		<insert target="346" source="365" provider="sat_282_sky_uk"></insert> <!-- The Vault -->
+		<insert target="347" source="366" provider="sat_282_sky_uk"></insert> <!-- Scuzz -->
+		<insert target="348" source="368" provider="sat_282_sky_uk"></insert> <!-- Chilled 90s -->
+		<insert target="349" source="369" provider="sat_282_sky_uk"></insert> <!-- Starz TV -->
+		<insert target="350" source="370" provider="sat_282_sky_uk"></insert> <!-- Chartshow Hits -->
+		<insert target="352" source="371" provider="sat_282_sky_uk"></insert> <!-- NOW 80s -->
+		<insert target="353" source="373" provider="sat_282_sky_uk"></insert> <!-- Channel AKA -->
+		<insert target="358" source="374" provider="sat_282_sky_uk"></insert> <!-- Heart TV -->
+		<insert target="359" source="375" provider="sat_282_sky_uk"></insert> <!-- Capital TV -->
+		<insert target="360" source="376" provider="sat_282_sky_uk"></insert> <!-- Keep It Country -->
+		<insert target="361" source="364" provider="sat_282_sky_uk"></insert> <!-- Chart Show TV -->
+		<insert target="424" source="319" provider="sat_282_sky_uk"></insert> <!-- True Movies -->
+		<insert target="426" source="323" provider="sat_282_sky_uk"></insert> <!-- movies4men -->
+		<insert target="427" source="324" provider="sat_282_sky_uk"></insert> <!-- movies4men +1 -->
+		<insert target="428" source="853" provider="sat_282_sky_uk"></insert> <!-- Film4 -->
+		<insert target="430" source="314" provider="sat_282_sky_uk"></insert> <!-- Film4 +1 -->
+		<insert target="445" source="328" provider="sat_282_sky_uk"></insert> <!-- Talking Pictures TV -->
+		<insert target="446" source="327" provider="sat_282_sky_uk"></insert> <!-- Nollywood Movies -->
+		<insert target="447" source="329" provider="sat_282_sky_uk"></insert> <!-- ROK TV -->
+		<insert target="448" source="320" provider="sat_282_sky_uk"></insert> <!-- True Movies +1 -->
+		<insert target="545" source="429" provider="sat_282_sky_uk"></insert> <!-- Motorstport.tv -->
+		<insert target="525" source="422" provider="sat_282_sky_uk"></insert> <!-- FreeSports -->
+		<insert target="552" source="431" provider="sat_282_sky_uk"></insert> <!-- Front Runner TV -->
 		<insert target="555" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="601" source="503" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS -->
-		<insert target="602" source="516" provider="sat_282_sky_uk"></insert> <!-- Sky News -->
+		<insert target="602" source="875" provider="sat_282_sky_uk"></insert> <!-- Sky News -->
 		<insert target="604" source="570" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS HD -->
 		<insert target="605" source="504" provider="sat_282_sky_uk"></insert> <!-- BBC Parliament -->
-		<insert target="607" source="506" provider="sat_282_sky_uk"></insert> <!-- CNN Int -->
+		<insert target="607" source="506" provider="sat_282_sky_uk"></insert> <!-- CNN -->
 		<insert target="609" source="502" provider="sat_282_sky_uk"></insert> <!-- Bloomberg -->
-		<insert target="610" source="692" provider="sat_282_sky_uk"></insert> <!-- Bloomberg HD -->
+		<insert target="610" source="876" provider="sat_282_sky_uk"></insert> <!-- Bloomberg HD -->
 		<insert target="613" source="505" provider="sat_282_sky_uk"></insert> <!-- CNBC -->
 		<insert target="620" source="508" provider="sat_282_sky_uk"></insert> <!-- Euronews -->
-		<insert target="621" source="511" provider="sat_282_sky_uk"></insert> <!-- NDTV 24x7 -->
-		<insert target="622" source="514" provider="sat_282_sky_uk"></insert> <!-- Al Jazeera -->
-		<insert target="623" source="691" provider="sat_282_sky_uk"></insert> <!-- Al Jazeera HD -->
-		<insert target="624" source="513" provider="sat_282_sky_uk"></insert> <!-- FRANCE Eng -->
+		<insert target="621" source="510" provider="sat_282_sky_uk"></insert> <!-- NDTV 24x7 -->
+		<insert target="622" source="513" provider="sat_282_sky_uk"></insert> <!-- Al Jazeera -->
+		<insert target="623" source="880" provider="sat_282_sky_uk"></insert> <!-- Al Jazeera HD -->
+		<insert target="624" source="512" provider="sat_282_sky_uk"></insert> <!-- FRANCE Eng -->
 		<insert target="625" source="507" provider="sat_282_sky_uk"></insert> <!-- NHK World HD -->
-		<insert target="626" source="579" provider="sat_282_sky_uk"></insert> <!-- CNN Int HD -->
-		<insert target="627" source="518" provider="sat_282_sky_uk"></insert> <!-- RT HD -->
-		<insert target="628" source="512" provider="sat_282_sky_uk"></insert> <!-- RT  -->
-		<insert target="629" source="693" provider="sat_282_sky_uk"></insert> <!-- TRT World HD -->
-		<insert target="630" source="519" provider="sat_282_sky_uk"></insert> <!-- TRT World -->
-		<insert target="631" source="690" provider="sat_282_sky_uk"></insert> <!-- Arirang TV HD -->
-		<insert target="632" source="510" provider="sat_282_sky_uk"></insert> <!-- CGTN -->
-		<insert target="633" source="575" provider="sat_282_sky_uk"></insert> <!-- Channels 24 -->
-		<insert target="634" source="515" provider="sat_282_sky_uk"></insert> <!-- CNC World -->
-		<insert target="635" source="576" provider="sat_282_sky_uk"></insert> <!-- Times Now -->
-		<insert target="636" source="517" provider="sat_282_sky_uk"></insert> <!-- TVC News -->
+		<insert target="626" source="878" provider="sat_282_sky_uk"></insert> <!-- CNN Int HD -->
+		<insert target="627" source="579" provider="sat_282_sky_uk"></insert> <!-- RT HD -->
+		<insert target="628" source="511" provider="sat_282_sky_uk"></insert> <!-- RT  -->
+		<insert target="629" source="881" provider="sat_282_sky_uk"></insert> <!-- TRT World HD -->
+		<insert target="630" source="516" provider="sat_282_sky_uk"></insert> <!-- TRT World -->
+		<insert target="631" source="522" provider="sat_282_sky_uk"></insert> <!-- Arirang TV HD -->
+		<insert target="632" source="509" provider="sat_282_sky_uk"></insert> <!-- CGTN -->
+		<insert target="633" source="518" provider="sat_282_sky_uk"></insert> <!-- Channels 24 -->
+		<insert target="634" source="514" provider="sat_282_sky_uk"></insert> <!-- CNC World -->
+		<insert target="635" source="519" provider="sat_282_sky_uk"></insert> <!-- Times Now -->
+		<insert target="636" source="515" provider="sat_282_sky_uk"></insert> <!-- TVC News -->
 		<insert target="701" source="613" provider="sat_282_sky_uk"></insert> <!-- CBBC -->
 		<insert target="702" source="614" provider="sat_282_sky_uk"></insert> <!-- CBeebies -->
-		<insert target="710" source="643" provider="sat_282_sky_uk"></insert> <!-- CBBC HD -->
-		<insert target="711" source="624" provider="sat_282_sky_uk"></insert> <!-- CBeebies HD -->
-		<insert target="733" source="625" provider="sat_282_sky_uk"></insert> <!-- Tiny Pop +1 -->
+		<insert target="710" source="646" provider="sat_282_sky_uk"></insert> <!-- CBBC HD -->
+		<insert target="711" source="647" provider="sat_282_sky_uk"></insert> <!-- CBeebies HD -->
+		<insert target="733" source="624" provider="sat_282_sky_uk"></insert> <!-- Tiny Pop +1 -->
 		<insert target="734" source="621" provider="sat_282_sky_uk"></insert> <!-- CITV -->
-		<insert target="735" source="626" provider="sat_282_sky_uk"></insert> <!-- POP+1 -->
+		<insert target="735" source="625" provider="sat_282_sky_uk"></insert> <!-- POP+1 -->
 		<insert target="736" source="616" provider="sat_282_sky_uk"></insert> <!-- POP -->
 		<insert target="737" source="617" provider="sat_282_sky_uk"></insert> <!-- Tiny Pop -->
-		<insert target="738" source="627" provider="sat_282_sky_uk"></insert> <!-- Pop Max -->
-		<insert target="739" source="629" provider="sat_282_sky_uk"></insert> <!-- Pop Max+1 -->
-		<insert target="740" source="650" provider="sat_282_sky_uk"></insert> <!-- QVC -->
-		<insert target="741" source="668" provider="sat_282_sky_uk"></insert> <!-- QVC Beauty -->
-		<insert target="742" source="653" provider="sat_282_sky_uk"></insert> <!-- QVC Style -->
-		<insert target="743" source="673" provider="sat_282_sky_uk"></insert> <!-- QVC Extra -->
-		<insert target="744" source="651" provider="sat_282_sky_uk"></insert> <!-- JML Direct -->
-		<insert target="745" source="659" provider="sat_282_sky_uk"></insert> <!-- Best Direct -->
-		<insert target="746" source="661" provider="sat_282_sky_uk"></insert> <!-- Ideal Extra -->
-		<insert target="747" source="654" provider="sat_282_sky_uk"></insert> <!-- Ideal World -->
-		<insert target="748" source="674" provider="sat_282_sky_uk"></insert> <!-- Create & Craft -->
-		<insert target="749" source="675" provider="sat_282_sky_uk"></insert> <!-- Craft Extra -->
-		<insert target="750" source="656" provider="sat_282_sky_uk"></insert> <!-- High Street TV1 -->
-		<insert target="751" source="658" provider="sat_282_sky_uk"></insert> <!-- High Street TV2 -->
-		<insert target="752" source="662" provider="sat_282_sky_uk"></insert> <!-- High Street TV3 -->
-		<insert target="753" source="666" provider="sat_282_sky_uk"></insert> <!-- High Street TV4 -->
-		<insert target="754" source="672" provider="sat_282_sky_uk"></insert> <!-- Rocks & Co-->
-		<insert target="755" source="655" provider="sat_282_sky_uk"></insert> <!-- Gems TV -->
-		<insert target="756" source="665" provider="sat_282_sky_uk"></insert> <!-- Jewelry Maker -->
-		<insert target="757" source="652" provider="sat_282_sky_uk"></insert> <!-- TJC -->
-		<insert target="758" source="680" provider="sat_282_sky_uk"></insert> <!-- Cruise1st.tv -->
-		<insert target="759" source="663" provider="sat_282_sky_uk"></insert> <!-- Hochanda -->
-		<insert target="760" source="669" provider="sat_282_sky_uk"></insert> <!-- PaversShoes.tv -->
-		<insert target="761" source="677" provider="sat_282_sky_uk"></insert> <!-- Price Crash Tv -->
-		<insert target="762" source="657" provider="sat_282_sky_uk"></insert> <!-- Retail TV -->
-		<insert target="763" source="678" provider="sat_282_sky_uk"></insert> <!-- Sewing Quarter -->
-		<insert target="764" source="676" provider="sat_282_sky_uk"></insert> <!-- Shop Now TV -->
-		<insert target="765" source="670" provider="sat_282_sky_uk"></insert> <!-- Thane -->
-		<insert target="766" source="667" provider="sat_282_sky_uk"></insert> <!-- TV Warehouse -->
-		<insert target="767" source="671" provider="sat_282_sky_uk"></insert> <!-- V Channel -->
-		<insert target="802" source="792" provider="sat_282_sky_uk"></insert> <!-- PTV Prime -->
-		<insert target="808" source="803" provider="sat_282_sky_uk"></insert> <!-- PTV Global -->
-		<insert target="814" source="800" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
-		<insert target="817" source="802" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
-		<insert target="818" source="807" provider="sat_282_sky_uk"></insert> <!-- GEO TV -->
-		<insert target="819" source="817" provider="sat_282_sky_uk"></insert> <!-- GEO Kahani -->
-		<insert target="820" source="812" provider="sat_282_sky_uk"></insert> <!-- Noor TV -->
-		<insert target="821" source="813" provider="sat_282_sky_uk"></insert> <!-- Peace TV -->
-		<insert target="822" source="830" provider="sat_282_sky_uk"></insert> <!-- Peace TV Urdu -->
-		<insert target="823" source="828" provider="sat_282_sky_uk"></insert> <!-- Madani Chnl -->
-		<insert target="824" source="832" provider="sat_282_sky_uk"></insert> <!-- Samaa -->
-		<insert target="825" source="796" provider="sat_282_sky_uk"></insert> <!-- TV5MONDE Europe -->
-		<insert target="834" source="799" provider="sat_282_sky_uk"></insert> <!-- Hum Masala -->
-		<insert target="838" source="806" provider="sat_282_sky_uk"></insert> <!-- Islam Channel -->
-		<insert target="840" source="824" provider="sat_282_sky_uk"></insert> <!-- Brit Asia TV -->
-		<insert target="841" source="850" provider="sat_282_sky_uk"></insert> <!-- Dunya News -->
-		<insert target="842" source="834" provider="sat_282_sky_uk"></insert> <!-- Takbeer TV -->
-		<insert target="843" source="819" provider="sat_282_sky_uk"></insert> <!-- IQRA TV -->
-		<insert target="844" source="818" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
-		<insert target="845" source="845" provider="sat_282_sky_uk"></insert> <!-- British Muslim -->
+		<insert target="738" source="626" provider="sat_282_sky_uk"></insert> <!-- Pop Max -->
+		<insert target="739" source="627" provider="sat_282_sky_uk"></insert> <!-- Pop Max+1 -->
+		<insert target="740" source="660" provider="sat_282_sky_uk"></insert> <!-- QVC -->
+		<insert target="741" source="677" provider="sat_282_sky_uk"></insert> <!-- QVC Beauty -->
+		<insert target="742" source="663" provider="sat_282_sky_uk"></insert> <!-- QVC Style -->
+		<insert target="743" source="682" provider="sat_282_sky_uk"></insert> <!-- QVC Extra -->
+		<insert target="744" source="661" provider="sat_282_sky_uk"></insert> <!-- JML Direct -->
+		<insert target="745" source="669" provider="sat_282_sky_uk"></insert> <!-- Best Direct -->
+		<insert target="746" source="671" provider="sat_282_sky_uk"></insert> <!-- Ideal Extra -->
+		<insert target="747" source="664" provider="sat_282_sky_uk"></insert> <!-- Ideal World -->
+		<insert target="748" source="683" provider="sat_282_sky_uk"></insert> <!-- Create & Craft -->
+		<insert target="749" source="684" provider="sat_282_sky_uk"></insert> <!-- Craft Extra -->
+		<insert target="750" source="666" provider="sat_282_sky_uk"></insert> <!-- High Street TV1 -->
+		<insert target="751" source="668" provider="sat_282_sky_uk"></insert> <!-- High Street TV2 -->
+		<insert target="752" source="672" provider="sat_282_sky_uk"></insert> <!-- High Street TV3 -->
+		<insert target="753" source="675" provider="sat_282_sky_uk"></insert> <!-- High Street TV4 -->
+		<insert target="754" source="683" provider="sat_282_sky_uk"></insert> <!-- Rocks & Co-->
+		<insert target="755" source="665" provider="sat_282_sky_uk"></insert> <!-- Gems TV -->
+		<insert target="756" source="674" provider="sat_282_sky_uk"></insert> <!-- Jewelry Maker -->
+		<insert target="757" source="662" provider="sat_282_sky_uk"></insert> <!-- TJC -->
+		<insert target="758" source="688" provider="sat_282_sky_uk"></insert> <!-- Cruise1st.tv -->
+		<insert target="759" source="673" provider="sat_282_sky_uk"></insert> <!-- Hochanda -->
+		<insert target="760" source="678" provider="sat_282_sky_uk"></insert> <!-- PaversShoes.tv -->
+		<insert target="761" source="686" provider="sat_282_sky_uk"></insert> <!-- Price Crash Tv -->
+		<insert target="762" source="667" provider="sat_282_sky_uk"></insert> <!-- Retail TV -->
+		<insert target="763" source="687" provider="sat_282_sky_uk"></insert> <!-- Sewing Quarter -->
+		<insert target="764" source="685" provider="sat_282_sky_uk"></insert> <!-- Shop Now TV -->
+		<insert target="765" source="679" provider="sat_282_sky_uk"></insert> <!-- Thane -->
+		<insert target="766" source="676" provider="sat_282_sky_uk"></insert> <!-- TV Warehouse -->
+		<insert target="767" source="680" provider="sat_282_sky_uk"></insert> <!-- V Channel -->
+		<insert target="802" source="713" provider="sat_282_sky_uk"></insert> <!-- PTV Prime -->
+		<insert target="808" source="724" provider="sat_282_sky_uk"></insert> <!-- PTV Global -->
+		<insert target="814" source="721" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
+		<insert target="817" source="723" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
+		<insert target="818" source="728" provider="sat_282_sky_uk"></insert> <!-- GEO TV -->
+		<insert target="819" source="737" provider="sat_282_sky_uk"></insert> <!-- GEO Kahani -->
+		<insert target="820" source="732" provider="sat_282_sky_uk"></insert> <!-- Noor TV -->
+		<insert target="821" source="733" provider="sat_282_sky_uk"></insert> <!-- Peace TV -->
+		<insert target="822" source="749" provider="sat_282_sky_uk"></insert> <!-- Peace TV Urdu -->
+		<insert target="823" source="747" provider="sat_282_sky_uk"></insert> <!-- Madani Chnl -->
+		<insert target="824" source="751" provider="sat_282_sky_uk"></insert> <!-- Samaa -->
+		<insert target="825" source="717" provider="sat_282_sky_uk"></insert> <!-- TV5 MONDE -->
+		<insert target="834" source="761" provider="sat_282_sky_uk"></insert> <!-- Hum Europe -->
+		<insert target="838" source="727" provider="sat_282_sky_uk"></insert> <!-- Islam Channel -->
+		<insert target="840" source="743" provider="sat_282_sky_uk"></insert> <!-- Brit Asia TV -->
+		<insert target="841" source="765" provider="sat_282_sky_uk"></insert> <!-- Dunya News -->
+		<insert target="842" source="753" provider="sat_282_sky_uk"></insert> <!-- Takbeer TV -->
+		<insert target="843" source="739" provider="sat_282_sky_uk"></insert> <!-- IQRA TV -->
+		<insert target="844" source="738" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
+		<insert target="845" source="762" provider="sat_282_sky_uk"></insert> <!-- British Muslim -->
 		<insert target="862" source="977" provider="sat_282_sky_uk"></insert> <!-- BBC One ScotHD -->
 		<insert target="863" source="953" provider="sat_282_sky_uk"></insert> <!-- BBC One NI -->
 		<insert target="864" source="978" provider="sat_282_sky_uk"></insert> <!-- BBC One Wal HD -->
@@ -210,8 +210,8 @@
 		<insert target="984" source="902" provider="sat_282_sky_uk"></insert> <!-- Xpanded TV -->
 		<insert target="986" source="914" provider="sat_282_sky_uk"></insert> <!-- Xpanded TV2 -->
 		<insert target="987" source="912" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV -->
-		<insert target="988" source="940" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV 2 -->
-		<insert target="989" source="941" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV 3 -->
+		<insert target="988" source="923" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV 2 -->
+		<insert target="989" source="924" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV 3 -->
 		<!-- Move sky sport SD channels into HD slots -->
 		<insert target="501" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
 		<insert target="502" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
@@ -266,7 +266,7 @@ Virgin UK: generate sections bouquets - yes
 Virgin UK: generate HD bouquets - no (Optional)
 Virgin UK: generate FTA bouquets - no (Optional)
 Virgin UK: generate FTA HD bouquet - no (Optioanl)
-Sky Uk: swap channels - yes (If you want channel 1 to 5 HD turn to no if you want SD first)
+Virgin Uk: swap channels - yes (If you want channel 1 to 5 HD turn to no if you want SD first)
 
 ----------------------------------------------------------
 
