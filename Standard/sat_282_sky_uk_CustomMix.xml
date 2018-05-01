@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180426 -->
+<!-- DATE 20180501 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -159,8 +159,8 @@ channels_to_add_by_id = {
 	5043: 996, # "Made In Tn&Wr"
 	5421: 997, # "Notts TV"
 	#alternatives
-	2709: 128, # ComedyXtra
-	3705: 205, # ComedyCentral
+	2709: 127, # ComedyXtra
+	3705: 812, # ComedyCentral
 	1355: 415, # At the races
 	5527: 606, # Nicktoons
 	3356: 615, # Nick Jr
