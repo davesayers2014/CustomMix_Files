@@ -116,7 +116,7 @@
 		<insert target="525" source="422" provider="sat_282_sky_uk"></insert> <!-- FreeSports -->
 		<insert target="552" source="431" provider="sat_282_sky_uk"></insert> <!-- Front Runner TV -->
 		<insert target="555" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
-		<insert target="601" source="503" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS --># Remix
+		<insert target="601" source="503" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS -->
 		<insert target="602" source="875" provider="sat_282_sky_uk"></insert> <!-- Sky News -->
 		<insert target="604" source="570" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS HD -->
 		<insert target="605" source="504" provider="sat_282_sky_uk"></insert> <!-- BBC Parliament -->
@@ -127,7 +127,7 @@
 		<insert target="620" source="508" provider="sat_282_sky_uk"></insert> <!-- Euronews -->
 		<insert target="621" source="510" provider="sat_282_sky_uk"></insert> <!-- NDTV 24x7 -->
 		<insert target="622" source="513" provider="sat_282_sky_uk"></insert> <!-- Al Jazeera -->
-		<insert target="623" source="880" p880rovider="sat_282_sky_uk"></insert> <!-- Al Jazeera HD -->
+		<insert target="623" source="880" provider="sat_282_sky_uk"></insert> <!-- Al Jazeera HD -->
 		<insert target="624" source="512" provider="sat_282_sky_uk"></insert> <!-- FRANCE Eng -->
 		<insert target="625" source="507" provider="sat_282_sky_uk"></insert> <!-- NHK World HD -->
 		<insert target="626" source="878" provider="sat_282_sky_uk"></insert> <!-- CNN Int HD -->
