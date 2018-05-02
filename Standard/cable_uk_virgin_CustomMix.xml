@@ -32,7 +32,7 @@
 		<insert target="154" source="150" provider="sat_282_sky_uk"></insert> <!-- 5Spike -->
 		<insert target="155" source="205" provider="sat_282_sky_uk"></insert> <!-- Channel 5+1 -->
 		<insert target="161" source="169" provider="sat_282_sky_uk"></insert> <!-- BBC ALBA -->
-		<insert target="162" source="802" provider="sat_282_sky_uk"></insert> <!-- BBC Two HD -->
+		<!--  <insert target="162" source="802" provider="sat_282_sky_uk"></insert> <!-- BBC Two HD -->
 		<insert target="163" source="815" provider="sat_282_sky_uk"></insert> <!-- BBC Four HD -->
 		<insert target="166" source="134" provider="sat_282_sky_uk"></insert> <!-- S4C -->
 		<insert target="172" source="144" provider="sat_282_sky_uk"></insert> <!-- Quest -->
