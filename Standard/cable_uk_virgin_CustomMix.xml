@@ -1,11 +1,11 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180501 -->
+<!-- DATE 20180502 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
 		<insert target="107" source="116" provider="sat_282_sky_uk"></insert> <!-- BBC Four -->
-		<insert target="108" source="115" provider="sat_282_sky_uk"></insert> <!-- BBC One HD --> <!-- 801 SOME REGIONS -->
-		<insert target="113" source="803" provider="sat_282_sky_uk"></insert> <!-- ITV HD -->
+		<!-- <insert target="108" source="115" provider="sat_282_sky_uk"></insert> <!-- BBC One HD --> <!-- 801 SOME REGIONS -->
+		<!-- <insert target="113" source="803" provider="sat_282_sky_uk"></insert> <!-- ITV HD -->
 		<insert target="114" source="203" provider="sat_282_sky_uk"></insert> <!-- ITV +1 -->
 		<insert target="115" source="816" provider="sat_282_sky_uk"></insert> <!-- ITV2 -->
 		<insert target="116" source="218" provider="sat_282_sky_uk"></insert> <!-- ITV2+1 -->
@@ -18,7 +18,7 @@
 		<insert target="128" source="143" provider="sat_282_sky_uk"></insert> <!-- Drama -->
 		<insert target="129" source="142" provider="sat_282_sky_uk"></insert> <!-- Really -->
 		<insert target="139" source="145" provider="sat_282_sky_uk"></insert> <!-- Challange -->
-		<insert target="141" source="804" provider="sat_282_sky_uk"></insert> <!-- Channel 4 HD --> <!-- 138 SOME REGIONS -->
+		<!-- <insert target="141" source="804" provider="sat_282_sky_uk"></insert> <!-- Channel 4 HD --> <!-- 138 SOME REGIONS -->
 		<insert target="142" source="204" provider="sat_282_sky_uk"></insert> <!-- Channel4 +1 -->
 		<insert target="143" source="137" provider="sat_282_sky_uk"></insert> <!-- 4seven -->
 		<insert target="146" source="235" provider="sat_282_sky_uk"></insert> <!-- E4+1 -->
