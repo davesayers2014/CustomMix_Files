@@ -146,7 +146,7 @@ rename = {
 
 channels_to_add_by_id = {
 	5122: 421, # eir Sport 1 (also 3601)
-	5152: 425, # eir Sport 2 HD (also 5154)
+	5152: 424, # eir Sport 2 HD (also 5154)
 	5123: 460, # eir Sport 2 (also 4551)
 	1078: 988, # "Made In Birmingham"
 	1016: 989, # "Made In Liverpool"
