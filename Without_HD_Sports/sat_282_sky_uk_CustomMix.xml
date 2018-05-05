@@ -60,7 +60,7 @@
 		<insert target="413" source="527" provider="cable_uk_virgin" ></insert> <!-- bt sports 1 hd -->
 		<insert target="414" source="528" provider="cable_uk_virgin" ></insert> <!-- bt sports 2 hd -->
 		<insert target="417" source="529" provider="cable_uk_virgin" ></insert> <!-- bt sports 3 hd -->
-		<insert target="426" source="530" provider="cable_uk_virgin" ></insert> <!-- bt sports/espn hd -->
+		<insert target="423" source="530" provider="cable_uk_virgin" ></insert> <!-- bt sports/espn hd -->
 		<insert target="441" source="552" provider="cable_uk_virgin" ></insert> <!-- Eurosport 3 sd -->
 		<insert target="442" source="553" provider="cable_uk_virgin" ></insert> <!-- bt Eurosport 4 sd -->
 		<insert target="443" source="554" provider="cable_uk_virgin" ></insert> <!-- bt Eurosport 5 sd -->
