@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180503 -->
+<!-- DATE 20180507 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -10,6 +10,7 @@
 		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
 		<insert target="705" source="883" provider="sat_282_sky_uk" ></insert> <!-- Star Plus HD -->
 		<insert target="707" source="884" provider="sat_282_sky_uk" ></insert> <!-- Colors HD -->
+		<insert target="709" source="885" provider="sat_282_sky_uk" ></insert> <!-- Zee TV -->
 		<insert target="719" source="886" provider="sat_282_sky_uk" ></insert> <!-- SONY MAX HD -->
 		<insert target="729" source="887" provider="sat_282_sky_uk" ></insert> <!-- Star GOLD HD -->
 		<!-- replace sky hd channels with working ones from cable -->
@@ -130,6 +131,7 @@
 		<delete target="882"></delete> <!-- SONY TV -->
 		<delete target="883"></delete> <!-- Star Plus -->
 		<delete target="884"></delete> <!-- Colors HD -->
+		<delete target="885"></delete> <!-- Zee TV -->
 		<delete target="886"></delete> <!-- SONY MAX HD -->
 		<delete target="887"></delete> <!-- Star GOLD HD -->
 	</deletes>
