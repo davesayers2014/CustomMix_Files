@@ -80,6 +80,9 @@
 		<insert target="1018" source="1011" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 9 -->
 
 		<!-- replace dead sky sd channels with working ones from cable -->
+		<insert target="118" source="115" provider="cable_uk_virgin" ></insert> <!-- ITV2 sd -->
+		<insert target="119" source="117" provider="cable_uk_virgin" ></insert> <!-- ITV3 sd -->
+		<insert target="120" source="118" provider="cable_uk_virgin" ></insert> <!-- ITV4 sd -->
 		<insert target="123" source="121" provider="cable_uk_virgin" ></insert> <!-- Sky 2 sd -->
 		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
 		<insert target="156" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
