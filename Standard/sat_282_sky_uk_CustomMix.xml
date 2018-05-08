@@ -5,6 +5,9 @@
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
 		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
 		<insert target="110" source="810" provider="sat_282_sky_uk" ></insert> <!-- Gold HD -->
+		<insert target="118" source="816" provider="sat_282_sky_uk" ></insert> <!-- ITV2 HD -->
+		<insert target="119" source="817" provider="sat_282_sky_uk" ></insert> <!-- ITV3 HD -->
+		<insert target="120" source="818" provider="sat_282_sky_uk" ></insert> <!-- ITV4 HD -->
 		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD --> 
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
@@ -80,9 +83,6 @@
 		<insert target="1018" source="1011" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 9 -->
 
 		<!-- replace dead sky sd channels with working ones from cable -->
-		<insert target="118" source="115" provider="cable_uk_virgin" ></insert> <!-- ITV2 sd -->
-		<insert target="119" source="117" provider="cable_uk_virgin" ></insert> <!-- ITV3 sd -->
-		<insert target="120" source="118" provider="cable_uk_virgin" ></insert> <!-- ITV4 sd -->
 		<insert target="123" source="121" provider="cable_uk_virgin" ></insert> <!-- Sky 2 sd -->
 		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
 		<insert target="156" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
