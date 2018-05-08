@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180507 -->
+<!-- DATE 20180508 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -65,6 +65,10 @@
 		<insert target="441" source="552" provider="cable_uk_virgin" ></insert> <!-- Eurosport 3 sd -->
 		<insert target="442" source="553" provider="cable_uk_virgin" ></insert> <!-- bt Eurosport 4 sd -->
 		<insert target="443" source="554" provider="cable_uk_virgin" ></insert> <!-- bt Eurosport 5 sd -->
+		<insert target="472" source="413" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 1 sd -->
+		<insert target="473" source="414" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 2 sd -->
+		<insert target="474" source="417" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 3 sd -->
+		<insert target="475" source="423" provider="sat_282_sky_uk" ></insert> <!-- BT Sport/espn sd -->
 		<insert target="491" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="492" source="1002" provider="cable_uk_virgin" ></insert> <!-- Virgin Prime Events -->
 		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
@@ -127,6 +131,20 @@
 		<delete target="810"></delete> <!-- Gold -->
 		<delete target="825"></delete> <!-- History -->
 		<delete target="834"></delete> <!-- E! -->
+		<delete target="842"></delete> <!-- Sky PremiereHD -->
+		<delete target="843"></delete> <!-- Sky Hits HD -->
+		<delete target="844"></delete> <!-- Sky Superhero HD -->
+		<delete target="845"></delete> <!-- Sky Disney HD -->
+		<delete target="846"></delete> <!-- Sky Family HD -->
+		<delete target="847"></delete> <!-- Sky Action HD -->
+		<delete target="848"></delete> <!-- Sky Comedy HD -->
+		<delete target="849"></delete> <!-- Sky Thriller HD -->
+		<delete target="850"></delete> <!-- Sky Drama HD -->
+		<delete target="842"></delete> <!-- Sky Classics HD -->
+		<delete target="867"></delete> <!-- BT Sport 1 HD  -->
+		<delete target="868"></delete> <!-- BT Sport 2 HD  -->
+		<delete target="869"></delete> <!-- BT Sport 3 HD  -->
+		<delete target="872"></delete> <!-- BT Sport/ESPN HD  -->
 		<delete target="873"></delete> <!-- LFCTV -->
 		<delete target="882"></delete> <!-- SONY TV -->
 		<delete target="883"></delete> <!-- Star Plus -->
@@ -244,8 +262,6 @@ sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
 for service in sort_list:
 	customised["video"][i] = service[0]
 	i += 1
-
-# Delete sections to sort at a later date
 
 # Create csv file in /tmp directory
 def sortDictFlatAlpha(services):
