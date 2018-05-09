@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180508 -->
+<!-- DATE 20180509 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -140,7 +140,8 @@
 		<delete target="848"></delete> <!-- Sky Comedy HD -->
 		<delete target="849"></delete> <!-- Sky Thriller HD -->
 		<delete target="850"></delete> <!-- Sky Drama HD -->
-		<delete target="842"></delete> <!-- Sky Classics HD -->
+		<delete target="851"></delete> <!-- Sky ScFi/Hur HD -->
+		<delete target="852"></delete> <!-- Sky Classics HD -->
 		<delete target="867"></delete> <!-- BT Sport 1 HD  -->
 		<delete target="868"></delete> <!-- BT Sport 2 HD  -->
 		<delete target="869"></delete> <!-- BT Sport 3 HD  -->
