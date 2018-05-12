@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180509 -->
+<!-- DATE 20180512 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -42,16 +42,17 @@
 		<insert target="215" source="140" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
-		<insert target="303" source="410" provider="cable_uk_virgin" ></insert> <!-- sky drama  hd -->
-		<insert target="304" source="404" provider="cable_uk_virgin" ></insert> <!-- sky greats hd -->
-		<insert target="305" source="405" provider="cable_uk_virgin" ></insert> <!-- sky disney hd -->
-		<insert target="306" source="406" provider="cable_uk_virgin" ></insert> <!-- sky family hd -->
-		<insert target="307" source="407" provider="cable_uk_virgin" ></insert> <!-- sky action hd -->
-		<insert target="308" source="408" provider="cable_uk_virgin" ></insert> <!-- sky comedy hd -->
-		<insert target="309" source="409" provider="cable_uk_virgin" ></insert> <!-- sky thriller hd -->
-		<insert target="310" source="403" provider="cable_uk_virgin" ></insert> <!-- sky hits hd -->
-		<insert target="311" source="411" provider="cable_uk_virgin" ></insert> <!-- sky scifi hd -->
-		<insert target="312" source="412" provider="cable_uk_virgin" ></insert> <!-- sky select hd -->
+		<insert target="302" source="403" provider="cable_uk_virgin" ></insert> <!-- sky hits hd -->
+		<insert target="303" source="404" provider="cable_uk_virgin" ></insert> <!-- sky greats hd -->
+		<insert target="304" source="405" provider="cable_uk_virgin" ></insert> <!-- sky disney hd -->
+		<insert target="305" source="406" provider="cable_uk_virgin" ></insert> <!-- sky family hd -->
+		<insert target="306" source="407" provider="cable_uk_virgin" ></insert> <!-- sky action hd -->
+		<insert target="307" source="408" provider="cable_uk_virgin" ></insert> <!-- sky comedy hd -->
+		<insert target="308" source="409" provider="cable_uk_virgin" ></insert> <!-- sky thriller hd -->
+		<insert target="309" source="410" provider="cable_uk_virgin" ></insert> <!-- sky drama  hd -->
+		<insert target="310" source="411" provider="cable_uk_virgin" ></insert> <!-- sky scifi hd -->
+		<insert target="311" source="412" provider="cable_uk_virgin" ></insert> <!-- sky Classic hd -->
+		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky Premiere+1 hd -->
 		<insert target="313" source="429" provider="cable_uk_virgin" ></insert> <!-- film4 hd -->
 		<insert target="317" source="416" provider="cable_uk_virgin" ></insert> <!-- tcm hd -->
 		<insert target="377" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
