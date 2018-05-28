@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180527 -->
+<!-- DATE 20180528 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -231,8 +231,41 @@
 	<hacks>
 <![CDATA[
 
-]]>
+found_bbc1 = False
+found_bbc2 = False
+found_itv = False
+found_c4 = False
+target_bbc1 = 108
+target_bbc2 = 162
+target_itv = 113
+target_c4 = 141
 
+if "sat_282_sky_uk" in services:
+	for service in range(101, 201) + range(801, 900):
+		if service in services["sat_282_sky_uk"]["video"] and services["sat_282_sky_uk"]["video"][service]["service_type"] in DvbScanner.HD_ALLOWED_TYPES:
+			if services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('bbc one'):
+				if found_bbc1:
+					continue
+				customised["video"][target_bbc1] = services["sat_282_sky_uk"]["video"][service]
+				found_bbc1 = True
+			elif services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('bbc two'):
+				if found_bbc2:
+					continue
+				customised["video"][target_bbc2] = services["sat_282_sky_uk"]["video"][service]
+				found_bbc2 = True
+			elif services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('stv') or services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('itv') and re.search('\d', services["sat_282_sky_uk"]["video"][service]["service_name"]) is None:
+				if found_itv:
+					continue
+				customised["video"][target_itv] = services["sat_282_sky_uk"]["video"][service]
+				found_itv = True
+			elif services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('channel 4'):
+				if found_c4:
+					continue
+				customised["video"][target_c4] = services["sat_282_sky_uk"]["video"][service]
+				found_c4 = True
+			if found_bbc1 and found_bbc2 and found_itv and found_c4:
+				break
+]]>
 	</hacks>
 	<instructions>
 <![CDATA[
