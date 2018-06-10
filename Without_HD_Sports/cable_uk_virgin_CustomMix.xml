@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180528 -->
+<!-- DATE 20180610 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -187,7 +187,10 @@
 		<insert target="823" source="747" provider="sat_282_sky_uk"></insert> <!-- Madani Chnl -->
 		<insert target="824" source="751" provider="sat_282_sky_uk"></insert> <!-- Samaa -->
 		<insert target="825" source="717" provider="sat_282_sky_uk"></insert> <!-- TV5 MONDE -->
-		<insert target="834" source="761" provider="sat_282_sky_uk"></insert> <!-- Hum Europe -->
+		<insert target="830" source="725" provider="sat_282_sky_uk"></insert> <!-- New Vision TV -->
+		<insert target="833" source="761" provider="sat_282_sky_uk"></insert> <!-- Hum Europe -->
+		<insert target="834" source="720" provider="sat_282_sky_uk"></insert> <!-- HUM Massala -->
+		<insert target="835" source="722" provider="sat_282_sky_uk"></insert> <!-- Record TV HD -->
 		<insert target="838" source="727" provider="sat_282_sky_uk"></insert> <!-- Islam Channel -->
 		<insert target="840" source="743" provider="sat_282_sky_uk"></insert> <!-- Brit Asia TV -->
 		<insert target="841" source="765" provider="sat_282_sky_uk"></insert> <!-- Dunya News -->
@@ -195,6 +198,10 @@
 		<insert target="843" source="739" provider="sat_282_sky_uk"></insert> <!-- IQRA TV -->
 		<insert target="844" source="738" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
 		<insert target="845" source="762" provider="sat_282_sky_uk"></insert> <!-- British Muslim -->
+		<insert target="846" source="706" provider="sat_282_sky_uk"></insert> <!-- PCNE Chinese -->
+		<insert target="847" source="708" provider="sat_282_sky_uk"></insert> <!-- mta-muslim tv -->
+		<insert target="849" source="712" provider="sat_282_sky_uk"></insert> <!-- JUS Punjabi -->
+		<insert target="850" source="714" provider="sat_282_sky_uk"></insert> <!-- MATV National-->
 		<insert target="862" source="977" provider="sat_282_sky_uk"></insert> <!-- BBC One ScotHD -->
 		<insert target="863" source="953" provider="sat_282_sky_uk"></insert> <!-- BBC One NI -->
 		<insert target="864" source="978" provider="sat_282_sky_uk"></insert> <!-- BBC One Wal HD -->
