@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180610 -->
+<!-- DATE 20180722 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -12,14 +12,15 @@
 		<insert target="119" source="131" provider="sat_282_sky_uk"></insert> <!-- ITVBe -->
 		<insert target="120" source="231" provider="sat_282_sky_uk"></insert> <!-- ITVBe+1 -->
 		<insert target="123" source="152" provider="sat_282_sky_uk"></insert> <!-- Pick -->
-		<insert target="127" source="811" provider="sat_282_sky_uk"></insert> <!-- Dave -->
-		<insert target="128" source="143" provider="sat_282_sky_uk"></insert> <!-- Drama -->
-		<insert target="129" source="142" provider="sat_282_sky_uk"></insert> <!-- Really -->
+		<insert target="126" source="179" provider="sat_282_sky_uk"></insert> <!-- True Ent -->
+		<insert target="128" source="168" provider="sat_282_sky_uk"></insert> <!-- Your TV -->
+		<insert target="129" source="139" provider="sat_282_sky_uk"></insert> <!-- 4Music -->
+		<insert target="130" source="422" provider="sat_282_sky_uk"></insert> <!-- FreeSports -->
 		<insert target="139" source="145" provider="sat_282_sky_uk"></insert> <!-- Challange -->
 		<insert target="142" source="204" provider="sat_282_sky_uk"></insert> <!-- Channel4 +1 -->
 		<insert target="143" source="137" provider="sat_282_sky_uk"></insert> <!-- 4seven -->
 		<insert target="146" source="235" provider="sat_282_sky_uk"></insert> <!-- E4+1 -->
-		<insert target="147" source="830" provider="sat_282_sky_uk"></insert> <!-- More4 -->
+		<insert target="281" source="830" provider="sat_282_sky_uk"></insert> <!-- More4 -->
 		<insert target="148" source="146" provider="sat_282_sky_uk"></insert> <!-- CBS Reality -->
 		<insert target="149" source="319" provider="sat_282_sky_uk"></insert> <!-- Horror Channel -->
 		<insert target="150" source="805" provider="sat_282_sky_uk"></insert> <!-- Channel 5 HD -->
@@ -39,9 +40,8 @@
 		<insert target="184" source="173" provider="sat_282_sky_uk"></insert> <!-- BET:BlackEntTv -->
 		<insert target="185" source="241" provider="sat_282_sky_uk"></insert> <!-- 5 USA +1 -->
 		<insert target="186" source="228" provider="sat_282_sky_uk"></insert> <!-- 5STAR +1 -->
-		<insert target="189" source="179" provider="sat_282_sky_uk"></insert> <!-- True Ent -->
+		<insert target="190" source="179" provider="sat_282_sky_uk"></insert> <!-- True Ent +1 -->
 		<insert target="192" source="148" provider="sat_282_sky_uk"></insert> <!-- CBS Action -->
-		<insert target="196" source="236" provider="sat_282_sky_uk"></insert> <!-- More4 +1 -->
 		<insert target="197" source="147" provider="sat_282_sky_uk"></insert> <!-- CBS Drama -->
 		<insert target="201" source="246" provider="sat_282_sky_uk"></insert> <!-- CBS Reality+1 -->
 		<insert target="202" source="318" provider="sat_282_sky_uk"></insert> <!-- horror ch+1 -->
@@ -54,7 +54,6 @@
 		<insert target="220" source="192" provider="sat_282_sky_uk"></insert> <!-- Showcase -->
 		<insert target="221" source="292" provider="sat_282_sky_uk"></insert> <!-- Showcase +1 -->
 		<insert target="223" source="181" provider="sat_282_sky_uk"></insert> <!-- Sony Crime 2 -->
-		<insert target="224" source="179" provider="sat_282_sky_uk"></insert> <!-- True Ent +1 -->
 		<insert target="225" source="180" provider="sat_282_sky_uk"></insert> <!-- TruTV +1 -->
 		<insert target="226" source="828" provider="sat_282_sky_uk"></insert> <!-- S4C HD -->
 		<insert target="227" source="175" provider="sat_282_sky_uk"></insert> <!-- BEN -->
@@ -64,13 +63,17 @@
 		<insert target="231" source="185" provider="sat_282_sky_uk"></insert> <!-- Propeller TV -->
 		<insert target="232" source="189" provider="sat_282_sky_uk"></insert> <!-- Property Show -->
 		<insert target="233" source="453" provider="sat_282_sky_uk"></insert> <!-- Yanga! -->
-		<insert target="234" source="168" provider="sat_282_sky_uk"></insert> <!-- Your TV -->
-		<insert target="245" source="155" provider="sat_282_sky_uk"></insert> <!-- YESTERDAY -->
+		<insert target="235" source="811" provider="sat_282_sky_uk"></insert> <!-- Dave -->
+		<insert target="236" source="143" provider="sat_282_sky_uk"></insert> <!-- Drama -->
+		<insert target="237" source="142" provider="sat_282_sky_uk"></insert> <!-- Really -->
+		<insert target="253" source="155" provider="sat_282_sky_uk"></insert> <!-- YESTERDAY -->
 		<insert target="269" source="159" provider="sat_282_sky_uk"></insert> <!-- Together -->
 		<insert target="276" source="160" provider="sat_282_sky_uk"></insert> <!-- PBS America -->
 		<insert target="277" source="450" provider="sat_282_sky_uk"></insert> <!-- Forces TV -->
-		<insert target="281" source="158" provider="sat_282_sky_uk"></insert> <!-- Home -->
-		<insert target="283" source="184" provider="sat_282_sky_uk"></insert> <!-- Horse & Country -->
+		<insert target="279" source="184" provider="sat_282_sky_uk"></insert> <!-- Horse & Country -->
+		<insert target="281" source="830" provider="sat_282_sky_uk"></insert> <!-- More4 -->
+		<insert target="282" source="236" provider="sat_282_sky_uk"></insert> <!-- More4 +1 -->
+		<insert target="283" source="158" provider="sat_282_sky_uk"></insert> <!-- Home -->
 		<insert target="287" source="580" provider="sat_282_sky_uk"></insert> <!-- GOD Channel -->
 		<insert target="288" source="560" provider="sat_282_sky_uk"></insert> <!-- Psychic Today -->
 		<insert target="289" source="199" provider="sat_282_sky_uk"></insert> <!-- Holiday & Cruise -->
@@ -81,18 +84,17 @@
 		<insert target="330" source="358" provider="sat_282_sky_uk"></insert> <!-- Box Upfront -->
 		<insert target="335" source="359" provider="sat_282_sky_uk"></insert> <!-- The Box -->
 		<insert target="336" source="360" provider="sat_282_sky_uk"></insert> <!-- Box Hits -->
-		<insert target="337" source="139" provider="sat_282_sky_uk"></insert> <!-- 4Music -->
 		<insert target="338" source="361" provider="sat_282_sky_uk"></insert> <!-- KISS -->
 		<insert target="340" source="362" provider="sat_282_sky_uk"></insert> <!-- Magic -->
 		<insert target="342" source="363" provider="sat_282_sky_uk"></insert> <!-- Kerrang! -->
 		<insert target="343" source="367" provider="sat_282_sky_uk"></insert> <!-- Vintage TV -->
+		<insert target="344" source="365" provider="sat_282_sky_uk"></insert> <!-- The Vault -->
 		<insert target="345" source="372" provider="sat_282_sky_uk"></insert> <!-- Clubland TV -->
-		<insert target="346" source="365" provider="sat_282_sky_uk"></insert> <!-- The Vault -->
+		<insert target="346" source="371" provider="sat_282_sky_uk"></insert> <!-- NOW 80s -->
 		<insert target="347" source="366" provider="sat_282_sky_uk"></insert> <!-- Scuzz -->
 		<insert target="348" source="368" provider="sat_282_sky_uk"></insert> <!-- Chilled 90s -->
 		<insert target="349" source="369" provider="sat_282_sky_uk"></insert> <!-- Starz TV -->
 		<insert target="350" source="370" provider="sat_282_sky_uk"></insert> <!-- Chartshow Hits -->
-		<insert target="352" source="371" provider="sat_282_sky_uk"></insert> <!-- NOW 80s -->
 		<insert target="353" source="373" provider="sat_282_sky_uk"></insert> <!-- Channel AKA -->
 		<insert target="358" source="374" provider="sat_282_sky_uk"></insert> <!-- Heart TV -->
 		<insert target="359" source="375" provider="sat_282_sky_uk"></insert> <!-- Capital TV -->
@@ -108,7 +110,6 @@
 		<insert target="447" source="329" provider="sat_282_sky_uk"></insert> <!-- ROK TV -->
 		<insert target="448" source="320" provider="sat_282_sky_uk"></insert> <!-- True Movies +1 -->
 		<insert target="545" source="429" provider="sat_282_sky_uk"></insert> <!-- Motorstport.tv -->
-		<insert target="525" source="422" provider="sat_282_sky_uk"></insert> <!-- FreeSports -->
 		<insert target="552" source="431" provider="sat_282_sky_uk"></insert> <!-- Front Runner TV -->
 		<insert target="555" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="601" source="503" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS -->
