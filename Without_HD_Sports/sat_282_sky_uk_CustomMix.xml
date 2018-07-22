@@ -1,10 +1,12 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180512 -->
+<!-- DATE 20180722 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
 		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
+		<insert target="109" source="809" provider="sat_282_sky_uk" ></insert> <!-- Watch HD -->
 		<insert target="110" source="810" provider="sat_282_sky_uk" ></insert> <!-- Gold HD -->
+		<insert target="111" source="143" provider="sat_282_sky_uk" ></insert> <!-- dave SD -->
 		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD --> 
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
@@ -16,8 +18,6 @@
 		<!-- replace sky hd channels with working ones from cable -->
 		<insert target="106" source="109" provider="cable_uk_virgin" ></insert> <!-- sky one hd -->
 		<insert target="107" source="111" provider="cable_uk_virgin" ></insert> <!-- sky living hd -->
-		<insert target="109" source="191" provider="cable_uk_virgin" ></insert> <!-- watch hd -->
-		<insert target="111" source="194" provider="cable_uk_virgin" ></insert> <!-- dave hd -->
 		<insert target="112" source="181" provider="cable_uk_virgin" ></insert> <!-- comedy central hd -->
 		<insert target="113" source="164" provider="cable_uk_virgin" ></insert> <!-- Universal hd -->
 		<insert target="114" source="165" provider="cable_uk_virgin" ></insert> <!-- syfy hd -->
@@ -54,7 +54,7 @@
 		<insert target="311" source="412" provider="cable_uk_virgin" ></insert> <!-- sky Classic hd -->
 		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky Premiere+1 hd -->
 		<insert target="313" source="429" provider="cable_uk_virgin" ></insert> <!-- film4 hd -->
-		<insert target="317" source="416" provider="cable_uk_virgin" ></insert> <!-- tcm hd -->
+		<insert target="315" source="416" provider="cable_uk_virgin" ></insert> <!-- tcm hd -->
 		<insert target="377" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
 		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
 		<insert target="410" source="521" provider="cable_uk_virgin" ></insert> <!-- british eurosport hd -->
@@ -128,8 +128,10 @@
 		<delete target="645"></delete> <!-- Disney XD -->
 		<delete target="648"></delete> <!-- Nick Jnr -->
 		<delete target="777"></delete> <!-- VTV -->
-		<delete target="808"></delete> <!-- Star Atlantic -->
+		<delete target="808"></delete> <!-- Sky Atlantic -->
+		<delete target="809"></delete> <!-- Watch -->
 		<delete target="810"></delete> <!-- Gold -->
+		<delete target="811"></delete> <!-- Dave -->
 		<delete target="825"></delete> <!-- History -->
 		<delete target="834"></delete> <!-- E! -->
 		<delete target="842"></delete> <!-- Sky PremiereHD -->
