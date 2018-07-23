@@ -7,6 +7,7 @@
 		<insert target="109" source="809" provider="sat_282_sky_uk" ></insert> <!-- Watch HD -->
 		<insert target="110" source="810" provider="sat_282_sky_uk" ></insert> <!-- Gold HD -->
 		<insert target="111" source="811" provider="sat_282_sky_uk" ></insert> <!-- dave SD -->
+		<insert target="132" source="826" provider="sat_282_sky_uk" ></insert> <!-- Alibi HD -->
 		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD --> 
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
@@ -28,7 +29,6 @@
 		<insert target="126" source="183" provider="cable_uk_virgin" ></insert> <!-- mtv hd -->
 		<insert target="129" source="268" provider="cable_uk_virgin" ></insert> <!-- nat geographic hd -->
 		<insert target="131" source="179" provider="cable_uk_virgin" ></insert> <!-- itvbe hd -->
-		<insert target="132" source="200" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
 		<insert target="133" source="280" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
 		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
@@ -38,7 +38,6 @@
 		<insert target="163" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
 		<insert target="164" source="209" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
 		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
-		<insert target="166" source="249" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
 		<insert target="215" source="140" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
@@ -133,6 +132,7 @@
 		<delete target="810"></delete> <!-- Gold -->
 		<delete target="811"></delete> <!-- Dave -->
 		<delete target="825"></delete> <!-- History -->
+		<delete target="826"></delete> <!-- Alibi -->
 		<delete target="834"></delete> <!-- E! -->
 		<delete target="842"></delete> <!-- Sky PremiereHD -->
 		<delete target="843"></delete> <!-- Sky Hits HD -->
