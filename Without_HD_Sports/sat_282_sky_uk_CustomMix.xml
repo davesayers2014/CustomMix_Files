@@ -1,12 +1,12 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20180722 -->
+<!-- DATE 20180723 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
 		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
 		<insert target="109" source="809" provider="sat_282_sky_uk" ></insert> <!-- Watch HD -->
 		<insert target="110" source="810" provider="sat_282_sky_uk" ></insert> <!-- Gold HD -->
-		<insert target="111" source="143" provider="sat_282_sky_uk" ></insert> <!-- dave SD -->
+		<insert target="111" source="811" provider="sat_282_sky_uk" ></insert> <!-- dave SD -->
 		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD --> 
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
