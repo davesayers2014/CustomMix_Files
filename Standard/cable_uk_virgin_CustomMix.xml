@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180722 -->
+<!-- DATE 20180801 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -42,6 +42,7 @@
 		<insert target="186" source="228" provider="sat_282_sky_uk"></insert> <!-- 5STAR +1 -->
 		<insert target="190" source="179" provider="sat_282_sky_uk"></insert> <!-- True Ent +1 -->
 		<insert target="192" source="148" provider="sat_282_sky_uk"></insert> <!-- CBS Action -->
+		<insert target="194" source="217" provider="cable_uk_virgin" ></insert> <!-- Quest HD -->
 		<insert target="197" source="147" provider="sat_282_sky_uk"></insert> <!-- CBS Drama -->
 		<insert target="201" source="246" provider="sat_282_sky_uk"></insert> <!-- CBS Reality+1 -->
 		<insert target="202" source="318" provider="sat_282_sky_uk"></insert> <!-- horror ch+1 -->
@@ -110,7 +111,7 @@
 		<insert target="447" source="329" provider="sat_282_sky_uk"></insert> <!-- ROK TV -->
 		<insert target="448" source="320" provider="sat_282_sky_uk"></insert> <!-- True Movies +1 -->
 		<insert target="545" source="429" provider="sat_282_sky_uk"></insert> <!-- Motorstport.tv -->
-		<insert target="552" source="431" provider="sat_282_sky_uk"></insert> <!-- Front Runner TV -->
+		<insert target="554" source="431" provider="sat_282_sky_uk"></insert> <!-- Front Runner TV -->
 		<insert target="555" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="601" source="503" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS -->
 		<insert target="602" source="875" provider="sat_282_sky_uk"></insert> <!-- Sky News -->
