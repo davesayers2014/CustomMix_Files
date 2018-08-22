@@ -5,7 +5,7 @@
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
 		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
 		<insert target="110" source="810" provider="sat_282_sky_uk" ></insert> <!-- Gold HD -->
-		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD --> 
+		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD -->
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
 		<insert target="705" source="883" provider="sat_282_sky_uk" ></insert> <!-- Star Plus HD -->
@@ -16,7 +16,7 @@
 		<!-- replace sky hd channels with working ones from cable -->
 		<insert target="106" source="109" provider="cable_uk_virgin" ></insert> <!-- sky one hd -->
 		<insert target="107" source="111" provider="cable_uk_virgin" ></insert> <!-- sky living hd -->
-		<insert target="109" source="191" provider="cable_uk_virgin" ></insert> <!-- watch hd -->	
+		<insert target="109" source="191" provider="cable_uk_virgin" ></insert> <!-- watch hd -->
 		<insert target="111" source="194" provider="cable_uk_virgin" ></insert> <!-- dave hd -->
 		<insert target="112" source="181" provider="cable_uk_virgin" ></insert> <!-- comedy central hd -->
 		<insert target="113" source="164" provider="cable_uk_virgin" ></insert> <!-- Universal hd -->
@@ -32,7 +32,7 @@
 		<insert target="133" source="280" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
 		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
-		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven HD hd --> 
+		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven HD hd -->
 		<insert target="140" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
 		<insert target="162" source="257" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
 		<insert target="163" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
