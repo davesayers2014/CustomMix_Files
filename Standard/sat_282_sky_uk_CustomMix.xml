@@ -35,6 +35,7 @@
 		<insert target="133" source="280" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
 		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
+		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven hd -->
 		<insert target="140" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
 		<insert target="162" source="257" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
 		<insert target="163" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
