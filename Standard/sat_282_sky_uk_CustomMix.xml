@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20181004 -->
+<!-- DATE 20181005 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -145,6 +145,14 @@
 		<delete target="850"></delete> <!-- Sky Drama HD -->
 		<delete target="851"></delete> <!-- Sky ScFi/Hur HD -->
 		<delete target="852"></delete> <!-- Sky Classics HD -->
+		<delete target="855"></delete> <!-- Sky Sports Main Event -->
+		<delete target="856"></delete> <!-- Sky Sports PL -->
+		<delete target="857"></delete> <!-- Sky Sports Football -->
+		<delete target="858"></delete> <!-- Sky Sports Cricket -->
+		<delete target="859"></delete> <!-- Sky Sports Golf -->
+		<delete target="860"></delete> <!-- Sky Sports F1t -->
+		<delete target="861"></delete> <!-- Sky Sports Action -->
+		<delete target="862"></delete> <!-- Sky Sports Arena -->
 		<delete target="867"></delete> <!-- BT Sport 1 HD  -->
 		<delete target="868"></delete> <!-- BT Sport 2 HD  -->
 		<delete target="869"></delete> <!-- BT Sport 3 HD  -->
