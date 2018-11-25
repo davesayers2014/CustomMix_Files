@@ -6,11 +6,8 @@
 		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
 		<insert target="151" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD -->
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
-		<insert target="703" source="882" provider="sat_282_sky_uk" ></insert> <!-- SONY TV HD -->
-		<insert target="705" source="883" provider="sat_282_sky_uk" ></insert> <!-- Star Plus HD -->
 		<insert target="707" source="884" provider="sat_282_sky_uk" ></insert> <!-- Colors HD -->
 		<insert target="709" source="885" provider="sat_282_sky_uk" ></insert> <!-- Zee TV -->
-		<insert target="719" source="886" provider="sat_282_sky_uk" ></insert> <!-- SONY MAX HD -->
 		<insert target="729" source="887" provider="sat_282_sky_uk" ></insert> <!-- Star GOLD HD -->
 		<!-- replace sky hd channels with working ones from cable -->
 		<insert target="106" source="109" provider="cable_uk_virgin" ></insert> <!-- sky one hd -->
@@ -71,10 +68,12 @@
 		<insert target="474" source="417" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 3 sd -->
 		<insert target="475" source="423" provider="sat_282_sky_uk" ></insert> <!-- BT Sport/espn sd -->
 		<insert target="491" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
-		<insert target="492" source="1002" provider="cable_uk_virgin" ></insert> <!-- Virgin Prime Events -->
 		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
+		<insert target="703" source="805" provider="cable_uk_virgin" ></insert> <!-- SONY TV HD -->
+		<insert target="705" source="803" provider="cable_uk_virgin" ></insert> <!-- Star +1 hd -->
+		<insert target="719" source="806" provider="cable_uk_virgin" ></insert> <!-- Sony Max hd -->
 		<insert target="1010" source="1003" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 1 -->
 		<insert target="1011" source="1004" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 2 -->
 		<insert target="1012" source="1005" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 3 -->
@@ -122,6 +121,7 @@
 	</inserts>
 	<deletes>
 		<!-- Delete channels that have been swapped, to remove duplication -->
+		<delete target="490"></delete> <!-- BTSptBoxOffHD -->
 		<delete target="493"></delete> <!-- ITV Box Office -->
 		<delete target="835"></delete> <!-- Crime & Investigation -->
 		<delete target="641"></delete> <!-- boomerang sd -->
@@ -158,11 +158,8 @@
 		<delete target="869"></delete> <!-- BT Sport 3 HD  -->
 		<delete target="872"></delete> <!-- BT Sport/ESPN HD  -->
 		<delete target="873"></delete> <!-- LFCTV -->
-		<delete target="882"></delete> <!-- SONY TV -->
-		<delete target="883"></delete> <!-- Star Plus -->
 		<delete target="884"></delete> <!-- Colors HD -->
 		<delete target="885"></delete> <!-- Zee TV -->
-		<delete target="886"></delete> <!-- SONY MAX HD -->
 		<delete target="887"></delete> <!-- Star GOLD HD -->
 	</deletes>
 	<hacks>
