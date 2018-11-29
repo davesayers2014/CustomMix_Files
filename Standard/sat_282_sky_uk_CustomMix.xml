@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20181126 -->
+<!-- DATE 20181129 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -104,9 +104,9 @@
 		<insert target="407" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
 		<insert target="408" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
 		<insert target="412" source="551" provider="cable_uk_virgin" ></insert> <!-- premier sports hd -->
+		<insert target="415" source="535" provider="cable_uk_virgin" ></insert> <!-- At The Races -->
 		<insert target="422" source="553" provider="cable_uk_virgin" ></insert> <!-- freesports hd -->
 		<insert target="425" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
-		<insert target="470" source="290" provider="cable_uk_virgin" ></insert> <!-- Ginx tv -->
 		<insert target="605" source="713" provider="cable_uk_virgin" ></insert> <!-- Nickelodeon +1 -->
 		<insert target="607" source="727" provider="cable_uk_virgin" ></insert> <!-- disny Jnr -->
 		<insert target="609" source="724" provider="cable_uk_virgin" ></insert> <!-- disny channel -->
@@ -190,7 +190,6 @@ channels_to_add_by_id = {
 	#alternatives
 	2709: 127, # ComedyXtra
 	3705: 812, # ComedyCentral
-	1355: 415, # At the races
 	5527: 606, # Nicktoons
 	3356: 615, # Nick Jr
 	2517: 642, # Nicelodeon
