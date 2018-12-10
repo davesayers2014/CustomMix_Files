@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20181202 -->
+<!-- DATE 20181210 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -9,9 +9,9 @@
 		<!-- replace sky hd channels with working ones from cable -->
 		<insert target="106" source="109" provider="cable_uk_virgin" ></insert> <!-- sky one hd -->
 		<insert target="107" source="111" provider="cable_uk_virgin" ></insert> <!-- sky living hd -->
-		<insert target="109" source="191" provider="cable_uk_virgin" ></insert> <!-- watch hd -->
+		<insert target="109" source="211" provider="cable_uk_virgin" ></insert> <!-- watch hd -->
 		<insert target="110" source="124" provider="cable_uk_virgin" ></insert> <!-- Gold HD -->
-		<insert target="111" source="194" provider="cable_uk_virgin" ></insert> <!-- dave hd -->
+		<insert target="111" source="227" provider="cable_uk_virgin" ></insert> <!-- dave hd -->
 		<insert target="112" source="181" provider="cable_uk_virgin" ></insert> <!-- comedy central hd -->
 		<insert target="113" source="164" provider="cable_uk_virgin" ></insert> <!-- Universal hd -->
 		<insert target="114" source="165" provider="cable_uk_virgin" ></insert> <!-- syfy hd -->
@@ -25,8 +25,8 @@
 		<insert target="126" source="183" provider="cable_uk_virgin" ></insert> <!-- mtv hd -->
 		<insert target="129" source="268" provider="cable_uk_virgin" ></insert> <!-- nat geographic hd -->
 		<insert target="131" source="179" provider="cable_uk_virgin" ></insert> <!-- itvbe hd -->
-		<insert target="132" source="200" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
-		<insert target="133" source="280" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
+		<insert target="132" source="226" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
+		<insert target="133" source="279" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
 		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
 		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven hd -->
@@ -35,7 +35,7 @@
 		<insert target="163" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
 		<insert target="164" source="209" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
 		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
-		<insert target="166" source="249" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
+		<insert target="166" source="247" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
 		<insert target="215" source="140" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
@@ -87,8 +87,7 @@
 		<insert target="123" source="121" provider="cable_uk_virgin" ></insert> <!-- Sky 2 sd -->
 		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
 		<insert target="156" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
-		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
-		<insert target="210" source="190" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
+		<insert target="210" source="194" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
 		<insert target="224" source="158" provider="cable_uk_virgin" ></insert> <!-- Fox +1 sd -->
 		<insert target="207" source="140" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
 		<insert target="230" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
@@ -347,7 +346,7 @@ ABM Providers Setup screen:
 info = "- Reccomended for Dsayers Virgin UK into Sky UK\n"
 info += "- AutoBouquetsMaker, Configure 'not indexed' channels yes\n\n"
 info += "- All providers need to be no apart from Sky UK and virgin UK needs to be yes\n"
-info += "- Sky uk: area HD not custom or sd\n"
+info += "- Sky uk: area HD not SD Custom or SD\n"
 info += "-Generate bouquets yes (generate main bouquet optional)\n"
 info += "-Channel swap to optional\n"
 info += "-Virgin uk: yes\n"
