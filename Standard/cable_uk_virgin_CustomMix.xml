@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20180812 -->
+<!-- DATE 20181211 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -13,8 +13,9 @@
 		<insert target="120" source="231" provider="sat_282_sky_uk"></insert> <!-- ITVBe+1 -->
 		<insert target="123" source="152" provider="sat_282_sky_uk"></insert> <!-- Pick -->
 		<insert target="127" source="811" provider="sat_282_sky_uk"></insert> <!-- Dave -->
-		<insert target="128" source="143" provider="sat_282_sky_uk"></insert> <!-- Drama -->
-		<insert target="129" source="142" provider="sat_282_sky_uk"></insert> <!-- Really -->
+		<insert target="128" source="142" provider="sat_282_sky_uk"></insert> <!-- Really -->
+		<insert target="129" source="155" provider="sat_282_sky_uk"></insert> <!-- YESTERDAY -->
+		<insert target="130" source="143" provider="sat_282_sky_uk"></insert> <!-- Drama -->
 		<insert target="139" source="145" provider="sat_282_sky_uk"></insert> <!-- Challange -->
 		<insert target="142" source="204" provider="sat_282_sky_uk"></insert> <!-- Channel4 +1 -->
 		<insert target="143" source="137" provider="sat_282_sky_uk"></insert> <!-- 4seven -->
@@ -66,7 +67,6 @@
 		<insert target="232" source="189" provider="sat_282_sky_uk"></insert> <!-- Property Show -->
 		<insert target="233" source="453" provider="sat_282_sky_uk"></insert> <!-- Yanga! -->
 		<insert target="234" source="168" provider="sat_282_sky_uk"></insert> <!-- Your TV -->
-		<insert target="245" source="155" provider="sat_282_sky_uk"></insert> <!-- YESTERDAY -->
 		<insert target="269" source="159" provider="sat_282_sky_uk"></insert> <!-- Together -->
 		<insert target="276" source="160" provider="sat_282_sky_uk"></insert> <!-- PBS America -->
 		<insert target="277" source="450" provider="sat_282_sky_uk"></insert> <!-- Forces TV -->
