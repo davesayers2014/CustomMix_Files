@@ -202,6 +202,7 @@
 		<insert target="846" source="706" provider="sat_282_sky_uk"></insert> <!-- PCNE Chinese -->
 		<insert target="847" source="708" provider="sat_282_sky_uk"></insert> <!-- mta-muslim tv -->
 		<insert target="848" source="713" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
+		<insert target="849" source="783" provider="sat_282_sky_uk"></insert> <!-- PTV Prime -->
 		<insert target="850" source="714" provider="sat_282_sky_uk"></insert> <!-- MATV National-->
 		<insert target="862" source="977" provider="sat_282_sky_uk"></insert> <!-- BBC One ScotHD -->
 		<insert target="863" source="953" provider="sat_282_sky_uk"></insert> <!-- BBC One NI -->
