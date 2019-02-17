@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20181211 -->
+<!-- DATE 20190217 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -176,7 +176,7 @@
 		<insert target="765" source="679" provider="sat_282_sky_uk"></insert> <!-- Thane -->
 		<insert target="766" source="676" provider="sat_282_sky_uk"></insert> <!-- TV Warehouse -->
 		<insert target="767" source="680" provider="sat_282_sky_uk"></insert> <!-- V Channel -->
-		<insert target="802" source="713" provider="sat_282_sky_uk"></insert> <!-- PTV Prime -->
+		<insert target="802" source="704" provider="sat_282_sky_uk"></insert> <!-- Star Bharat -->
 		<insert target="808" source="724" provider="sat_282_sky_uk"></insert> <!-- PTV Global -->
 		<insert target="814" source="721" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
 		<insert target="817" source="723" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
@@ -201,7 +201,7 @@
 		<insert target="845" source="762" provider="sat_282_sky_uk"></insert> <!-- British Muslim -->
 		<insert target="846" source="706" provider="sat_282_sky_uk"></insert> <!-- PCNE Chinese -->
 		<insert target="847" source="708" provider="sat_282_sky_uk"></insert> <!-- mta-muslim tv -->
-		<insert target="849" source="712" provider="sat_282_sky_uk"></insert> <!-- JUS Punjabi -->
+		<insert target="848" source="713" provider="sat_282_sky_uk"></insert> <!-- AAJ TAK -->
 		<insert target="850" source="714" provider="sat_282_sky_uk"></insert> <!-- MATV National-->
 		<insert target="862" source="977" provider="sat_282_sky_uk"></insert> <!-- BBC One ScotHD -->
 		<insert target="863" source="953" provider="sat_282_sky_uk"></insert> <!-- BBC One NI -->
