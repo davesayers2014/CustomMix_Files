@@ -176,7 +176,6 @@
 		<insert target="765" source="679" provider="sat_282_sky_uk"></insert> <!-- Thane -->
 		<insert target="766" source="676" provider="sat_282_sky_uk"></insert> <!-- TV Warehouse -->
 		<insert target="767" source="680" provider="sat_282_sky_uk"></insert> <!-- V Channel -->
-		<insert target="802" source="704" provider="sat_282_sky_uk"></insert> <!-- Star Bharat -->
 		<insert target="808" source="724" provider="sat_282_sky_uk"></insert> <!-- PTV Global -->
 		<insert target="814" source="721" provider="sat_282_sky_uk"></insert> <!-- Hidayat TV -->
 		<insert target="817" source="723" provider="sat_282_sky_uk"></insert> <!-- GEO News -->
