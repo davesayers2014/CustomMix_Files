@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20190217 -->
+<!-- DATE 20190626 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -137,6 +137,7 @@
 		<insert target="634" source="514" provider="sat_282_sky_uk"></insert> <!-- CNC World -->
 		<insert target="635" source="519" provider="sat_282_sky_uk"></insert> <!-- Times Now -->
 		<insert target="636" source="515" provider="sat_282_sky_uk"></insert> <!-- TVC News -->
+		<insert target="637" source="719" provider="sat_282_sky_uk"></insert> <!-- ABP News -->
 		<insert target="701" source="613" provider="sat_282_sky_uk"></insert> <!-- CBBC -->
 		<insert target="702" source="614" provider="sat_282_sky_uk"></insert> <!-- CBeebies -->
 		<insert target="710" source="646" provider="sat_282_sky_uk"></insert> <!-- CBBC HD -->
@@ -239,40 +240,47 @@
 	<hacks>
 <![CDATA[
 
-found_bbc1 = False
-found_bbc2 = False
-found_itv = False
-found_c4 = False
-target_bbc1 = 108
-target_bbc2 = 162
-target_itv = 113
-target_c4 = 141
+source = "sat_282_sky_uk"
+dest = "cable_uk_virgin"
 
-if "sat_282_sky_uk" in services:
-	for service in range(101, 201) + range(801, 900):
-		if service in services["sat_282_sky_uk"]["video"] and services["sat_282_sky_uk"]["video"][service]["service_type"] in DvbScanner.HD_ALLOWED_TYPES:
-			if services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('bbc one'):
-				if found_bbc1:
-					continue
-				customised["video"][target_bbc1] = services["sat_282_sky_uk"]["video"][service]
-				found_bbc1 = True
-			elif services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('bbc two'):
-				if found_bbc2:
-					continue
-				customised["video"][target_bbc2] = services["sat_282_sky_uk"]["video"][service]
-				found_bbc2 = True
-			elif services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('stv') or services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('itv') and re.search('\d', services["sat_282_sky_uk"]["video"][service]["service_name"]) is None:
-				if found_itv:
-					continue
-				customised["video"][target_itv] = services["sat_282_sky_uk"]["video"][service]
-				found_itv = True
-			elif services["sat_282_sky_uk"]["video"][service]["service_name"].lower().startswith('channel 4'):
-				if found_c4:
-					continue
-				customised["video"][target_c4] = services["sat_282_sky_uk"]["video"][service]
-				found_c4 = True
-			if found_bbc1 and found_bbc2 and found_itv and found_c4:
+move_dict = {
+	'bbc one': {"source": None, "dest": None}, 
+	'bbc two': {"source": None, "dest": None},
+	'itv': {"source": None, "dest": None},
+	'channel 4': {"source": None, "dest": None},
+	'stv': {"source": None, "dest": None},
+	'utv': {"source": None, "dest": None},
+}
+
+avoid_list = [ # lower case
+	"itv2 hd",
+	"itv3 hd",
+	"itv4 hd",
+]
+
+if source in services and dest in services:
+	for key in move_dict.keys():
+		for service in range(101, 201) + range(801, 1000):
+			if move_dict[key]["source"] is None and \
+				service in services[source]["video"] and \
+				services[source]["video"][service]["service_type"] in DvbScanner.HD_ALLOWED_TYPES and \
+				services[source]["video"][service]["service_name"].lower().startswith(key) and \
+				services[source]["video"][service]["service_name"].lower() not in avoid_list:
+				move_dict[key]["source"] = service
+			if move_dict[key]["dest"] is None and \
+				service in services[dest]["video"] and \
+				services[dest]["video"][service]["service_type"] in DvbScanner.HD_ALLOWED_TYPES and \
+				services[dest]["video"][service]["service_name"].lower().startswith(key) and \
+				services[dest]["video"][service]["service_name"].lower() not in avoid_list:
+				move_dict[key]["dest"] = service
+			if move_dict[key]["source"] and move_dict[key]["dest"]:
 				break
+				
+print move_dict
+
+for key in move_dict.keys():
+	if move_dict[key]["source"] and move_dict[key]["dest"]:
+		customised["video"][move_dict[key]["dest"]] = services[source]["video"][move_dict[key]["source"]]
 ]]>
 	</hacks>
 	<instructions>
