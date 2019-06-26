@@ -33,7 +33,7 @@
 		<insert target="163" source="815" provider="sat_282_sky_uk"></insert> <!-- BBC Four HD -->
 		<insert target="166" source="134" provider="sat_282_sky_uk"></insert> <!-- S4C -->
 		<insert target="172" source="144" provider="sat_282_sky_uk"></insert> <!-- Quest -->
-		<insert target="173" source="295" provider="sat_282_sky_uk"></insert> <!-- Quest +1 -->
+		<insert target="173" source="244" provider="sat_282_sky_uk"></insert> <!-- Quest +1 -->
 		<insert target="174" source="219" provider="sat_282_sky_uk"></insert> <!-- ITV3+1 -->
 		<insert target="175" source="220" provider="sat_282_sky_uk"></insert> <!-- ITV4+1 -->
 		<insert target="180" source="245" provider="sat_282_sky_uk"></insert> <!-- Challenge+1 -->
