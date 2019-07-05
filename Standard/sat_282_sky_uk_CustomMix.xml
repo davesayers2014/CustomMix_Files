@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20190227 -->
+<!-- DATE 20190705 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -126,7 +126,6 @@
 		<delete target="644"></delete> <!-- Disney Channel -->
 		<delete target="645"></delete> <!-- Disney XD -->
 		<delete target="648"></delete> <!-- Nick Jnr -->
-		<delete target="777"></delete> <!-- VTV -->
 		<delete target="808"></delete> <!-- Sky Atlantic -->
 		<delete target="810"></delete> <!-- Gold -->
 		<delete target="825"></delete> <!-- History -->
