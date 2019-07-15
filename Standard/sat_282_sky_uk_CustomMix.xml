@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20190705 -->
+<!-- DATE 20190715 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -68,11 +68,13 @@
 		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
+		<insert target="648" source="739" provider="cable_uk_virgin" ></insert> <!-- ZooMoo HD -->
 		<insert target="703" source="805" provider="cable_uk_virgin" ></insert> <!-- SONY TV HD -->
 		<insert target="705" source="803" provider="cable_uk_virgin" ></insert> <!-- Star +1 hd -->
 		<insert target="709" source="809" provider="cable_uk_virgin" ></insert> <!-- Zee TV HD -->
-		<insert target="729" source="801" provider="cable_uk_virgin" ></insert> <!-- Star Gold hd -->
-		<insert target="719" source="806" provider="cable_uk_virgin" ></insert> <!-- Sony Max hd -->
+		<insert target="713" source="841" provider="cable_uk_virgin" ></insert> <!-- MTV Beats -->
+		<insert target="717" source="801" provider="cable_uk_virgin" ></insert> <!-- Star Gold hd -->
+		<insert target="715" source="806" provider="cable_uk_virgin" ></insert> <!-- Sony Max hd -->
 		<insert target="1010" source="1003" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 1 -->
 		<insert target="1011" source="1004" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 2 -->
 		<insert target="1012" source="1005" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 3 -->
@@ -112,7 +114,6 @@
 		<insert target="612" source="708" provider="cable_uk_virgin" ></insert> <!-- disny xd +1 -->
 		<insert target="619" source="706" provider="cable_uk_virgin" ></insert> <!-- cartoonito -->
 		<insert target="622" source="703" provider="cable_uk_virgin" ></insert> <!-- BabyTV -->
-		<insert target="710" source="813" provider="cable_uk_virgin" ></insert> <!-- zing -->
 		<insert target="711" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
 		<insert target="819" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
 	</inserts>
