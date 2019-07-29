@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20190715 -->
+<!-- DATE 20190729 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -26,16 +26,17 @@
 		<insert target="129" source="268" provider="cable_uk_virgin" ></insert> <!-- nat geographic hd -->
 		<insert target="131" source="179" provider="cable_uk_virgin" ></insert> <!-- itvbe hd -->
 		<insert target="132" source="226" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
-		<insert target="133" source="279" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
+		<insert target="133" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
 		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
 		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven hd -->
-		<insert target="140" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
+		<insert target="156" source="209" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation HD -->
 		<insert target="162" source="257" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
 		<insert target="163" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
-		<insert target="164" source="209" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
+		<insert target="164" source="208" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
 		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
 		<insert target="166" source="247" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
+		<insert target="198" source="279" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
 		<insert target="215" source="140" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
@@ -155,6 +156,7 @@
 		<delete target="869"></delete> <!-- BT Sport 3 HD  -->
 		<delete target="872"></delete> <!-- BT Sport/ESPN HD  -->
 		<delete target="873"></delete> <!-- LFCTV -->
+		<delete target="888"></delete> <!-- Sky Sports Racing -->
 	</deletes>
 	<hacks>
 <![CDATA[
