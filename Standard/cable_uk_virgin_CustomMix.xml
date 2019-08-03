@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20190703 -->
+<!-- DATE 20190803 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -210,18 +210,16 @@
 		<insert target="987" source="912" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV -->
 		<insert target="988" source="923" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV 2 -->
 		<insert target="989" source="924" provider="sat_282_sky_uk"></insert> <!-- Studio 66 TV 3 -->
-		<!-- Move sky sport SD channels into HD slots -->
-		<insert target="501" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
-		<insert target="502" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
-		<insert target="503" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
-		<insert target="504" source="514" provider="cable_uk_virgin" ></insert> <!-- sky sports Cricket sd -->
-		<insert target="505" source="515" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf sd -->
-		<insert target="506" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
-		<insert target="507" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
-		<insert target="508" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
 	</inserts>
   	<deletes>
-		<!-- Delete channels that have been swapped, to remove duplication -->
+		<!-- Delete channels -->
+		<delete target="501"></delete>
+		<delete target="502"></delete>
+		<delete target="504"></delete>
+		<delete target="505"></delete>
+		<delete target="506"></delete>
+		<delete target="507"></delete>
+		<delete target="508"></delete>
 		<delete target="511"></delete>
 		<delete target="512"></delete>
 		<delete target="513"></delete>

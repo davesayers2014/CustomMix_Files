@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20190729 -->
+<!-- DATE 20190803 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -54,6 +54,7 @@
 		<insert target="313" source="429" provider="cable_uk_virgin" ></insert> <!-- film4 hd -->
 		<insert target="315" source="416" provider="cable_uk_virgin" ></insert> <!-- tcm hd -->
 		<insert target="377" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
+		<insert target="403" source="503" provider="cable_uk_virgin" ></insert> <!-- sky sports Football HD hd -->
 		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
 		<insert target="410" source="521" provider="cable_uk_virgin" ></insert> <!-- british eurosport hd -->
 		<insert target="411" source="522" provider="cable_uk_virgin" ></insert> <!-- british eurosport 2 hd -->
@@ -96,14 +97,6 @@
 		<insert target="230" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
 		<insert target="270" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
 		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
-		<insert target="401" source="511" provider="cable_uk_virgin" ></insert> <!-- sky sports Main Event sd -->
-		<insert target="402" source="512" provider="cable_uk_virgin" ></insert> <!-- sky sports Main PL sd -->
-		<insert target="403" source="513" provider="cable_uk_virgin" ></insert> <!-- sky sports Football sd -->
-		<insert target="404" source="514" provider="cable_uk_virgin" ></insert> <!-- sky sports Cricket sd -->
-		<insert target="405" source="515" provider="cable_uk_virgin" ></insert> <!-- sky sports Golf sd -->
-		<insert target="406" source="516" provider="cable_uk_virgin" ></insert> <!-- sky sports F1 sd -->
-		<insert target="407" source="517" provider="cable_uk_virgin" ></insert> <!-- sky sports Action sd -->
-		<insert target="408" source="518" provider="cable_uk_virgin" ></insert> <!-- sky sports Arena sd -->
 		<insert target="412" source="551" provider="cable_uk_virgin" ></insert> <!-- premier sports hd -->
 		<insert target="422" source="553" provider="cable_uk_virgin" ></insert> <!-- freesports hd -->
 		<insert target="425" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
@@ -117,6 +110,7 @@
 		<insert target="622" source="703" provider="cable_uk_virgin" ></insert> <!-- BabyTV -->
 		<insert target="711" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
 		<insert target="819" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
+		<insert target="863" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News sd -->
 	</inserts>
 	<deletes>
 		<!-- Delete channels that have been swapped, to remove duplication -->
