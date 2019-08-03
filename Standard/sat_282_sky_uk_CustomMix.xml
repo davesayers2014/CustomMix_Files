@@ -36,8 +36,9 @@
 		<insert target="164" source="208" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
 		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
 		<insert target="166" source="247" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
+		<insert target="170" source="293" provider="cable_uk_virgin" ></insert> <!-- Love Nature HD -->
+		<insert target="190" source="137" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="198" source="279" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
-		<insert target="215" source="140" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
 		<insert target="302" source="403" provider="cable_uk_virgin" ></insert> <!-- sky hits hd -->
@@ -70,7 +71,7 @@
 		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
-		<insert target="648" source="739" provider="cable_uk_virgin" ></insert> <!-- ZooMoo HD -->
+		<insert target="649" source="739" provider="cable_uk_virgin" ></insert> <!-- ZooMoo HD -->
 		<insert target="703" source="805" provider="cable_uk_virgin" ></insert> <!-- SONY TV HD -->
 		<insert target="705" source="803" provider="cable_uk_virgin" ></insert> <!-- Star +1 hd -->
 		<insert target="709" source="809" provider="cable_uk_virgin" ></insert> <!-- Zee TV HD -->
@@ -108,7 +109,7 @@
 		<insert target="612" source="708" provider="cable_uk_virgin" ></insert> <!-- disny xd +1 -->
 		<insert target="619" source="706" provider="cable_uk_virgin" ></insert> <!-- cartoonito -->
 		<insert target="622" source="703" provider="cable_uk_virgin" ></insert> <!-- BabyTV -->
-		<insert target="711" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
+		<insert target="707" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
 		<insert target="819" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
 		<insert target="863" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News sd -->
 	</inserts>
