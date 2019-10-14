@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20190803 -->
+<!-- DATE 20191008 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -68,7 +68,7 @@
 		<insert target="474" source="417" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 3 sd -->
 		<insert target="475" source="423" provider="sat_282_sky_uk" ></insert> <!-- BT Sport/espn sd -->
 		<insert target="491" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
-		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
+		<insert target="501" source="602" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
 		<insert target="649" source="739" provider="cable_uk_virgin" ></insert> <!-- ZooMoo HD -->

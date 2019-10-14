@@ -1,5 +1,5 @@
 <!-- DSayers Custom mix xml file to add Sat FTA to Virgin UK-->
-<!-- DATE 20190803 -->
+<!-- DATE 20191008 -->
 <custommix>
 	<inserts>
 		<insert target="106" source="829" provider="sat_282_sky_uk"></insert> <!-- E4 -->
@@ -113,7 +113,7 @@
 		<insert target="554" source="431" provider="sat_282_sky_uk"></insert> <!-- Front Runner TV -->
 		<insert target="555" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="601" source="503" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS -->
-		<insert target="602" source="875" provider="sat_282_sky_uk"></insert> <!-- Sky News -->
+		<insert target="603" source="875" provider="sat_282_sky_uk"></insert> <!-- Sky News -->
 		<insert target="604" source="570" provider="sat_282_sky_uk"></insert> <!-- BBC NEWS HD -->
 		<insert target="605" source="504" provider="sat_282_sky_uk"></insert> <!-- BBC Parliament -->
 		<insert target="607" source="506" provider="sat_282_sky_uk"></insert> <!-- CNN -->
