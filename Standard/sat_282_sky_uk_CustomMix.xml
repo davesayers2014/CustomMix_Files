@@ -1,10 +1,9 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20190803 -->
+<!-- DATE 20191014 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
 		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
-		<insert target="123" source="834" provider="sat_282_sky_uk" ></insert> <!-- E! HD -->
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
 		<!-- replace sky hd channels with working ones from cable -->
 		<insert target="106" source="109" provider="cable_uk_virgin" ></insert> <!-- sky one hd -->
@@ -18,18 +17,19 @@
 		<insert target="118" source="176" provider="cable_uk_virgin" ></insert> <!-- itv2 hd -->
 		<insert target="119" source="177" provider="cable_uk_virgin" ></insert> <!-- itv3 hd -->
 		<insert target="120" source="178" provider="cable_uk_virgin" ></insert> <!-- itv4 hd -->
-		<insert target="121" source="510" provider="cable_uk_virgin" ></insert> <!-- sky sports mix HD -->
-		<insert target="122" source="206" provider="cable_uk_virgin" ></insert> <!-- sky arts 1 hd -->
+		<insert target="122" source="156" provider="cable_uk_virgin" ></insert> <!-- sky arts 1 hd -->
+		<insert target="123" source="140" provider="cable_uk_virgin" ></insert> <!-- E! HD -->
 		<insert target="124" source="199" provider="cable_uk_virgin" ></insert> <!-- fox hd -->
 		<insert target="125" source="251" provider="cable_uk_virgin" ></insert> <!-- discovery hd -->
 		<insert target="126" source="183" provider="cable_uk_virgin" ></insert> <!-- mtv hd -->
 		<insert target="129" source="268" provider="cable_uk_virgin" ></insert> <!-- nat geographic hd -->
 		<insert target="131" source="179" provider="cable_uk_virgin" ></insert> <!-- itvbe hd -->
-		<insert target="132" source="226" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
+		<insert target="132" source="212" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
 		<insert target="133" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
 		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
 		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven hd -->
+		<insert target="145" source="510" provider="cable_uk_virgin" ></insert> <!-- sky sports mix HD -->
 		<insert target="156" source="209" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation HD -->
 		<insert target="162" source="257" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
 		<insert target="163" source="274" provider="cable_uk_virgin" ></insert> <!-- h2 hd -->
@@ -68,7 +68,7 @@
 		<insert target="474" source="417" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 3 sd -->
 		<insert target="475" source="423" provider="sat_282_sky_uk" ></insert> <!-- BT Sport/espn sd -->
 		<insert target="491" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
-		<insert target="501" source="603" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
+		<insert target="501" source="602" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
 		<insert target="649" source="739" provider="cable_uk_virgin" ></insert> <!-- ZooMoo HD -->
