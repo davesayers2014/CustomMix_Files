@@ -14,10 +14,10 @@
 		<insert target="112" source="181" provider="cable_uk_virgin" ></insert> <!-- comedy central hd -->
 		<insert target="113" source="121" provider="cable_uk_virgin" ></insert> <!-- universal hd -->
 		<insert target="114" source="137" provider="cable_uk_virgin" ></insert> <!-- syfy hd -->
-		<insert target="114" source="165" provider="cable_uk_virgin" ></insert> <!-- syfy hd -->
 		<insert target="118" source="176" provider="cable_uk_virgin" ></insert> <!-- itv2 hd -->
 		<insert target="119" source="177" provider="cable_uk_virgin" ></insert> <!-- itv3 hd -->
 		<insert target="120" source="178" provider="cable_uk_virgin" ></insert> <!-- itv4 hd -->
+		<insert target="121" source="135" provider="cable_uk_virgin" ></insert> <!-- sky crime hd -->
 		<insert target="122" source="156" provider="cable_uk_virgin" ></insert> <!-- sky arts 1 hd -->
 		<insert target="123" source="140" provider="cable_uk_virgin" ></insert> <!-- E! HD -->
 		<insert target="124" source="199" provider="cable_uk_virgin" ></insert> <!-- fox hd -->
@@ -34,10 +34,9 @@
 		<insert target="156" source="209" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation HD -->
 		<insert target="162" source="251" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
 		<insert target="163" source="273" provider="cable_uk_virgin" ></insert> <!-- history2 hd -->
-		<insert target="164" source="208" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
 		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
 		<insert target="166" source="247" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
-		<insert target="170" source="293" provider="cable_uk_virgin" ></insert> <!-- Love Nature HD -->
+		<insert target="176" source="293" provider="cable_uk_virgin" ></insert> <!-- Love Nature HD -->
 		<insert target="187" source="208" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->	
 		<insert target="190" source="137" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="198" source="279" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
@@ -92,8 +91,8 @@
 
 		<!-- replace dead sky sd channels with working ones from cable -->
 		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
-		<insert target="151" source="121" provider="cable_uk_virgin" ></insert> <!-- Sky Two sd -->
 		<insert target="156" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
+		<insert target="170" source="160" provider="cable_uk_virgin" ></insert> <!-- Sky Two sd -->
 		<insert target="210" source="194" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
 		<insert target="224" source="158" provider="cable_uk_virgin" ></insert> <!-- Fox +1 sd -->
 		<insert target="207" source="140" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
