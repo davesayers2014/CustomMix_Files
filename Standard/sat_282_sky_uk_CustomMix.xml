@@ -100,7 +100,6 @@
 		<insert target="270" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
 		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
 		<insert target="412" source="551" provider="cable_uk_virgin" ></insert> <!-- premier sports hd -->
-		<insert target="422" source="553" provider="cable_uk_virgin" ></insert> <!-- freesports hd -->
 		<insert target="425" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
 		<insert target="605" source="713" provider="cable_uk_virgin" ></insert> <!-- Nickelodeon +1 -->
 		<insert target="607" source="727" provider="cable_uk_virgin" ></insert> <!-- disny Jnr -->
