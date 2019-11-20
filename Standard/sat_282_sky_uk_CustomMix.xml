@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20191017 -->
+<!-- DATE 20191120 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -33,13 +33,12 @@
 		<insert target="145" source="510" provider="cable_uk_virgin" ></insert> <!-- sky sports mix HD -->
 		<insert target="156" source="209" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation HD -->
 		<insert target="162" source="251" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
-		<insert target="163" source="273" provider="cable_uk_virgin" ></insert> <!-- history2 hd -->
+		<insert target="163" source="272" provider="cable_uk_virgin" ></insert> <!-- history2 hd -->
 		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
 		<insert target="166" source="247" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
 		<insert target="176" source="293" provider="cable_uk_virgin" ></insert> <!-- Love Nature HD -->
 		<insert target="187" source="208" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
 		<insert target="190" source="137" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
-		<insert target="198" source="279" provider="cable_uk_virgin" ></insert> <!-- good food hd -->
 		<insert target="213" source="206" provider="cable_uk_virgin" ></insert> <!-- universal +1 sd -->
 		<insert target="214" source="229" provider="cable_uk_virgin" ></insert> <!-- syfy +1 sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
