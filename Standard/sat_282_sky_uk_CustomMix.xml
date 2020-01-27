@@ -5,6 +5,7 @@
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
 		<insert target="108" source="808" provider="sat_282_sky_uk" ></insert> <!-- Sky Atlantic HD -->
 		<insert target="603" source="641" provider="sat_282_sky_uk" ></insert> <!-- boomerang sd -->
+		<insert target="615" source="648" provider="sat_282_sky_uk" ></insert> <!-- nick jr sd -->
 		<!-- replace sky hd channels with working ones from cable -->
 		<insert target="106" source="109" provider="cable_uk_virgin" ></insert> <!-- sky one hd -->
 		<insert target="107" source="111" provider="cable_uk_virgin" ></insert> <!-- sky living hd -->
@@ -31,15 +32,17 @@
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
 		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven hd -->
 		<insert target="145" source="510" provider="cable_uk_virgin" ></insert> <!-- sky sports mix HD -->
+		<insert target="150" source="150" provider="cable_uk_virgin" ></insert> <!-- Paramount HD -->
 		<insert target="156" source="209" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation HD -->
 		<insert target="162" source="251" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
 		<insert target="163" source="272" provider="cable_uk_virgin" ></insert> <!-- history2 hd -->
 		<insert target="165" source="265" provider="cable_uk_virgin" ></insert> <!-- nat geo wild hd -->
 		<insert target="166" source="247" provider="cable_uk_virgin" ></insert> <!-- eden hd  -->
-		<insert target="176" source="293" provider="cable_uk_virgin" ></insert> <!-- Love Nature HD -->
+		<insert target="176" source="275" provider="cable_uk_virgin" ></insert> <!-- Love Nature HD -->
+		<insert target="183" source="219" provider="cable_uk_virgin" ></insert> <!-- Vice -->
 		<insert target="187" source="208" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
 		<insert target="190" source="137" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
-		<insert target="213" source="206" provider="cable_uk_virgin" ></insert> <!-- universal +1 sd -->
+		<insert target="194" source="150" provider="sat_282_sky_uk" ></insert> <!-- paramount sd -->
 		<insert target="214" source="229" provider="cable_uk_virgin" ></insert> <!-- syfy +1 sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
@@ -64,7 +67,6 @@
 		<insert target="413" source="527" provider="cable_uk_virgin" ></insert> <!-- bt sports 1 hd -->
 		<insert target="414" source="528" provider="cable_uk_virgin" ></insert> <!-- bt sports 2 hd -->
 		<insert target="417" source="529" provider="cable_uk_virgin" ></insert> <!-- bt sports 3 hd -->
-		<insert target="435" source="554" provider="cable_uk_virgin" ></insert> <!-- LaLinga TV -->
 		<insert target="423" source="530" provider="cable_uk_virgin" ></insert> <!-- bt sports/espn hd -->
 		<insert target="472" source="413" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 1 sd -->
 		<insert target="473" source="414" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 2 sd -->
@@ -92,11 +94,11 @@
 
 		<!-- replace dead sky sd channels with working ones from cable -->
 		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
-		<insert target="156" source="275" provider="cable_uk_virgin" ></insert> <!-- Crme and Inv -->
 		<insert target="170" source="160" provider="cable_uk_virgin" ></insert> <!-- Sky Two sd -->
 		<insert target="210" source="194" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
 		<insert target="224" source="158" provider="cable_uk_virgin" ></insert> <!-- Fox +1 sd -->
 		<insert target="207" source="180" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
+		<insert target="256" source="222" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation +1 -->
 		<insert target="230" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
 		<insert target="270" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
 		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
@@ -118,14 +120,14 @@
 		<!-- Delete channels that have been swapped, to remove duplication -->
 		<delete target="490"></delete> <!-- BTSptBoxOffHD -->
 		<delete target="493"></delete> <!-- ITV Box Office -->
-		<delete target="835"></delete> <!-- Crime & Investigation -->
 		<delete target="641"></delete> <!-- boomerang sd -->
 		<delete target="643"></delete> <!-- Disney Jnr -->
 		<delete target="644"></delete> <!-- Disney Channel -->
 		<delete target="645"></delete> <!-- Disney XD -->
-		<delete target="648"></delete> <!-- Nick Jnr -->
+		<delete target="648"></delete> <!-- Nick Jr -->
 		<delete target="808"></delete> <!-- Sky Atlantic -->
 		<delete target="810"></delete> <!-- Gold -->
+		<delete target="835"></delete> <!-- Crime + Investigation -->
 		<delete target="825"></delete> <!-- History -->
 		<delete target="834"></delete> <!-- E! -->
 		<delete target="842"></delete> <!-- Sky PremiereHD -->
@@ -166,6 +168,7 @@ rename = {
 }
 
 channels_to_add_by_id = {
+	5194: 213, # comedy +1
 	1163: 421, # eir Sport 1 HD (also 1042)
 	5152: 424, # eir Sport 2 HD (also 5154)
 	5122: 428, # eir Sport 1 (also 3601)
