@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20191120 -->
+<!-- DATE 20200127 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -11,22 +11,22 @@
 		<insert target="109" source="211" provider="cable_uk_virgin" ></insert> <!-- watch hd -->
 		<insert target="110" source="124" provider="cable_uk_virgin" ></insert> <!-- Gold HD -->
 		<insert target="111" source="227" provider="cable_uk_virgin" ></insert> <!-- dave hd -->
-		<insert target="112" source="181" provider="cable_uk_virgin" ></insert> <!-- comedy central hd -->
-		<insert target="113" source="121" provider="cable_uk_virgin" ></insert> <!-- universal hd -->
+		<insert target="112" source="132" provider="cable_uk_virgin" ></insert> <!-- comedy central hd -->
+		<insert target="113" source="121" provider="cable_uk_virgin" ></insert> <!-- sky Comedy hd -->
 		<insert target="114" source="137" provider="cable_uk_virgin" ></insert> <!-- syfy hd -->
 		<insert target="118" source="176" provider="cable_uk_virgin" ></insert> <!-- itv2 hd -->
 		<insert target="119" source="177" provider="cable_uk_virgin" ></insert> <!-- itv3 hd -->
 		<insert target="120" source="178" provider="cable_uk_virgin" ></insert> <!-- itv4 hd -->
 		<insert target="121" source="135" provider="cable_uk_virgin" ></insert> <!-- sky crime hd -->
 		<insert target="122" source="156" provider="cable_uk_virgin" ></insert> <!-- sky arts 1 hd -->
-		<insert target="123" source="140" provider="cable_uk_virgin" ></insert> <!-- E! HD -->
+		<insert target="123" source="139" provider="cable_uk_virgin" ></insert> <!-- E! HD -->
 		<insert target="124" source="199" provider="cable_uk_virgin" ></insert> <!-- fox hd -->
 		<insert target="125" source="250" provider="cable_uk_virgin" ></insert> <!-- discovery hd -->
-		<insert target="126" source="183" provider="cable_uk_virgin" ></insert> <!-- mtv hd -->
+		<insert target="126" source="134" provider="cable_uk_virgin" ></insert> <!-- mtv hd -->
 		<insert target="129" source="268" provider="cable_uk_virgin" ></insert> <!-- nat geographic hd -->
 		<insert target="131" source="179" provider="cable_uk_virgin" ></insert> <!-- itvbe hd -->
 		<insert target="132" source="212" provider="cable_uk_virgin" ></insert> <!-- alibi hd -->
-		<insert target="133" source="168" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
+		<insert target="133" source="167" provider="cable_uk_virgin" ></insert> <!-- tlc hd -->
 		<insert target="135" source="145" provider="cable_uk_virgin" ></insert> <!-- e4 hd -->
 		<insert target="136" source="195" provider="cable_uk_virgin" ></insert> <!-- more 4 hd -->
 		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven hd -->
@@ -64,6 +64,7 @@
 		<insert target="413" source="527" provider="cable_uk_virgin" ></insert> <!-- bt sports 1 hd -->
 		<insert target="414" source="528" provider="cable_uk_virgin" ></insert> <!-- bt sports 2 hd -->
 		<insert target="417" source="529" provider="cable_uk_virgin" ></insert> <!-- bt sports 3 hd -->
+		<insert target="435" source="554" provider="cable_uk_virgin" ></insert> <!-- LaLinga TV -->
 		<insert target="423" source="530" provider="cable_uk_virgin" ></insert> <!-- bt sports/espn hd -->
 		<insert target="472" source="413" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 1 sd -->
 		<insert target="473" source="414" provider="sat_282_sky_uk" ></insert> <!-- BT Sport 2 sd -->
@@ -73,7 +74,6 @@
 		<insert target="501" source="602" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
 		<insert target="604" source="714" provider="cable_uk_virgin" ></insert> <!-- nickelodeon hd -->
-		<insert target="649" source="739" provider="cable_uk_virgin" ></insert> <!-- ZooMoo HD -->
 		<insert target="703" source="805" provider="cable_uk_virgin" ></insert> <!-- SONY TV HD -->
 		<insert target="705" source="803" provider="cable_uk_virgin" ></insert> <!-- Star +1 hd -->
 		<insert target="709" source="809" provider="cable_uk_virgin" ></insert> <!-- Zee TV HD -->
@@ -96,7 +96,7 @@
 		<insert target="170" source="160" provider="cable_uk_virgin" ></insert> <!-- Sky Two sd -->
 		<insert target="210" source="194" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
 		<insert target="224" source="158" provider="cable_uk_virgin" ></insert> <!-- Fox +1 sd -->
-		<insert target="207" source="140" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
+		<insert target="207" source="180" provider="cable_uk_virgin" ></insert> <!-- Sky Living +1 sd -->
 		<insert target="230" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
 		<insert target="270" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
 		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
