@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20200129 -->
+<!-- DATE 20200317 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -41,22 +41,20 @@
 		<insert target="176" source="275" provider="cable_uk_virgin" ></insert> <!-- Love Nature HD -->
 		<insert target="183" source="219" provider="cable_uk_virgin" ></insert> <!-- Vice -->
 		<insert target="187" source="208" provider="cable_uk_virgin" ></insert> <!-- lifetime hd -->
-		<insert target="190" source="137" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="194" source="150" provider="sat_282_sky_uk" ></insert> <!-- paramount sd -->
 		<insert target="214" source="229" provider="cable_uk_virgin" ></insert> <!-- syfy +1 sd -->
 		<insert target="229" source="267" provider="cable_uk_virgin" ></insert> <!-- nat geo +1 -->
 		<insert target="301" source="401" provider="cable_uk_virgin" ></insert> <!-- sky premiere hd -->
-		<insert target="302" source="403" provider="cable_uk_virgin" ></insert> <!-- sky hits hd -->
-		<insert target="303" source="404" provider="cable_uk_virgin" ></insert> <!-- sky greats hd -->
-		<insert target="304" source="405" provider="cable_uk_virgin" ></insert> <!-- sky disney hd -->
-		<insert target="305" source="406" provider="cable_uk_virgin" ></insert> <!-- sky family hd -->
-		<insert target="306" source="407" provider="cable_uk_virgin" ></insert> <!-- sky action hd -->
-		<insert target="307" source="408" provider="cable_uk_virgin" ></insert> <!-- sky comedy hd -->
-		<insert target="308" source="409" provider="cable_uk_virgin" ></insert> <!-- sky thriller hd -->
-		<insert target="309" source="410" provider="cable_uk_virgin" ></insert> <!-- sky drama  hd -->
-		<insert target="310" source="411" provider="cable_uk_virgin" ></insert> <!-- sky scifi hd -->
-		<insert target="311" source="412" provider="cable_uk_virgin" ></insert> <!-- sky Classic hd -->
-		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky Premiere+1 sd -->
+		<insert target="302" source="402" provider="cable_uk_virgin" ></insert> <!-- sky Superheroes hd -->
+		<insert target="303" source="403" provider="cable_uk_virgin" ></insert> <!-- sky hits hd -->
+		<insert target="304" source="404" provider="cable_uk_virgin" ></insert> <!-- sky greats hd -->
+		<insert target="305" source="405" provider="cable_uk_virgin" ></insert> <!-- sky disney hd -->
+		<insert target="306" source="406" provider="cable_uk_virgin" ></insert> <!-- sky family hd -->
+		<insert target="307" source="411" provider="cable_uk_virgin" ></insert> <!-- sky scifi hd -->
+		<insert target="308" source="408" provider="cable_uk_virgin" ></insert> <!-- sky comedy hd -->
+		<insert target="309" source="409" provider="cable_uk_virgin" ></insert> <!-- sky thriller hd -->
+		<insert target="310" source="410" provider="cable_uk_virgin" ></insert> <!-- sky drama  hd -->
+		<insert target="311" source="407" provider="cable_uk_virgin" ></insert> <!-- sky action hd -->
 		<insert target="313" source="429" provider="cable_uk_virgin" ></insert> <!-- film4 hd -->
 		<insert target="315" source="416" provider="cable_uk_virgin" ></insert> <!-- tcm hd -->
 		<insert target="377" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
@@ -74,6 +72,7 @@
 		<insert target="713" source="841" provider="cable_uk_virgin" ></insert> <!-- MTV Beats -->
 		<insert target="717" source="801" provider="cable_uk_virgin" ></insert> <!-- Star Gold hd -->
 		<insert target="715" source="806" provider="cable_uk_virgin" ></insert> <!-- Sony Max hd -->
+		<insert target="832" source="137" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
 		<insert target="1010" source="1003" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 1 -->
 		<insert target="1011" source="1004" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 2 -->
 		<insert target="1012" source="1005" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 3 -->
@@ -94,7 +93,7 @@
 		<insert target="256" source="222" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation +1 -->
 		<insert target="230" source="271" provider="cable_uk_virgin" ></insert> <!-- History TV +1 -->
 		<insert target="270" source="207" provider="cable_uk_virgin" ></insert> <!-- Real Lives +1 -->
-		<insert target="312" source="402" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
+		<insert target="312" source="412" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
 		<insert target="325" source="419" provider="cable_uk_virgin" ></insert> <!-- movies 24 -->
 		<insert target="326" source="420" provider="cable_uk_virgin" ></insert> <!-- movies 24+ -->
 		<insert target="412" source="551" provider="cable_uk_virgin" ></insert> <!-- premier sports hd -->
@@ -108,10 +107,12 @@
 		<insert target="619" source="706" provider="cable_uk_virgin" ></insert> <!-- cartoonito -->
 		<insert target="622" source="703" provider="cable_uk_virgin" ></insert> <!-- BabyTV -->
 		<insert target="707" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
+		<insert target="806" source="110" provider="cable_uk_virgin" ></insert> <!-- sky one sd -->
 		<insert target="813" source="122" provider="cable_uk_virgin" ></insert> <!-- sky comedy sd -->
 		<insert target="814" source="138" provider="cable_uk_virgin" ></insert> <!-- syfy sd -->
-		<insert target="819" source="520" provider="cable_uk_virgin" ></insert> <!-- sky sports Mix sd -->
+		<insert target="819" source="136" provider="cable_uk_virgin" ></insert> <!-- sky crime sd -->
 		<insert target="820" source="123" provider="cable_uk_virgin" ></insert> <!-- sky arts sd -->
+		<insert target="821" source="157" provider="cable_uk_virgin" ></insert> <!-- Fox sd -->
 		<insert target="863" source="519" provider="cable_uk_virgin" ></insert> <!-- sky sports News sd -->
 	</inserts>
 	<deletes>
