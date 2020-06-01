@@ -58,7 +58,6 @@
 		<insert target="313" source="429" provider="cable_uk_virgin" ></insert> <!-- film4 hd -->
 		<insert target="315" source="416" provider="cable_uk_virgin" ></insert> <!-- tcm hd -->
 		<insert target="377" source="311" provider="cable_uk_virgin" ></insert> <!-- mtv live hd -->
-		<insert target="403" source="503" provider="cable_uk_virgin" ></insert> <!-- sky sports Football HD hd -->
 		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
 		<insert target="410" source="521" provider="cable_uk_virgin" ></insert> <!-- british eurosport hd -->
 		<insert target="411" source="522" provider="cable_uk_virgin" ></insert> <!-- british eurosport 2 hd -->
@@ -98,7 +97,6 @@
 		<insert target="326" source="420" provider="cable_uk_virgin" ></insert> <!-- movies 24+ -->
 		<insert target="412" source="551" provider="cable_uk_virgin" ></insert> <!-- premier sports hd -->
 		<insert target="425" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
-		<insert target="605" source="713" provider="cable_uk_virgin" ></insert> <!-- Nickelodeon +1 -->
 		<insert target="607" source="727" provider="cable_uk_virgin" ></insert> <!-- disny Jnr -->
 		<insert target="609" source="724" provider="cable_uk_virgin" ></insert> <!-- disny channel -->
 		<insert target="610" source="725" provider="cable_uk_virgin" ></insert> <!-- disny channel +1 -->
