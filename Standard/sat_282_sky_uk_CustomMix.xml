@@ -162,6 +162,7 @@ rename = {
 }
 
 channels_to_add_by_id = {
+	1829: 159, # Pick HD
 	5194: 213, # comedy +1
 	1163: 421, # eir Sport 1 HD (also 1042)
 	5152: 424, # eir Sport 2 HD (also 5154)
