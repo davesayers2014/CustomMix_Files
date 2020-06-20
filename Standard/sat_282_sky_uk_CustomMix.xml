@@ -1,5 +1,5 @@
 <!-- DSayers Cable channels into Sky UK Custom mix xml file-->
-<!-- DATE 20200601 -->
+<!-- DATE 20200620 -->
 <custommix>
 	<inserts>
 		<!-- Swap HD channels that don't clear on sat and not available on cable -->
@@ -20,7 +20,7 @@
 		<insert target="120" source="178" provider="cable_uk_virgin" ></insert> <!-- itv4 hd -->
 		<insert target="121" source="135" provider="cable_uk_virgin" ></insert> <!-- sky crime hd -->
 		<insert target="122" source="156" provider="cable_uk_virgin" ></insert> <!-- sky arts 1 hd -->
-		<insert target="123" source="139" provider="cable_uk_virgin" ></insert> <!-- E! HD -->
+		<insert target="123" source="270" provider="cable_uk_virgin" ></insert> <!-- Sky History hd -->
 		<insert target="124" source="199" provider="cable_uk_virgin" ></insert> <!-- fox hd -->
 		<insert target="125" source="250" provider="cable_uk_virgin" ></insert> <!-- discovery hd -->
 		<insert target="126" source="134" provider="cable_uk_virgin" ></insert> <!-- mtv hd -->
@@ -33,6 +33,7 @@
 		<insert target="137" source="203" provider="cable_uk_virgin" ></insert> <!-- 4 seven hd -->
 		<insert target="145" source="510" provider="cable_uk_virgin" ></insert> <!-- sky sports mix HD -->
 		<insert target="150" source="150" provider="cable_uk_virgin" ></insert> <!-- Paramount HD -->
+		<insert target="151" source="139" provider="cable_uk_virgin" ></insert> <!-- E! HD -->
 		<insert target="156" source="209" provider="cable_uk_virgin" ></insert> <!-- Crime + Investigation HD -->
 		<insert target="162" source="251" provider="cable_uk_virgin" ></insert> <!-- animal planet hd -->
 		<insert target="163" source="272" provider="cable_uk_virgin" ></insert> <!-- history2 hd -->
@@ -61,6 +62,8 @@
 		<insert target="409" source="509" provider="cable_uk_virgin" ></insert> <!-- sky sports News hd -->
 		<insert target="410" source="521" provider="cable_uk_virgin" ></insert> <!-- british eurosport hd -->
 		<insert target="411" source="522" provider="cable_uk_virgin" ></insert> <!-- british eurosport 2 hd -->
+		<insert target="412" source="551" provider="cable_uk_virgin" ></insert> <!-- premier 1 hd -->
+		<insert target="429" source="552" provider="cable_uk_virgin" ></insert> <!-- Premiere 2 hd -->
 		<insert target="491" source="1000" provider="cable_uk_virgin" ></insert> <!-- Virgin Sky Events -->
 		<insert target="501" source="602" provider="cable_uk_virgin" ></insert> <!-- sky news hd -->
 		<insert target="601" source="732" provider="cable_uk_virgin" ></insert> <!-- cn hd -->
@@ -72,6 +75,7 @@
 		<insert target="717" source="801" provider="cable_uk_virgin" ></insert> <!-- Star Gold hd -->
 		<insert target="715" source="806" provider="cable_uk_virgin" ></insert> <!-- Sony Max hd -->
 		<insert target="832" source="137" provider="sat_282_sky_uk" ></insert> <!-- 4seven sd -->
+		<insert target="888" source="535" provider="cable_uk_virgin" ></insert> <!-- Sky Sports Racing HD-->
 		<insert target="1010" source="1003" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 1 -->
 		<insert target="1011" source="1004" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 2 -->
 		<insert target="1012" source="1005" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 3 -->
@@ -83,7 +87,6 @@
 		<insert target="1018" source="1011" provider="cable_uk_virgin" ></insert> <!-- Virgin Events 9 -->
 
 		<!-- replace dead sky sd channels with working ones from cable -->
-		<insert target="130" source="270" provider="cable_uk_virgin" ></insert> <!-- History TV -->
 		<insert target="168" source="160" provider="cable_uk_virgin" ></insert> <!-- Sky Two sd -->
 		<insert target="210" source="194" provider="cable_uk_virgin" ></insert> <!-- Gold+1 -->
 		<insert target="221" source="201" provider="cable_uk_virgin" ></insert> <!-- Sky Crime +1 -->
@@ -95,7 +98,6 @@
 		<insert target="312" source="412" provider="cable_uk_virgin" ></insert> <!-- sky premiere +1 -->
 		<insert target="325" source="419" provider="cable_uk_virgin" ></insert> <!-- movies 24 -->
 		<insert target="326" source="420" provider="cable_uk_virgin" ></insert> <!-- movies 24+ -->
-		<insert target="412" source="551" provider="cable_uk_virgin" ></insert> <!-- premier sports hd -->
 		<insert target="425" source="544" provider="cable_uk_virgin" ></insert> <!-- LFCTV -->
 		<insert target="607" source="727" provider="cable_uk_virgin" ></insert> <!-- disny Jnr -->
 		<insert target="609" source="724" provider="cable_uk_virgin" ></insert> <!-- disny channel -->
@@ -105,9 +107,6 @@
 		<insert target="619" source="706" provider="cable_uk_virgin" ></insert> <!-- cartoonito -->
 		<insert target="622" source="703" provider="cable_uk_virgin" ></insert> <!-- BabyTV -->
 		<insert target="707" source="810" provider="cable_uk_virgin" ></insert> <!-- Zee Cinema -->
-		<insert target="806" source="110" provider="cable_uk_virgin" ></insert> <!-- sky one sd -->
-		<insert target="813" source="122" provider="cable_uk_virgin" ></insert> <!-- sky comedy sd -->
-		<insert target="814" source="138" provider="cable_uk_virgin" ></insert> <!-- syfy sd -->
 		<insert target="819" source="136" provider="cable_uk_virgin" ></insert> <!-- sky crime sd -->
 		<insert target="820" source="123" provider="cable_uk_virgin" ></insert> <!-- sky arts sd -->
 		<insert target="821" source="157" provider="cable_uk_virgin" ></insert> <!-- Fox sd -->
@@ -150,7 +149,6 @@
 		<delete target="869"></delete> <!-- BT Sport 3 HD  -->
 		<delete target="872"></delete> <!-- BT Sport/ESPN HD  -->
 		<delete target="873"></delete> <!-- LFCTV -->
-		<delete target="888"></delete> <!-- Sky Sports Racing -->
 	</deletes>
 	<hacks>
 <![CDATA[
