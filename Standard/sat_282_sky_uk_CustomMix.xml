@@ -1,74 +1,26 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20200720 -->
+<!-- DATE 20210314 -->
 <custommix>
 	<inserts>
-
 	</inserts>
-
+	<streams>
+	</streams>
 	<deletes>
-
+		<!-- Delete none working channels -->
+    <delete target="312"></delete> <!-- Sky Premier+1 -->
 	</deletes>
 	<hacks>
 <![CDATA[
 
-rename = {
-	# ITV regions
-	5070: "STV 2",
-	6210: "STV North (Grampian)",
-	6220: "STV Scottish West",
-	6325: "STV North (Dundee)",
-}
-
 channels_to_add_by_id = {
-	5194: 213, # comedy +1
-	1163: 421, # eir Sport 1 HD (also 1042)
-	5152: 424, # eir Sport 2 HD (also 5154)
-	5122: 428, # eir Sport 1 (also 3601)
-	5123: 460, # eir Sport 2 (also 4551)
-	1078: 988, # "Made In Birmingham"
-	1016: 989, # "Made In Liverpool"
-	5090: 990, # "London Live"
-	5070: 991, # "STV Glasgow"
-	3527: 992, # "STV Edinburgh"
-	5315: 993, # "Made In Bristol"
-	5537: 994, # "Made In Leeds"
-	5536: 995, # "Made In Cardiff"
-	5043: 996, # "Made In Tn&Wr"
-	5421: 997, # "Notts TV"
-	#alternatives
-	2709: 127, # ComedyXtra
-	3705: 812, # ComedyCentral
-	5527: 606, # Nicktoons
-	3356: 615, # Nick Jr
-	2517: 642, # Nicelodeon
+	1701: 855, # Sky Sports Main Event HD
+  4035: 409, # Sky Sports News HD
 }
-
-broken_TSIDS = [
-	2007, #7d7 20170518
-	2011, #7db 20170425
-	2012, #7dc 20170518
-	2019, #7e3 20170518
-	2021, #7e5 20170516
-	2023, #7e7 20170331
-	2025, #7e9 20170518
-	2026, #7ea 20170425
-	2029, #7ed 20170516
-]
-
-# Channel renames
-for service in sorted(customised["video"].keys()):
-	if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in rename:
-		customised["video"][service]["interactive_name"] = rename[customised["video"][service]["channel_id"]]
 
 # Add channels by ID
 for service in sorted(customised["video"].keys()):
 	if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in channels_to_add_by_id:
 		customised["video"][channels_to_add_by_id[customised["video"][service]["channel_id"]]] = customised["video"][service]
-		del customised["video"][service]
-
-# Remove encrypted services from certain transport streams (will still be in lamedb)
-for service in sorted(customised["video"].keys()):
-	if customised["video"][service]["transport_stream_id"] in broken_TSIDS and customised["video"][service]["free_ca"] != 0:
 		del customised["video"][service]
 
 # Add ITV regions Bouquet
@@ -190,25 +142,6 @@ with open("/tmp/0282_sky_GBR-" + rightNow() + ".csv", "w") as csv_file:
     </hacks>
 	<instructions>
 <![CDATA[
-
-----------------------------------------------------------
-
-ABM Providers Setup screen:
-
-----------------------------------------------------------
-
-ABM configure screen:
-
-Include 'not indexed' channels - Yes
-
-----------------------------------------------------------
-
-Providers order screen:
-
-Sky UK on top
-
-----------------------------------------------------------
-
 ]]>
 	</instructions>
 </custommix>
