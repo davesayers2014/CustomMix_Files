@@ -14,7 +14,7 @@
 
 channels_to_add_by_id = {
 	1701: 855, # Sky Sports Main Event HD
-  4035: 409, # Sky Sports News HD
+        4035: 409, # Sky Sports News HD
 }
 
 # Add channels by ID
