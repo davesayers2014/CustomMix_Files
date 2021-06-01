@@ -12,6 +12,7 @@
 		<delete target="207"></delete> <!-- Sky Whitness+1 -->
 		<delete target="208"></delete> <!-- Sky Atlantic+1 -->
 		<delete target="209"></delete> <!-- Sky W+1 -->
+		<delete target="210"></delete> <!-- Gold+1 -->
 		<delete target="212"></delete> <!-- Sky ComedyCent+1 -->
 		<delete target="221"></delete> <!-- Sky Crime+1 -->
 		<delete target="223"></delete> <!-- Sky History+1 -->
