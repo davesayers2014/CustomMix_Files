@@ -1,0 +1,106 @@
+<!-- DSayers Sky IRL Custom mix xml file-->
+<!-- DATE 20210601 -->
+<custommix>
+	<inserts>
+	</inserts>
+	<streams>
+	</streams>
+	<deletes>
+		<!-- Delete none working channels -->
+		<!-- +1 Section -->
+		<delete target="201"></delete> <!-- SRTE One+1 -->
+		<delete target="206"></delete> <!-- RTE2+1 -->
+		<delete target="206"></delete> <!-- Virgin One+1 -->
+		<delete target="206"></delete> <!-- Sky One+1 -->
+		<delete target="207"></delete> <!-- Sky Whitness+1 -->
+		<delete target="208"></delete> <!-- Sky Atlantic+1 -->
+		<delete target="209"></delete> <!-- Sky W+1 -->
+		<delete target="212"></delete> <!-- Sky ComedyCent+1 -->
+		<delete target="221"></delete> <!-- Sky Crime+1 -->
+		<delete target="223"></delete> <!-- Sky History+1 -->
+		<delete target="224"></delete> <!-- FOX+1 -->
+		<delete target="225"></delete> <!-- Discovery+1 -->
+		<delete target="229"></delete> <!-- Nat Geo+1 -->
+		<delete target="232"></delete> <!-- Albia+1 -->
+		<delete target="233"></delete> <!-- TCL+1 -->
+		<delete target="252"></delete> <!-- SYFY+1 -->
+		<delete target="254"></delete> <!-- ID+1 -->
+		<delete target="256"></delete> <!-- Crime+1 -->
+		<delete target="261"></delete> <!-- Disc.Turbo+1 -->
+		<delete target="262"></delete> <!-- Animal Plnt+1 -->
+		<delete target="266"></delete> <!-- Eden+1 -->
+		<delete target="267"></delete> <!-- Disc.Sci -->
+		<!-- Movies -->
+		<delete target="312"></delete> <!-- Sky Premier+1 -->
+	</deletes>
+	<hacks>
+<![CDATA[
+
+rename = {
+	# ITV regions
+	5070: "STV 2",
+	6210: "STV North (Grampian)",
+	6220: "STV Scottish West",
+	6325: "STV North (Dundee)",
+}
+
+channels_to_add_by_id = {
+	2012: 115, # BBC ALBA
+	6240: 118, # ITV2
+	6260: 119, # ITV3
+	6272: 120, # ITV4
+	6504: 128, # ITV HD
+	6510: 131, # UTV HD
+	3150: 138, # 4seven
+	1758: 139, # 4Music
+	1032: 163, # 5Spike
+	3022: 150, # 5 USA
+	4058: 153, # Channel 5 HD
+	6508: 169, # ITVBe
+	3023: 176, # 5STAR
+	5036: 186, # AMC from BT
+	3028: 200, # 5SELECT
+	6241: 218, # ITV2 +1
+	6261: 219, # ITV3 +1
+	6274: 220, # ITV4 +1
+	6155: 228, # ITV +1
+	1670: 235, # Channel 4 +1
+	3310: 237, # More4 +1
+	3027: 250, # 5 USA +1
+	1839: 253, # Channel 5 +1
+	1076: 263, # 5Spike+1
+	1014: 269, # ITVBe +1
+	3024: 276, # 5STAR +1
+	3653: 358, # Box Upfront
+	1802: 359, # The Box
+	1350: 360, # Box Hits
+	1858: 361, # KISS
+	1877: 362, # Magic
+	1853: 363, # Kerrang!
+	2085: 503, # BBC News HD
+	2072: 504, # BBC Parliament
+	2011: 823, # BBC News
+	2306: 811, # Dave FTA
+	4075: 812, # Channel 4 HD
+	6532: 816, # ITV2 HD
+	6533: 817, # ITV3 HD
+	5037: 840, # AMC from BTHD
+}
+
+# Channel renames
+for service in sorted(customised["video"].keys()):
+	if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in rename:
+		customised["video"][service]["interactive_name"] = rename[customised["video"][service]["channel_id"]]
+# Add channels by ID
+for service in sorted(customised["video"].keys()):
+	if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in channels_to_add_by_id:
+		customised["video"][channels_to_add_by_id[customised["video"][service]["channel_id"]]] = customised["video"][service]
+		del customised["video"][service]
+
+]]>
+    </hacks>
+	<instructions>
+<![CDATA[
+]]>
+	</instructions>
+</custommix>
