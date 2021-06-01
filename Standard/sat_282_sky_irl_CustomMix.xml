@@ -99,8 +99,9 @@ for service in sorted(customised["video"].keys()):
 
 ]]>
     </hacks>
-	<instructions>
+		<instructions>
 <![CDATA[
+
 ]]>
 	</instructions>
 </custommix>
