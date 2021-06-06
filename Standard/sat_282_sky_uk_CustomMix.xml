@@ -1,5 +1,5 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20210601 -->
+<!-- DATE 20210606 -->
 <custommix>
 	<inserts>
 	</inserts>
@@ -82,6 +82,71 @@ sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
 for service in sort_list:
 	customised["video"][i] = service[0]
 	i += 1
+	
+# Create csv file in /tmp directory
+def sortDictFlatAlpha(services):
+	# services is a dict with LCNs as keys
+	# returns keys, sorted flat alphabetic by service name (or interactive name if it is set).
+	import re
+	sort_list = []
+	for lcn in services:
+		if "interactive_name" in services[lcn]:
+			sort_list.append((lcn, re.sub('^(?![a-z])', 'zzzzz', services[lcn]['interactive_name'].lower())))
+		else:
+			sort_list.append((lcn, re.sub('^(?![a-z])', 'zzzzz', services[lcn]['service_name'].lower())))
+	sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+	return [i[0] for i in sort_list]
+def today():
+	import datetime
+	return datetime.date.today().strftime('%Y%m%d%H%M%S')
+def rightNow():
+	import datetime
+	return datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+csv = ["Name,Service ref,DVB Name,LCN,CHID,CA,Provider,SID,TSID,Service type,IPTV_link,Ocram_SRP\r\n"]
+control_chars = ''.join(list(map(six.unichr, list(range(0, 32)) + list(range(127, 160)))))
+control_char_re = re.compile('[%s]' % re.escape(control_chars))
+for number in sortDictFlatAlpha(customised["video"]):
+	interactive_name = customised["video"][number]["service_name"]
+	if 'interactive_name' in customised["video"][number]:
+		interactive_name = customised["video"][number]["interactive_name"]
+	if six.PY2:
+		interactive_name = control_char_re.sub('', interactive_name).decode('latin-1').encode("utf8")
+	else:
+		interactive_name = control_char_re.sub('', interactive_name).encode("utf8")
+	channel_id = ""
+	if 'channel_id' in customised["video"][number]:
+		channel_id = str(customised["video"][number]["channel_id"])
+	csv.append('%s,1:0:%s:%s:%s:%s:%s:0:0:0:,%s,%d,%s,%d,%s,0x%x,0x%x,%d,#SERVICE 4097:0:%x:%x:%x:%x:%x:0:0:0:,%s_%s_%s_%s\r\n' % (
+					interactive_name,
+#Service ref
+					str("%x"%customised["video"][number]["service_type"]).upper(),
+					str("%x"%customised["video"][number]["service_id"]).upper(),
+					str("%x"%customised["video"][number]["transport_stream_id"]).upper(),
+					str("%x"%customised["video"][number]["original_network_id"]).upper(),
+					str("%x"%customised["video"][number]["namespace"]).upper(),
+#DVB Name
+					customised["video"][number]["service_name"],
+					number,
+					channel_id,
+					customised["video"][number]["free_ca"],
+					customised["video"][number]["provider_name"],
+					customised["video"][number]["service_id"],
+					customised["video"][number]["transport_stream_id"],
+					customised["video"][number]["service_type"],
+#IPTV_link
+					customised["video"][number]["service_type"],
+					customised["video"][number]["service_id"],
+					customised["video"][number]["transport_stream_id"],
+					customised["video"][number]["original_network_id"],
+					customised["video"][number]["namespace"],
+#OCRAM_SRP
+					str("%x"%customised["video"][number]["service_id"]).upper(),
+					str("%x"%customised["video"][number]["transport_stream_id"]).upper(),
+					str("%x"%customised["video"][number]["original_network_id"]).upper(),
+					str("%x"%customised["video"][number]["namespace"]).upper()
+				))
+with open("/tmp/0282_sky_GBR-" + rightNow() + ".csv", "w") as csv_file:
+	csv_file.write(''.join(csv))
 
 ]]>
     </hacks>
