@@ -6,30 +6,6 @@
 	<streams>
 	</streams>
 	<deletes>
-		<!-- Delete none working channels -->
-		<!-- +1 section -->
-		<delete target="206"></delete> <!-- Sky One+1 -->
-		<delete target="207"></delete> <!-- Sky Whitness+1 -->
-		<delete target="208"></delete> <!-- Sky Atlantic+1 -->
-		<delete target="209"></delete> <!-- Sky W+1 -->
-		<delete target="210"></delete> <!-- Gold+1 -->
-		<delete target="212"></delete> <!-- Sky ComedyCent+1 -->
-		<delete target="221"></delete> <!-- Sky Crime+1 -->
-		<delete target="223"></delete> <!-- Sky History+1 -->
-		<delete target="224"></delete> <!-- FOX+1 -->
-		<delete target="225"></delete> <!-- Discovery+1 -->
-		<delete target="229"></delete> <!-- Nat Geo+1 -->
-		<delete target="232"></delete> <!-- Albia+1 -->
-		<delete target="233"></delete> <!-- TCL+1 -->
-		<delete target="252"></delete> <!-- SYFY+1 -->
-		<delete target="254"></delete> <!-- ID+1 -->
-		<delete target="256"></delete> <!-- Crime+1 -->
-		<delete target="261"></delete> <!-- Disc.Turbo+1 -->
-		<delete target="262"></delete> <!-- Animal Plnt+1 -->
-		<delete target="266"></delete> <!-- Eden+1 -->
-		<delete target="267"></delete> <!-- Disc.Sci -->
-		<!-- Movies -->
-		<delete target="312"></delete> <!-- Sky Premier+1 -->
 	</deletes>
 	<hacks>
 <![CDATA[
@@ -111,8 +87,8 @@ for number in sortDictFlatAlpha(customised["video"]):
 		interactive_name = customised["video"][number]["interactive_name"]
 	if six.PY2:
 		interactive_name = control_char_re.sub('', interactive_name).decode('latin-1').encode("utf8")
-	else:
-		interactive_name = control_char_re.sub('', interactive_name).encode("utf8")
+#	else:
+#		interactive_name = control_char_re.sub('', interactive_name).encode("utf8")
 	channel_id = ""
 	if 'channel_id' in customised["video"][number]:
 		channel_id = str(customised["video"][number]["channel_id"])
