@@ -86,9 +86,9 @@ for number in sortDictFlatAlpha(customised["video"]):
 	if 'interactive_name' in customised["video"][number]:
 		interactive_name = customised["video"][number]["interactive_name"]
 	if six.PY2:
-#		interactive_name = control_char_re.sub('', interactive_name).decode('latin-1').encode("utf8")
+		interactive_name = control_char_re.sub('', interactive_name).decode('latin-1').encode("utf8")
 #	else:
-		interactive_name = control_char_re.sub('', interactive_name).encode("utf8")
+#		interactive_name = control_char_re.sub('', interactive_name).encode("utf8")
 	channel_id = ""
 	if 'channel_id' in customised["video"][number]:
 		channel_id = str(customised["video"][number]["channel_id"])
