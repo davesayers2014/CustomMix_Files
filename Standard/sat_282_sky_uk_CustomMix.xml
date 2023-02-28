@@ -1,11 +1,83 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20210606 -->
+<!-- DATE 20230228 -->
 <custommix>
 	<inserts>
 	</inserts>
 	<streams>
 	</streams>
 	<deletes>
+		<!-- Delete  Channels -->
+		<delete target="302"></delete> <!-- CultClassicsHD -->
+		<delete target="303"></delete> <!-- Sky Hits HD -->
+		<delete target="305"></delete> <!-- SkyAnimationHD -->
+		<delete target="308"></delete> <!-- Sky Comedy Cinema HD -->
+		<delete target="309"></delete> <!-- Sky Thriller HD -->
+		<delete target="310"></delete> <!-- Sky Drama HD -->
+		<delete target="311"></delete> <!-- Sky ScFi/HorHD -->
+		<delete target="412"></delete> <!-- Viaplay 1 HD -->
+		<delete target="421"></delete> <!-- Viaplay 2 HD -->
+		<delete target="425"></delete> <!-- LFCTV HD -->
+		<delete target="490"></delete> <!-- BTSptBoxOffHD -->
+		<delete target="493"></delete> <!-- BTSUltimateUHD -->
+		<delete target="494"></delete> <!-- BTSBoxOff2HD -->
+		<delete target="521"></delete> <!-- NBC News NOW HD -->
+		<delete target="609"></delete> <!-- Sky Kids HD -->
+		<delete target="640"></delete> <!-- Cartoon Net HD -->
+		<delete target="641"></delete> <!-- Boomerang HD -->
+		<delete target="642"></delete> <!-- Nickelodeon HD -->
+		<delete target="806"></delete> <!-- SkyShowcaseHD -->
+		<delete target="807"></delete> <!-- Sky Witness HD -->
+		<delete target="808"></delete> <!-- Sky Atlantic HD -->
+		<delete target="809"></delete> <!-- alibi HD -->
+		<delete target="810"></delete> <!-- GOLD HD -->
+		<delete target="811"></delete> <!-- Dave HD -->
+		<delete target="813"></delete> <!-- Sky Max HD -->
+		<delete target="814"></delete> <!-- Sky Comedy HD -->
+		<delete target="819"></delete> <!-- SkyDocmntrsHD -->
+		<delete target="820"></delete> <!-- Sky Crime HD -->
+		<delete target="821"></delete> <!-- Sky HistoryHD -->
+		<delete target="822"></delete> <!-- Sky Nature HD -->
+		<delete target="823"></delete> <!-- Discovery HD -->
+		<delete target="825"></delete> <!-- Nat Geo HD -->
+		<delete target="826"></delete> <!-- Sky Arts HD -->
+		<delete target="827"></delete> <!-- W HD -->
+		<delete target="830"></delete> <!-- E4 HD -->
+		<delete target="831"></delete> <!-- More4 HD -->
+		<delete target="835"></delete> <!-- E! HD -->
+		<delete target="836"></delete> <!-- Sky Sci-Fi HD -->
+		<delete target="837"></delete> <!-- Crime+Inv HD -->
+		<delete target="840"></delete> <!-- SkyHistory2HD -->
+		<delete target="841"></delete> <!-- NatGeoWild HD -->
+		<delete target="846"></delete> <!-- YESTERDAY HD -->
+		<delete target="848"></delete> <!-- SkyPremiereHD -->
+		<delete target="849"></delete> <!-- SkyOscarsHD -->
+		<delete target="850"></delete> <!-- SkyKidsBooksHD -->
+		<delete target="851"></delete> <!-- Sky Action HD -->
+		<delete target="855"></delete> <!-- Film4 HD -->
+		<delete target="858"></delete> <!-- SkySpME UHD -->
+		<delete target="859"></delete> <!-- SkySpMainEvHD -->
+		<delete target="860"></delete> <!-- SkySp PL HD -->
+		<delete target="861"></delete> <!-- SkySp F'ball HD -->
+		<delete target="862"></delete> <!-- SkySpCricket HD -->
+		<delete target="863"></delete> <!-- SkySp Golf HD -->
+		<delete target="864"></delete> <!-- SkySp F1 HD -->
+		<delete target="865"></delete> <!-- SkySp ActionHD -->
+		<delete target="866"></delete> <!-- SkySp ArenaHD -->
+		<delete target="867"></delete> <!-- SkySp News HD -->
+		<delete target="868"></delete> <!-- Eurosport 1 HD -->
+		<delete target="869"></delete> <!-- Eurosport 2 HD -->
+		<delete target="870"></delete> <!-- BT Sport 1 HD -->
+		<delete target="871"></delete> <!-- BT Sport 2 HD -->
+		<delete target="872"></delete> <!-- SkySp Racing HD -->
+		<delete target="873"></delete> <!-- SkySp Mix HD -->
+		<delete target="874"></delete> <!-- BT Sport 3 HD -->
+		<delete target="875"></delete> <!-- MUTV HD -->
+		<delete target="876"></delete> <!-- BT Sport 4 HD -->
+		<delete target="877"></delete> <!-- Racing TV HD -->
+		<delete target="892"></delete> <!-- SONY TV HD -->
+		<delete target="893"></delete> <!-- Utsav Plus HD -->
+		<delete target="895"></delete> <!-- SONY MAX HD -->
+		<delete target="896"></delete> <!-- Utsav Gold HD -->
 	</deletes>
 	<hacks>
 <![CDATA[
@@ -58,7 +130,22 @@ sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
 for service in sort_list:
 	customised["video"][i] = service[0]
 	i += 1
-	
+
+# TSIDs that contain services that need stream relay (or this could be done by LCN or CHID).
+TSIDs = [0x7D3, 0x7D7, 0x7D8, 0x7DB, 0x7DC, 0x7E0, 0x7E3, 0x7E4, 0x7E5, 0x7E7, 0x7E8, 0x7E9, 0x7EA, 0x7EB, 0x7EC, 0x7ED, 0x7EE, 0x7F0, 0x7F2, 0x811, 0x838, 0x841, 0x842]
+
+for service in sorted(list(services[section_identifier]["video"].keys())):
+		serv = services[section_identifier]["video"][service]
+		if serv["transport_stream_id"] in TSIDs and "free_ca" in serv and serv["free_ca"] == 1: # only on listed transponders and only encrypted services
+			url = "http://127.0.0.1:17999/1:0:1:%x:%x:%x:%x:0:0:0:" % (
+				serv["service_id"],
+				serv["transport_stream_id"],
+				serv["original_network_id"],
+				serv["namespace"],
+			)
+			serv["stream"] = quote(url)
+			serv["namespace"] = 33 # writing a dummy namespace is a requirement of stream relay
+
 # Create csv file in /tmp directory
 def sortDictFlatAlpha(services):
 	# services is a dict with LCNs as keys
