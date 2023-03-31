@@ -1,5 +1,5 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20230305 -->
+<!-- DATE 20230331 -->
 <custommix>
 	<inserts>
 	</inserts>
@@ -25,14 +25,12 @@
 		<delete target="640"></delete> <!-- Cartoon Net HD -->
 		<delete target="641"></delete> <!-- Boomerang HD -->
 		<delete target="642"></delete> <!-- Nickelodeon HD -->
-		<delete target="645"></delete> <!-- Nick Jr HD -->
 		<delete target="806"></delete> <!-- SkyShowcaseHD -->
 		<delete target="807"></delete> <!-- Sky Witness HD -->
 		<delete target="808"></delete> <!-- Sky Atlantic HD -->
 		<delete target="809"></delete> <!-- alibi HD -->
 		<delete target="810"></delete> <!-- GOLD HD -->
 		<delete target="811"></delete> <!-- Dave HD -->
-		<delete target="812"></delete> <!-- ComedyCent HD HD -->
 		<delete target="813"></delete> <!-- Sky Max HD -->
 		<delete target="814"></delete> <!-- Sky Comedy HD -->
 		<delete target="819"></delete> <!-- SkyDocmntrsHD -->
@@ -40,11 +38,9 @@
 		<delete target="821"></delete> <!-- Sky HistoryHD -->
 		<delete target="822"></delete> <!-- Sky Nature HD -->
 		<delete target="823"></delete> <!-- Discovery HD -->
-		<delete target="824"></delete> <!-- MTV HD -->
 		<delete target="825"></delete> <!-- Nat Geo HD -->
 		<delete target="826"></delete> <!-- Sky Arts HD -->
 		<delete target="827"></delete> <!-- W HD -->
-		<delete target="828"></delete> <!-- TLC HD -->
 		<delete target="830"></delete> <!-- E4 HD -->
 		<delete target="831"></delete> <!-- More4 HD -->
 		<delete target="835"></delete> <!-- E! HD -->
@@ -82,7 +78,6 @@
 		<delete target="881"></delete> <!-- Sky News HD -->
 		<delete target="892"></delete> <!-- SONY TV HD -->
 		<delete target="893"></delete> <!-- Utsav Plus HD -->
-		<delete target="894"></delete> <!-- Colors HD -->
 		<delete target="895"></delete> <!-- SONY MAX HD -->
 		<delete target="896"></delete> <!-- Utsav Gold HD -->
 		<delete target="898"></delete> <!-- Dave HD -->
