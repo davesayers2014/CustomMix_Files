@@ -1,5 +1,5 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20230331 -->
+<!-- DATE 20230402 -->
 <custommix>
 	<inserts>
 	</inserts>
@@ -54,7 +54,7 @@
 		<delete target="850"></delete> <!-- SkyKidsBooksHD -->
 		<delete target="851"></delete> <!-- Sky Action HD -->
 		<delete target="855"></delete> <!-- Film4 HD -->
-		<delete target="851"></delete> <!-- SkySpF1 UHD -->
+		<delete target="857"></delete> <!-- SkySpF1 UHD -->
 		<delete target="858"></delete> <!-- SkySpME UHD -->
 		<delete target="859"></delete> <!-- SkySpMainEvHD -->
 		<delete target="860"></delete> <!-- SkySp PL HD -->
