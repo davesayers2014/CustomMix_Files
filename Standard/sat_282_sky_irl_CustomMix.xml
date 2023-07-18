@@ -12,10 +12,6 @@
 
 rename = {
 	# ITV regions
-	5070: "STV 2",
-	6210: "STV North (Grampian)",
-	6220: "STV Scottish West",
-	6325: "STV North (Dundee)",
 }
 
 channels_to_add_by_id = {
@@ -32,7 +28,6 @@ channels_to_add_by_id = {
 	4058: 153, # Channel 5 HD
 	6508: 169, # ITVBe
 	3023: 176, # 5STAR
-	5036: 186, # AMC from BT
 	3028: 200, # 5SELECT
 	6241: 218, # ITV2 +1
 	6261: 219, # ITV3 +1
@@ -58,7 +53,6 @@ channels_to_add_by_id = {
 	4075: 812, # Channel 4 HD
 	6532: 816, # ITV2 HD
 	6533: 817, # ITV3 HD
-	5037: 840, # AMC from BTHD
 }
 
 # Channel renames
@@ -70,7 +64,7 @@ for service in sorted(customised["video"].keys()):
 	if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in channels_to_add_by_id:
 		customised["video"][channels_to_add_by_id[customised["video"][service]["channel_id"]]] = customised["video"][service]
 		del customised["video"][service]
-		
+
 # Add ITV regions Bouquet
 ITVs = []
 ITVsPlusOne = []
@@ -118,7 +112,7 @@ sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
 for service in sort_list:
 	customised["video"][i] = service[0]
 	i += 1
-	
+
 # Create CVS file in tmp
 def sortDictFlatAlpha(services):
 	# services is a dict with LCNs as keys
@@ -166,7 +160,7 @@ for number in sortDictFlatAlpha(customised["video"]):
 					customised["video"][number]["original_network_id"],
 					customised["video"][number]["namespace"],
 #DVB Name
-					customised["video"][number]["service_name"],	
+					customised["video"][number]["service_name"],
 					number,
 					channel_id,
 					customised["video"][number]["free_ca"],
