@@ -1,5 +1,5 @@
 <!-- DSayers Sky IRL Custom mix xml file-->
-<!-- DATE 20210606 -->
+<!-- DATE 20230718 -->
 <custommix>
 	<inserts>
 	</inserts>
@@ -78,18 +78,18 @@ rest = []
 last_section = max(sections.keys())
 last_section_name = sections[last_section]
 
-for service in sorted(services["sat_282_sky_uk"]["video"].keys()):
+for service in sorted(services["sat_282_sky_irl"]["video"].keys()):
 	if service in range(last_section, 1450) or service in [103, 133, 178]:
 		# ITV regions
-		if 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [103,178] or (service in range(last_section, 1450) and '+1' not in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
-			ITVs.append(services["sat_282_sky_uk"]["video"][service])
+		if 'interactive_name' in services["sat_282_sky_irl"]["video"][service] and (service in [103,178] or (service in range(last_section, 1450) and '+1' not in services["sat_282_sky_irl"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_irl"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_irl"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_irl"]["video"][service]["interactive_name"]))):
+			ITVs.append(services["sat_282_sky_irl"]["video"][service])
 
 		# ITV +1 regions
-		elif 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [133] or (service in range(last_section, 1450) and '+1' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
-			ITVsPlusOne.append(services["sat_282_sky_uk"]["video"][service])
+		elif 'interactive_name' in services["sat_282_sky_irl"]["video"][service] and (service in [133] or (service in range(last_section, 1450) and '+1' in services["sat_282_sky_irl"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_irl"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_irl"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_irl"]["video"][service]["interactive_name"]))):
+			ITVsPlusOne.append(services["sat_282_sky_irl"]["video"][service])
 
 		else:
-			rest.append(services["sat_282_sky_uk"]["video"][service])
+			rest.append(services["sat_282_sky_irl"]["video"][service])
 
 i = last_section
 sections[i] = "ITV Regions"
