@@ -1,0 +1,171 @@
+<!-- DSayers Sky IRL Custom mix xml file-->
+<!-- DATE 20231116 -->
+<custommix>
+	<inserts>
+	</inserts>
+	<streams>
+	</streams>
+	<deletes>
+	</deletes>
+	<hacks>
+<![CDATA[
+
+
+# Add ITV regions Bouquet
+ITVs = []
+ITVsPlusOne = []
+rest = []
+last_section = max(sections.keys())
+last_section_name = sections[last_section]
+
+for service in sorted(services["sat_282_sky_uk"]["video"].keys()):
+	if service in range(last_section, 1450) or service in [103, 133, 178]:
+		# ITV regions
+		if 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [103,178] or (service in range(last_section, 1450) and '+1' not in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
+			ITVs.append(services["sat_282_sky_uk"]["video"][service])
+
+		# ITV +1 regions
+		elif 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [133] or (service in range(last_section, 1450) and '+1' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
+			ITVsPlusOne.append(services["sat_282_sky_uk"]["video"][service])
+
+		else:
+			rest.append(services["sat_282_sky_uk"]["video"][service])
+
+i = last_section
+sections[i] = "ITV Regions"
+
+sort_list = []
+for x in ITVs:
+	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['interactive_name'].lower())))
+sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+for service in sort_list:
+	customised["video"][i] = service[0]
+	i += 1
+
+sort_list = []
+for x in ITVsPlusOne:
+	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['interactive_name'].lower())))
+sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+for service in sort_list:
+	customised["video"][i] = service[0]
+	i += 1
+
+sections[i] = last_section_name
+sort_list = []
+for x in rest:
+	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['service_name'].lower())))
+sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+for service in sort_list:
+	customised["video"][i] = service[0]
+	i += 1
+	
+# Create csv file in /tmp directory
+def sortDictFlatAlpha(services):
+	# services is a dict with LCNs as keys
+	# returns keys, sorted flat alphabetic by service name (or interactive name if it is set).
+	import re
+	sort_list = []
+	for lcn in services:
+		if "interactive_name" in services[lcn]:
+			sort_list.append((lcn, re.sub('^(?![a-z])', 'zzzzz', services[lcn]['interactive_name'].lower())))
+		else:
+			sort_list.append((lcn, re.sub('^(?![a-z])', 'zzzzz', services[lcn]['service_name'].lower())))
+	sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
+	return [i[0] for i in sort_list]
+def today():
+	import datetime
+	return datetime.date.today().strftime('%Y%m%d%H%M%S')
+def rightNow():
+	import datetime
+	return datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+csv = ["Name,Service ref,DVB Name,LCN,CHID,CA,Provider,SID,TSID,Service type,IPTV_link,Ocram_SRP\r\n"]
+control_chars = ''.join(list(map(six.unichr, list(range(0, 32)) + list(range(127, 160)))))
+control_char_re = re.compile('[%s]' % re.escape(control_chars))
+for number in sortDictFlatAlpha(customised["video"]):
+	interactive_name = customised["video"][number]["service_name"]
+	if 'interactive_name' in customised["video"][number]:
+		interactive_name = customised["video"][number]["interactive_name"]
+	if six.PY2:
+#		interactive_name = control_char_re.sub('', interactive_name).decode('latin-1').encode("utf8")
+#	else:
+		interactive_name = control_char_re.sub('', interactive_name).encode("utf8")
+	channel_id = ""
+	if 'channel_id' in customised["video"][number]:
+		channel_id = str(customised["video"][number]["channel_id"])
+	csv.append('%s,1:0:%s:%s:%s:%s:%s:0:0:0:,%s,%d,%s,%d,%s,0x%x,0x%x,%d,#SERVICE 4097:0:%x:%x:%x:%x:%x:0:0:0:,%s_%s_%s_%s\r\n' % (
+					interactive_name,
+#Service ref
+					str("%x"%customised["video"][number]["service_type"]).upper(),
+					str("%x"%customised["video"][number]["service_id"]).upper(),
+					str("%x"%customised["video"][number]["transport_stream_id"]).upper(),
+					str("%x"%customised["video"][number]["original_network_id"]).upper(),
+					str("%x"%customised["video"][number]["namespace"]).upper(),
+#DVB Name
+					customised["video"][number]["service_name"],
+					number,
+					channel_id,
+					customised["video"][number]["free_ca"],
+					customised["video"][number]["provider_name"],
+					customised["video"][number]["service_id"],
+					customised["video"][number]["transport_stream_id"],
+					customised["video"][number]["service_type"],
+#IPTV_link
+					customised["video"][number]["service_type"],
+					customised["video"][number]["service_id"],
+					customised["video"][number]["transport_stream_id"],
+					customised["video"][number]["original_network_id"],
+					customised["video"][number]["namespace"],
+#OCRAM_SRP
+					str("%x"%customised["video"][number]["service_id"]).upper(),
+					str("%x"%customised["video"][number]["transport_stream_id"]).upper(),
+					str("%x"%customised["video"][number]["original_network_id"]).upper(),
+					str("%x"%customised["video"][number]["namespace"]).upper()
+				))
+with open("/tmp/0282_sky_IRL-" + rightNow() + ".csv", "w") as csv_file:
+	csv_file.write(''.join(csv))
+
+# Make treamrealy whitelist
+
+def makeServiceRef(service):
+	return "1:0:%X:%X:%X:%X:%X:0:0:0:" % (
+		service["service_type"],
+		service["service_id"],
+		service["transport_stream_id"],
+		service["original_network_id"],
+		service["namespace"],
+	)
+
+TSIDs = [0x7D3, 0x7D7, 0x7D8, 0x7DB, 0x7DC, 0x7E0, 0x7E3, 0x7E4, 0x7E5, 0x7E7, 0x7E8, 0x7E9, 0x7EA, 0x7EB, 0x7EC, 0x7ED, 0x7EE, 0x7F0, 0x7F2, 0x82D, 0x838, 0x841, 0x842]
+CHIDs = [0x44B, 0x48F, 0x490, 0x492, 0x4BA, 0x4C2, 0x4E2, 0x4F6, 0x551, 0xB00, 0xFC2, 0xFD2, 0xFD6, 0x177E]
+
+changed = False
+
+streamrelayrefs = [line.strip() for line in open('/etc/enigma2/whitelist_streamrelay', 'r').readlines()] if os.path.isfile('/etc/enigma2/whitelist_streamrelay') else []
+
+for service in sorted(list(services[section_identifier]["video"].keys())):
+	serv = services[section_identifier]["video"][service]
+	if serv["transport_stream_id"] in TSIDs and ("free_ca" not in serv or serv["free_ca"] == 1) and (serv["service_type"] not in DvbScanner.HD_ALLOWED_TYPES or "channel_id" in serv and serv["channel_id"] in CHIDs):
+		sref = makeServiceRef(serv)
+		if sref not in streamrelayrefs:
+			streamrelayrefs.append(sref)
+			changed = True
+	elif ("free_ca" not in serv or serv["free_ca"] == 1) and serv["service_type"] in DvbScanner.HD_ALLOWED_TYPES:
+		del services[section_identifier]["video"][service]
+		del customised["video"][service]
+
+if changed:
+	streamrelayrefs.sort(key=lambda ref: (int((x:=ref.split(":"))[6], 16), int(x[5], 16), int(x[4], 16), int(x[3], 16)))
+	open('/etc/enigma2/whitelist_streamrelay', 'w').write('\n'.join(streamrelayrefs))
+	try:
+		from Screens.InfoBarGenerics import reload_streamrelay
+		reload_streamrelay()
+	except:
+		pass
+
+]]>
+    </hacks>
+	<instructions>
+<![CDATA[
+]]>
+	</instructions>
+</custommix>
