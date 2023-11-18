@@ -1,24 +1,16 @@
-<!-- DSayers Sky IRL Custom mix xml file-->
+<!-- DSayers Sky ROI Custom mix xml file-->
 <!-- DATE 20231118 -->
 <custommix>
-	<inserts>
-	</inserts>
-	<streams>
-	</streams>
-	<deletes>
-	</deletes>
-	<hacks>
+    <hacks>
 <![CDATA[
 
-
-
-channels_to_add_by_id = {
+hd_channels_whitelist_by_id = [
 	4039, # Nick Jr HD
 	4056, # Comedy Central HD
 	3812, # TLC HD
 	3831, # MTV HD
 	1372, # Colours HD
-}
+]
 
 TSIDs = [0x7D3, 0x7D7, 0x7D8, 0x7DB, 0x7DC, 0x7E0, 0x7E3, 0x7E4, 0x7E5, 0x7E7, 0x7E8, 0x7E9, 0x7EA, 0x7EB, 0x7EC, 0x7ED, 0x7EE, 0x7F0, 0x7F2, 0x82D, 0x838, 0x841, 0x842]
 CHIDs = [0x44B, 0x48F, 0x490, 0x492, 0x4BA, 0x4C2, 0x4E2, 0x4F6, 0x551, 0xB00, 0xFC2, 0xFD2, 0xFD6, 0x177E]
@@ -133,7 +125,7 @@ for number in sortDictFlatAlpha(customised["video"]):
 					str("%x"%customised["video"][number]["original_network_id"]).upper(),
 					str("%x"%customised["video"][number]["namespace"]).upper()
 				))
-with open("/tmp/0282_sky_GBR-" + rightNow() + ".csv", "w") as csv_file:
+with open("/tmp/0282_sky_ROI-" + rightNow() + ".csv", "w") as csv_file:
 	csv_file.write(''.join(csv))
 
 # Make streamrelay whitelist
@@ -158,9 +150,7 @@ for service in sorted(list(customised["video"].keys())):
 		if sref not in streamrelayrefs:
 			streamrelayrefs.append(sref)
 			changed = True
-	elif service in customised["video"] and "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in channels_to_add_by_id:  # Add channels by ID
-		pass
-	elif service in customised["video"] and ("free_ca" not in serv or serv["free_ca"] == 1) and serv["service_type"] in DvbScanner.HD_ALLOWED_TYPES:
+	elif service in customised["video"] and ("free_ca" not in serv or serv["free_ca"] == 1) and serv["service_type"] in DvbScanner.HD_ALLOWED_TYPES and serv["channel_id"] not in hd_channels_whitelist_by_id:
 		del customised["video"][service]
 
 if changed:
@@ -174,8 +164,4 @@ if changed:
 
 ]]>
     </hacks>
-	<instructions>
-<![CDATA[
-]]>
-	</instructions>
 </custommix>
