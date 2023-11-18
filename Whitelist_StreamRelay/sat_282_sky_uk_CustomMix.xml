@@ -62,7 +62,7 @@ sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
 for service in sort_list:
 	customised["video"][i] = service[0]
 	i += 1
-	
+
 # Create csv file in /tmp directory
 def sortDictFlatAlpha(services):
 	# services is a dict with LCNs as keys
