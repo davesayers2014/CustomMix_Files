@@ -11,11 +11,11 @@
 <![CDATA[
 
 channels_to_add_by_id = {
-	4039: 645, # Nick Jr HD
-	4056: 812, # Comedy Central HD
-	3812: 828, # TLC HD
-	3831: 824, # MTV HD
-	1372: 894, # Colours HD
+	4039, # Nick Jr HD
+	4056, # Comedy Central HD
+	3812, # TLC HD
+	3831, # MTV HD
+	1372, # Colours HD
 }
 
 TSIDs = [0x7D3, 0x7D7, 0x7D8, 0x7DB, 0x7DC, 0x7E0, 0x7E3, 0x7E4, 0x7E5, 0x7E7, 0x7E8, 0x7E9, 0x7EA, 0x7EB, 0x7EC, 0x7ED, 0x7EE, 0x7F0, 0x7F2, 0x82D, 0x838, 0x841, 0x842]
