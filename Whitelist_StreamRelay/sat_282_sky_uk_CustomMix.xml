@@ -1,5 +1,5 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20231116 -->
+<!-- DATE 20231118 -->
 <custommix>
 	<inserts>
 	</inserts>
@@ -10,6 +10,16 @@
 	<hacks>
 <![CDATA[
 
+channels_to_add_by_id = {
+	4039: 645, # Nick Jr HD
+	4056: 812, # Comedy Central HD
+	3812: 828, # TLC HD
+	3831: 824, # MTV HD
+	1372: 894, # Colours HD
+}
+
+TSIDs = [0x7D3, 0x7D7, 0x7D8, 0x7DB, 0x7DC, 0x7E0, 0x7E3, 0x7E4, 0x7E5, 0x7E7, 0x7E8, 0x7E9, 0x7EA, 0x7EB, 0x7EC, 0x7ED, 0x7EE, 0x7F0, 0x7F2, 0x82D, 0x838, 0x841, 0x842]
+CHIDs = [0x44B, 0x48F, 0x490, 0x492, 0x4BA, 0x4C2, 0x4E2, 0x4F6, 0x551, 0xB00, 0xFC2, 0xFD2, 0xFD6, 0x177E]
 
 # Add ITV regions Bouquet
 ITVs = []
@@ -124,7 +134,7 @@ for number in sortDictFlatAlpha(customised["video"]):
 with open("/tmp/0282_sky_GBR-" + rightNow() + ".csv", "w") as csv_file:
 	csv_file.write(''.join(csv))
 
-# Make treamrealy whitelist
+# Make streamrelay whitelist
 
 def makeServiceRef(service):
 	return "1:0:%X:%X:%X:%X:%X:0:0:0:" % (
@@ -135,22 +145,20 @@ def makeServiceRef(service):
 		service["namespace"],
 	)
 
-TSIDs = [0x7D3, 0x7D7, 0x7D8, 0x7DB, 0x7DC, 0x7E0, 0x7E3, 0x7E4, 0x7E5, 0x7E7, 0x7E8, 0x7E9, 0x7EA, 0x7EB, 0x7EC, 0x7ED, 0x7EE, 0x7F0, 0x7F2, 0x82D, 0x838, 0x841, 0x842]
-CHIDs = [0x44B, 0x48F, 0x490, 0x492, 0x4BA, 0x4C2, 0x4E2, 0x4F6, 0x551, 0xB00, 0xFC2, 0xFD2, 0xFD6, 0x177E]
-
 changed = False
 
 streamrelayrefs = [line.strip() for line in open('/etc/enigma2/whitelist_streamrelay', 'r').readlines()] if os.path.isfile('/etc/enigma2/whitelist_streamrelay') else []
 
-for service in sorted(list(services[section_identifier]["video"].keys())):
-	serv = services[section_identifier]["video"][service]
+for service in sorted(list(customised["video"].keys())):
+	serv = customised["video"][service]
 	if serv["transport_stream_id"] in TSIDs and ("free_ca" not in serv or serv["free_ca"] == 1) and (serv["service_type"] not in DvbScanner.HD_ALLOWED_TYPES or "channel_id" in serv and serv["channel_id"] in CHIDs):
 		sref = makeServiceRef(serv)
 		if sref not in streamrelayrefs:
 			streamrelayrefs.append(sref)
 			changed = True
-	elif ("free_ca" not in serv or serv["free_ca"] == 1) and serv["service_type"] in DvbScanner.HD_ALLOWED_TYPES:
-		del services[section_identifier]["video"][service]
+	elif service in customised["video"] and "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in channels_to_add_by_id:  # Add channels by ID
+		pass
+	elif service in customised["video"] and ("free_ca" not in serv or serv["free_ca"] == 1) and serv["service_type"] in DvbScanner.HD_ALLOWED_TYPES:
 		del customised["video"][service]
 
 if changed:
