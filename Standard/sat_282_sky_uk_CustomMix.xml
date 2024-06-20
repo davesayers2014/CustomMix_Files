@@ -1,5 +1,5 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20230402 -->
+<!-- DATE 20230620 -->
 <custommix>
 	<inserts>
 	</inserts>
@@ -85,7 +85,29 @@
 <![CDATA[
 
 channels_to_add_by_id = {
-
+		3705: 112, # ComedyCentral
+		2709: 127, # ComedyXtra
+		2418: 154, # ID
+		1409: 301, #
+		1815: 304, #
+		1808: 306, #
+		1001: 307, #
+		1341: 401, #
+		1326: 402, #
+		3848: 403, #
+		1302: 404, #
+		1324: 405, #
+		1306: 406, #
+		1285: 407, #
+		1333: 408, #
+		3839: 412, #
+		4091: 416, #
+		2517: 604, # Nicelodeon
+		5527: 606, # Nicktoons
+		3356: 615, # Nick Jr
+		3077: 809, # Alibi HD
+		3078: 811, # Dave HD
+		3080: 827, # W HD
 }
 
 # Add channels by ID
