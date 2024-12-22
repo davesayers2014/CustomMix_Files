@@ -1,10 +1,14 @@
 <!-- DSayers Sky UK Custom mix xml file-->
-<!-- DATE 20230620 -->
+<!-- DATE 20241222 -->
+
 <custommix>
+
 	<inserts>
 	</inserts>
+
 	<streams>
 	</streams>
+
 	<deletes>
 		<!-- Delete  Channels -->
 		<delete target="302"></delete> <!-- CultClassicsHD -->
@@ -81,6 +85,7 @@
 		<delete target="895"></delete> <!-- SONY MAX HD -->
 		<delete target="896"></delete> <!-- Utsav Gold HD -->
 	</deletes>
+
 	<hacks>
 <![CDATA[
 
@@ -124,35 +129,23 @@ last_section = max(sections.keys())
 last_section_name = sections[last_section]
 
 for service in sorted(services["sat_282_sky_uk"]["video"].keys()):
-	if service in range(last_section, 1450) or service in [103, 133, 178]:
+	if service in range(last_section, 1450) or service in (103, 203):
 		# ITV regions
-		if 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [103,178] or (service in range(last_section, 1450) and '+1' not in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
-			ITVs.append(services["sat_282_sky_uk"]["video"][service])
-
-		# ITV +1 regions
-		elif 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and (service in [133] or (service in range(last_section, 1450) and '+1' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] and ('ITV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'STV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"] or 'UTV' in services["sat_282_sky_uk"]["video"][service]["interactive_name"]))):
-			ITVsPlusOne.append(services["sat_282_sky_uk"]["video"][service])
-
+		ch_name = 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and services["sat_282_sky_uk"]["video"][service]["interactive_name"] or services["sat_282_sky_uk"]["video"][service]["service_name"]
+		if ch_name.startswith(("ITV", "STV", "UTV")):
+			services["sat_282_sky_uk"]["video"][service]["ch_name"] = ch_name
+			if "+1" not in ch_name:
+				ITVs.append(services["sat_282_sky_uk"]["video"][service])
+			else:
+				ITVsPlusOne.append(services["sat_282_sky_uk"]["video"][service])
 		else:
 			rest.append(services["sat_282_sky_uk"]["video"][service])
 
 i = last_section
 sections[i] = "ITV Regions"
 
-sort_list = []
-for x in ITVs:
-	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['interactive_name'].lower())))
-sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
-for service in sort_list:
-	customised["video"][i] = service[0]
-	i += 1
-
-sort_list = []
-for x in ITVsPlusOne:
-	sort_list.append((x, re.sub('^(?![a-z])', 'zzzzz', x['interactive_name'].lower())))
-sort_list = sorted(sort_list, key=lambda listItem: listItem[1])
-for service in sort_list:
-	customised["video"][i] = service[0]
+for service in sorted(ITVs, key=lambda x: x["ch_name"].lower()) + sorted(ITVsPlusOne, key=lambda x: x["ch_name"].lower()):
+	customised["video"][i] = service
 	i += 1
 
 sections[i] = last_section_name
