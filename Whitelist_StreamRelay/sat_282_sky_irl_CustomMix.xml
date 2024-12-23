@@ -22,18 +22,18 @@ rest = []
 last_section = max(sections.keys())
 last_section_name = sections[last_section]
 
-for service in sorted(services["sat_282_sky_uk"]["video"].keys()):
+for service in sorted(services["sat_282_sky_irl"]["video"].keys()):
 	if service in range(last_section, 1450) or service in (103, 203):
 		# ITV regions
-		ch_name = 'interactive_name' in services["sat_282_sky_uk"]["video"][service] and services["sat_282_sky_uk"]["video"][service]["interactive_name"] or services["sat_282_sky_uk"]["video"][service]["service_name"]
+		ch_name = 'interactive_name' in services["sat_282_sky_irl"]["video"][service] and services["sat_282_sky_irl"]["video"][service]["interactive_name"] or services["sat_282_sky_irl"]["video"][service]["service_name"]
 		if ch_name.startswith(("ITV", "STV", "UTV")):
-			services["sat_282_sky_uk"]["video"][service]["ch_name"] = ch_name
+			services["sat_282_sky_irl"]["video"][service]["ch_name"] = ch_name
 			if "+1" not in ch_name:
-				ITVs.append(services["sat_282_sky_uk"]["video"][service])
+				ITVs.append(services["sat_282_sky_irl"]["video"][service])
 			else:
-				ITVsPlusOne.append(services["sat_282_sky_uk"]["video"][service])
+				ITVsPlusOne.append(services["sat_282_sky_irl"]["video"][service])
 		else:
-			rest.append(services["sat_282_sky_uk"]["video"][service])
+			rest.append(services["sat_282_sky_irl"]["video"][service])
 
 i = last_section
 sections[i] = "ITV Regions"
