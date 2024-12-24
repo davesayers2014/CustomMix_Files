@@ -2,12 +2,33 @@
 <!-- DATE 20241222 -->
 
 <custommix>
-    <hacks>
+	<hacks>
 <![CDATA[
+
+rename_by_chid = {
+	3022: "5USA",
+}
+
+rename_by_sid = {
+	2925: "Quest HD",
+	20700: "ITV1 HD",
+	20830: "ITV1 HD",
+	21000: "ITV1 HD",
+}
 
 channels_to_add_by_id = {
 	1285: 407, # SkySp Tennis
 }
+
+# Channel renames by ID
+for service in sorted(customised["video"].keys()):
+	if "channel_id" in customised["video"][service] and customised["video"][service]["channel_id"] in rename_by_chid:
+		customised["video"][service]["interactive_name"] = rename_by_chid[customised["video"][service]["channel_id"]]
+
+# Channel renames by sid
+for service in sorted(customised["video"].keys()):
+	if "service_id" in customised["video"][service] and customised["video"][service]["service_id"] in rename_by_sid:
+		customised["video"][service]["interactive_name"] = rename_by_sid[customised["video"][service]["service_id"]]
 
 # Add channels by ID
 for service in sorted(customised["video"].keys()):
